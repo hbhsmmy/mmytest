@@ -1,0 +1,299 @@
+{% extends "base_en.html" %}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>Perseverance Asset - Home</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout_en.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer_en.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/index_en.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/index.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block banner %}
+    <li class="font16 header-nav-curr"><a href="../" class="cl-fff">Home</a></li>
+    <li class="font16"><a href="../company" class="cl-fff">Company Profile</a></li>
+    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">The Investment Team</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">Contact Us</a></li>
+{% endblock %}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+
+        <div class="banner">
+
+            <div id="mb-banner" class="visible-xs-block">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="../static/img/index/banner1_en.jpg" alt=""></div>
+{#                        <div class="swiper-slide"><img src="../static/img/index/banner1.jpg" alt=""></div>#}
+                    </div>
+                    <!-- Add Pagination -->
+{#                    <div class="swiper-pagination"></div>#}
+                </div>
+            </div>
+
+            <div id="pc-banner" class="hidden-xs">
+                <ul id="pc-banner-picCon" class="clearfix">
+                    <li class="pull-left"><img src="../static/img/index/banner3_en.jpg" alt=""></li>
+                   {# <li class="pull-left"><img src="../static/img/index/banner3.jpg" alt=""></li>#}
+                </ul>
+               {# <ul id="pc-banner-dianCon" class="clearfix">#}
+                 {#   <li class="pull-left"><img src="../static/img/global/dian.png" alt=""></li>#}
+               {# </ul>#}
+            </div>
+
+
+{#                        <div id="banner-content" class="content hidden-xs">#}
+{#                            <div id="loginBox">#}
+{#                                <p id="loginBox-tip" class="font16 cl-dfb578">使用用户名/手机号/身份证号登陆</p>#}
+{##}
+{#                                <form class="bs-example bs-example-form" data-example-id="simple-input-groups">#}
+{#                                    <div id="user-name" class="input-group">#}
+{#                                        <span class="input-group-addon">账号：</span>#}
+{#                                        <input type="text" class="form-control" placeholder="输入用户名/手机号/证件号">#}
+{#                                    </div>#}
+{#                                    <div id="user-password" class="input-group">#}
+{#                                        <span class="input-group-addon">密码：</span>#}
+{#                                        <input type="password" class="form-control" placeholder="登录密码">#}
+{#                                    </div>#}
+{#                                    <div class="clearfix">#}
+{#                                        <label id="remember" class="pull-left">#}
+{#                                            <input type="checkbox"> 两周内自动登录#}
+{#                                        </label>#}
+{#                                        <a id="wangji" href="../retrieve" class="pull-right">忘记密码?</a>#}
+{#                                    </div>#}
+{#                                </form>#}
+{#                                <div id="loginBtns" class="clearfix">#}
+{#                                    <button id="loginBtn" type="button" class="btn btn-style1 pull-left">登 陆</button>#}
+{#                                    <a id="registerBtn" class="btn btn-style2 pull-right" href="../commitment">注 册</a>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#            <img id="leftJt" class="hidden-xs" src="../static/img/global/leftJt.png" alt="">   #} 
+{#            <img id="rightJt" class="hidden-xs" src="../static/img/global/rightJt.png" alt="">  #}
+        </div>
+
+
+        <div id="team" class="content">
+            <div class="site-con-title clearfix">
+                <p class="pull-left" style="font-family: Arial">The Investment Team</p>
+            </div>
+            <div class="investTeam-pc-navsContent hidden-xs">
+            <div id="teamAll" class="clearfix">
+                <a href="../investTeam_qgl" class="teamBox1 teamBox pull-left">
+                    <img src="../static/img/index/pic1.jpg" alt="">
+                    <div class="currPic">
+                        <img src="../static/img/index/jiantou.png" alt="">
+                    </div>
+                    <div class="tameText cl-333">
+                        <p class="tameName">Glen Qiu</p>
+                        <p class="tameJob">Chairman</p>
+                        <p class="tameTxt siteText font12">Previously, Mr. Qiu was CIO and Chairman of Investment Committee of China Southern Asset Management, one of the largest asset management companies in China with $47 billion assets under management. His 17 years’ investment experience also includes Partner of $6 billion asset management firm and Co-founding Partner of a global hedge fund.</p>
+                        <img src="../static/img/global/jt1.png" alt="">
+                    </div>
+                </a>
+                <a href="../investTeam_sqr" class="teamBox2 teamBox pull-right">
+                    <img src="../static/img/index/pic3.jpg" alt="">
+                    <div class="currPic">
+                        <img src="../static/img/index/jiantou.png" alt="">
+                    </div>
+                    <div class="tameText cl-fff">
+                        <p class="tameName">Qingrui Sun</p>
+                        <p class="tameJob">Managing Director</p>
+                        <p class="tameTxt siteText font12">Previously, Ms. Sun was Director of Equity Investment Department of Bank of China Investment Management (BOCIM). Under her management from 2007 to 2013, the BOCIM China Selected Hybrid Fund was ranked No.2 among peers. She is winner of 10-year Special Golden-Bull Award in China.</p>
+                        <img src="../static/img/global/jt1.png" alt="">
+                    </div>
+                </a>
+                <a href="../investTeam_dxf" class="teamBox3 teamBox pull-right">
+                    <img src="../static/img/index/pic2.jpg" alt="">
+                    <div class="currPic">
+                        <img src="../static/img/index/jiantou.png" alt="">
+                    </div>
+                    <div class="tameText cl-333">
+                        <p class="tameName">Xiaofeng Deng</p>
+                        <p class="tameJob">Chief Investment Officer</p>
+                        <p class="tameTxt siteText font12">Previously, Mr. Deng was Managing Director of Equity Investment Department of Bosera Asset Management. Under his management, Bosera Theme Sector Fund was ranked No.1 among peers over a period of 7 years and 10 months. During his 9.5 years’ management, the Social Security Fund portfolio achieved an  annualized return of 29.1%. He is winner of 10-year Special Golden-Bull Award in China.</p>
+                        <img src="../static/img/global/jt2.png" alt="">
+                    </div>
+                </a>
+                <!-- 2015-12-04 修改 -->
+                <a href="../investTeam_zlw" class="teamBox4 teamBox pull-left">
+                    <img src="../static/img/index/pic4.jpg" alt="">
+                    <div class="currPic">
+                        <img src="../static/img/index/jiantou.png" alt="">
+                    </div>
+                    <div class="tameText cl-fff">
+                        <p class="tameName">Liwei Zhuo</p>
+                        <p class="tameJob">Chief Research Officer</p>
+                        <p class="tameTxt siteText font12">Previously, Mr. Zhuo was Partner and Portfolio Manager of Greenwoods Asset Management. Prior to that, he was Deputy CIO of  CCB Principal Asset Management. He is  winner of 3-year Golden-Bull Award for Equity Hedge Fund.</p>
+                        <img src="../static/img/global/jt1.png" alt="">
+                    </div>
+                </a>
+                <!-- 2015-12-04 修改 end -->
+                <a href="../investTeam_fl" class="teamBox5 teamBox pull-left">
+                    <img src="../static/img/index/pic5.jpg" alt="">
+                    <div class="currPic">
+                        <img src="../static/img/index/jiantou.png" alt="">
+                    </div>
+                    <div class="tameText cl-333">
+                        <p class="tameName">Liu Feng</p>
+                        <p class="tameJob">Managing Director</p>
+                        <p class="tameTxt siteText font12">Mr. Feng has been an independent individual investor since 2003 with deep understanding of consumer, health care and retail industry. He is a long-term fundamental and contrarian investor, running a concentrated portfolio without any leverage.</p>
+                        <img src="../static/img/global/jt2.png" alt="">
+                    </div>
+                </a>
+                <!-- 2015-12-04 修改 -->
+                <a href="../investTeam_wsh" class="teamBox6 teamBox pull-right">
+                    <img src="../static/img/index/pic6.jpg" alt="">
+                    <div class="currPic">
+                        <img src="../static/img/index/jiantou.png" alt="">
+                    </div>
+                    <div class="tameText cl-333">
+                        <p class="tameName">Simon Wang</p>
+                        <p class="tameJob">Managing Director</p>
+                        <p class="tameTxt siteText font12">Mr. Wang has 18 years of investment experience. Previously, he was a Director and a core member of the QFII team at Hillhouse Capital Group. Prior to that, he was an investment manager at Taikang Asset Management Co. Ltd.</p>
+                        <img src="../static/img/global/jt1.png" alt="">
+                    </div>
+                </a>
+            </div>
+            </div>
+
+            <div id="account-navs-mb-content" class="visible-xs-block">
+                <div id="teamAll" class="clearfix">
+                    <a href="../investTeam_qgl" class="teamBox3 teamBox pull-right" style="height: 310px; text-align: left">
+			<p style="height: 46%">
+                        <img src="../static/img/index/pic01.jpg" alt="" style="height: 100%">
+			</p>
+                        <div class="tameText-title" style="text-align: right">
+                            <p class="tameName">Glen Qiu</p>
+                            <p class="tameJob">Chairman</p>
+                        </div>
+                        <div class="currPic">
+                             <img src="../static/img/index/jiantou.png" alt="">
+                        </div>
+                        <div class="tameText cl-333" style="background: #cb9d5e; height: 54%">
+                            <p class="tameTxt siteText font12">Previously, Mr. Qiu was CIO and Chairman of Investment Committee of China Southern Asset Management, one of the largest asset management companies in China with $47 billion assets under management. His 17 years’ investment experience also includes Partner of $6 billion asset management firm and Co-founding Partner of a global hedge fund.</p>
+                        </div>
+                    </a>
+
+                    <a href="../investTeam_dxf" class="teamBox3 teamBox pull-right" style="text-align: right">
+			<p style="height: 43%">
+                        <img src="../static/img/index/pic02.jpg" alt="" style="height: 100%" class="pull-right">
+			</p>
+                        <div class="tameText-title" style="text-align: left">
+                            <p class="tameName">Xiaofeng Deng</p>
+                            <p class="tameJob">Chief Investment Officer</p>
+                        </div>
+                        <div class="currPic">
+                             <img src="../static/img/index/jiantou.png" alt="">
+                        </div>
+                        <div class="tameText cl-333" style="background: #e6e6e6">
+                            <p class="tameTxt siteText font12">Previously, Mr. Deng was Managing Director of Equity Investment Department of Bosera Asset Management. Under his management, Bosera Theme Sector Fund was ranked No.1 among peers over a period of 7 years and 10 months. During his 9.5 years’ management, the Social Security Fund portfolio achieved an  annualized return of 29.1%. He is winner of 10-year Special Golden-Bull Award in China.</p>
+                        </div>
+                    </a>
+
+                    <a href="../investTeam_sqr" class="teamBox3 teamBox pull-right" style="height: 280px; text-align: left">
+			<p style="height: 48%">
+                        <img src="../static/img/index/pic03.jpg" alt="" style="height: 100%">
+			</p>
+                        <div class="tameText-title" style="text-align: right">
+                            <p class="tameName">Qingrui Sun</p>
+                            <p class="tameJob">Managing Director</p>
+                        </div>
+                        <div class="currPic">
+                             <img src="../static/img/index/jiantou.png" alt="">
+                        </div>
+                        <div class="tameText cl-fff"  style="background: #737373; height: 52%">
+                            <p class="tameTxt siteText font12">Previously, Ms. Sun was Director of Equity Investment Department of Bank of China Investment Management (BOCIM). Under her management from 2007 to 2013, the BOCIM China Selected Hybrid Fund was ranked No.2 among peers. She is winner of 10-year Special Golden-Bull Award in China.</p>
+                        </div>
+                    </a>
+
+                    <a href="../investTeam_zlw" class="teamBox3 teamBox pull-right" style="height: 260px; text-align: right">
+			<p style="height: 52%">
+                        <img src="../static/img/index/pic04.jpg" alt="" style="height: 100%" class="pull-right">
+			</p>
+                        <div class="tameText-title" style="text-align: left">
+                            <p class="tameName">Liwei Zhuo</p>
+                            <p class="tameJob">Chief Research Officer</p>
+                        </div>
+                        <div class="currPic">
+                             <img src="../static/img/index/jiantou.png" alt="">
+                        </div>
+                        <div class="tameText cl-333"  style="background: #cb9d5e; height: 48%">
+                            <p class="tameTxt siteText font12">Previously, Mr. Zhuo was Partner and Portfolio Manager of Greenwoods Asset Management. Prior to that, he was Deputy CIO of  CCB Principal Asset Management. He is  winner of 3-year Golden-Bull Award for Equity Hedge Fund.</p>
+                        </div>
+                    </a>
+
+                    <a href="../investTeam_fl" class="teamBox3 teamBox pull-right" style="height: 260px; text-align: left">
+			<p style="height: 52%">
+                        <img src="../static/img/index/pic05.jpg" alt="" style="height: 100%">
+			</p>
+                        <div class="tameText-title" style="text-align: right">
+                            <p class="tameName">Liu Feng</p>
+                            <p class="tameJob">Managing Director</p>
+                        </div>
+                        <div class="currPic">
+                             <img src="../static/img/index/jiantou.png" alt="">
+                        </div>
+                        <div class="tameText cl-333" style="background: #e6e6e6; height: 48%">
+                            <p class="tameTxt siteText font12">Mr. Feng has been an independent individual investor since 2003 with deep understanding of consumer, health care and retail industry. He is a long-term fundamental and contrarian investor, running a concentrated portfolio without any leverage.</p>
+                        </div>
+                    </a>
+
+                    <a href="../investTeam_wsh" class="teamBox3 teamBox pull-right" style="height: 260px; text-align: left">
+			<p style="height: 52%">
+                        <img src="../static/img/index/pic06.jpg" alt="" style="height: 100%" class="pull-right">
+			</p>
+                        <div class="tameText-title" style="text-align: left">
+                            <p class="tameName">Simon Wang</p>
+                            <p class="tameJob">Managing Director</p>
+                        </div>
+                        <div class="currPic">
+                             <img src="../static/img/index/jiantou.png" alt="">
+                        </div>
+                        <div class="tameText cl-fff"  style="background: #737373; height: 48%">
+                            <p class="tameTxt siteText font12">Mr. Wang has 18 years of investment experience. Previously, he was a Director and a core member of the QFII team at Hillhouse Capital Group. Prior to that, he was an investment manager at Taikang Asset Management Co. Ltd.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock %}
+
+</body>
+</html>

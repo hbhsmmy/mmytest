@@ -1,0 +1,174 @@
+{% extends "base_cn.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅资产 - 投资团队</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/investTeam.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/investTeam_dxf.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/investTeam.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">首页</a></li>
+    <li class="font16"><a href="../company" class="cl-fff">公司介绍</a></li>
+    <li class="font16 header-nav-curr"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>
+    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">联系我们</a></li>
+{% endblock%}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+
+        <div class="banner">
+            <div class="content">
+              {# <img id="banner-yt" src="../static/img/investTeam/yt.png" alt=""> #}
+                <img id="banner-zt" src="../static/img/investTeam/zt.png" alt="">
+            </div>
+            <div class="investTeam-pc-navsContent hidden-xs">
+                <div class="content">
+                    <ul class="investTeam-pc-navs clearfix">
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_qgl" class="border-r"><p>邱国鹭</p><span>董事长</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_dxf" class="border-r"><p>邓晓峰</p><span>首席投资官</span></a></li>
+                        <li class="pull-left investTeam-pc-nav investTeam-pc-nav-curr"><a href="../investTeam_sqr" class="border-r"><p>孙庆瑞</p><span>董事总经理</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_zlw" class="border-r"><p>卓利伟</p><span>首席研究官</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_fl" class="border-r"><p>冯柳</p><span>董事总经理</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_wsh"><p>王世宏</p><span>董事总经理</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="account-navs-mb-content" class="visible-xs-block">
+            <div id="account-navs-mb" class="swiper-container">
+                <div id="account-navs-mb-info" class="swiper-wrapper">
+                    <a href="../investTeam_qgl" class="swiper-slide account-navs-mb-nav">邱国鹭</a>
+                    <a href="../investTeam_dxf" class="swiper-slide account-navs-mb-nav">邓晓峰</a>
+                    <a href="../investTeam_sqr" class="swiper-slide account-navs-mb-nav account-navs-mb-navCurr">孙庆瑞</a>
+                    <a href="../investTeam_zlw" class="swiper-slide account-navs-mb-nav">卓利伟</a>
+                    <a href="../investTeam_fl" class="swiper-slide account-navs-mb-nav">冯柳</a>
+                    <a href="../investTeam_wsh" class="swiper-slide account-navs-mb-nav">王世宏</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="info1" class="content">
+            <div id="info1-pic">
+                <img src="../static/img/investTeam/sqr.jpg" alt="">
+            </div>
+            <div id="info1-text">
+                <p class="cl-86560f">孙庆瑞</p>
+                <em class="cl-86560f">董事总经理</em>
+                <span class="cl-333 font15">曾任中银基金权益投资总监，偏股混合型基金6年业绩亚军，在同期上证指数下跌58.48%的熊市中获得44.89%的正收益。</span>
+                <!-- 2015-12-14  修改 -->
+                <span class="mt10 font15">曾获第十届中国基金业金牛奖十周年特别奖，基金行业18年来仅有7位长期业绩优异的股票基金经理获此殊荣。孙庆瑞是其中唯一的一位女性基金经理。</span>
+                <!-- 2015-12-14  修改 end -->
+                <!-- 2015-12-14  添加 -->
+                <span class="cl-333 font16 mt10"><em>“在一个行业和公司形势明朗、进入高成长阶段的时候参与进来，分享他们最有激情的那一部分，这往往是能获取超额收益最多的阶段。”</em></span>
+                <!-- 2015-12-14  添加 end -->
+              {#<a class="btn-style2">登录了解管理产品<img src="../static/img/global/jt3.png" alt=""></a>#}
+	        <a class="btn-style2"></a>
+            </div>
+        </div>
+
+        <div id="info2">
+            <div class="content">
+                <div class="site-con-title clearfix">
+                    <p class="pull-left">履历介绍及投资理念</p>
+                </div>
+                <div id="info2-contentInfo" class="clearfix">
+                    <div id="info2-contentInfo-left" class="pull-left">
+                        <div class="info2-text cl-666 siteText">
+                            <p>现任高毅资产董事总经理，曾任中银基金管理公司权益投资总监, 长盛基金管理公司全国社保组合债券基金经理等职务。2007年之前6年从事固定收益的研究和投资，2007年之后从事权益投资。</p>
+                            <p  class="mt10"><em>2007年8月-2013年8月</em>所管理中银中国精选混合型基金业绩在82家同类基金中<em>排名第2</em> *，在同期上证指数下跌58.48%的<em>漫长熊市中获得了的44.89%的正收益</em>，被晨星和银河基金评级为3年期和5年期的双五星基金。</p>
+                            <p  class="mt10">多次获得 “金牛基金奖”，“明星基金奖”、“金基奖”和“晨星年度基金奖”。凭借优秀的长期业绩获<em>中国基金业金牛奖十周年特别奖</em>，并且先后获得<em>3次五年金牛奖</em>，是公募基金行业获奖最多的基金经理之一。</p>
+                            <p class="mt20 font16 info2-title radius20">“股市常青树”</p>
+                            <h4>6年业绩持续领先，并且每年位列同业前1/4</h4>
+                            <p class="mt10">任职以来，中银中国精选业绩在同期 82只偏股混合型基金中排名第2 *</p>
+                            <h4>6年大幅超越市场</h4>
+                            <img class="mt20" src="../static/img/investTeam/sqr_pic1.jpg" alt="">
+			    <p class="mt10">*注：2015年部分股票型基金改为偏股混合型基金，按照Wind最新统计口径，目前偏股混合型基金共166只，管理期间，中银中国精选累计业绩再166只基金中排名第三。</P>
+                        </div>
+                    </div>
+                    <div id="info2-contentInfo-right" class="pull-right">
+                        <div class="info2-title radius20">投资方法：</div>
+                        <div class="info2-text cl-666 siteText mt15">
+                            <h4>自上而下：经济/市场 周期的判断</h4>
+                            <p>通过对宏观经济和流动性的分析进行资产配置</p>
+                            <h4>优选高成长行业</h4>
+                            <p>通过对经济结构和行业演变的深入分析，优选未来看好的行业</p>
+                            <h4>精选个股</h4>
+                            <p>在看好行业中寻找优质成长股</p>
+                        </div>
+                        <div class="info2-title radius20 mt30">“股市常青树”为何常青：</div>
+                        <div class="info2-text cl-666 siteText mt15">
+                            <h5>• 自上而下做好资产配置</h5>
+                            <p class="mb20">对中银中国精选的历史业绩归因分析显示，资产配置贡献了60%以上的业绩。</p>
+                            <h5>• 连续七年踩对市场节奏</h5>
+                            <img class="mb20" src="../static/img/investTeam/sqr_pic2.jpg" alt="">
+                            <h5>• 在高成长行业中精选优质成长股</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="info3" class="content">
+            <div class="site-con-title clearfix">
+                <p class="pull-left">孙庆瑞投资思想</p>
+                <a href="../investTeam_news_sqr" class="pull-right">MORE</a>
+            </div>
+            <div id="info3-contentInfo" class="clearfix">
+                <div id="article" class="pull-left">
+                </div>
+                <div id="news" class="pull-right">
+                    <!-- 报道、新闻条目 -->
+                    <ul class="news-lists siteText">
+                    </ul>
+                </div>
+            </div>
+            <!-- 面包屑 -->
+            <div id="bottom-breadcrumb" class="breadcrumb border-t cl-bbb mb35 visible-xs-block">
+                <a class="cl-555" href="../index">首页</a> <em class="glyphicon glyphicon-menu-right"></em> <a class="cl-555" href="../investTeam_qgl">投资团队</a> <em class="glyphicon glyphicon-menu-right"></em> <span class="cl-c29658">孙庆瑞</span>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+</body>
+</html>

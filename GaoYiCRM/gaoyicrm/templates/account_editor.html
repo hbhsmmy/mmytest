@@ -1,0 +1,303 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/html">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 编辑客户</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/account.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/account_editor.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header_account.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <script src="../static/js/area.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/account_editor.js"></script>
+    {% endblock %}
+
+</head>
+<body>
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+
+        <div id="account-navs-mb-content">
+            <div id="account-navs-mb" class="swiper-container visible-xs-block">
+                <div id="account-navs-mb-info" class="swiper-wrapper">
+                    <a href="../account_personal" class="swiper-slide account-navs-mb-nav">工作中心</a>
+                    <a href="../account_product" class="swiper-slide account-navs-mb-nav">产品信息</a>
+                    <a href="../account_records" class="swiper-slide account-navs-mb-nav account-navs-mb-navCurr">客户信息</a>
+                    <a href="../account_inquiry" class="swiper-slide account-navs-mb-nav">留言记录</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="account-content" class="content clearfix">
+            <div id="account-navs" class="pull-left hidden-xs">
+                <a class="account-nav" href="../account_personal"><p>工作中心</p></a>
+                <a class="account-nav" href="../account_product/manager=managerZero"><p>产品信息</p></a>
+                <a class="account-nav navCurr" href="../account_records"><p>客户信息</p></a>
+                <a class="account-nav" href="../account_inquiry"><p>留言记录</p></a>
+                <a class="account-nav nav-end" href="../account_function"><p>快捷功能</p></a>
+            </div>
+            <div id="account-info" class="pull-right">
+
+                <div id="register-box">
+                    <form id="inputs" class="bs-example bs-example-form" data-example-id="simple-input-groups">
+                        <div class="info-title clearfix">
+                            <p class="pull-left">基本资料</p>
+                            <a id="changeBtn" class="right-top-btn pull-right">新建机构客户</a>
+                        </div>
+                        <div class="inputBox2 clearfix">
+                            <div id="gender" class="pull-left">
+                                <span class="pull-left">性别：</span>
+                                <input id="man" type="radio" name="sex" value="男"><span>先生</span>
+                                <input id="woman" type="radio" name="sex" value="女"><span>女士</span>
+                            </div>
+                        </div>
+                        <div class="inputBox2 clearfix">
+                            <div id="user-name" class="input-group pull-left">
+                                <span class="input-group-addon brown">*姓名：</span>
+                                <input id="user-name-input" type="text" class="form-control" placeholder="客户姓名（必填）"/>
+                            </div>
+                            <div id="user-phone" class="input-group pull-left">
+                                <span class="input-group-addon brown">*电话：</span>
+                                <input type="text" class="form-control" placeholder="电话号码(必填)">
+                            </div>
+                            <div id="user-email" class="input-group pull-left">
+                                <span class="input-group-addon brown">*邮件：</span>
+                                <input type="text" class="form-control" placeholder="电子邮件">
+                            </div>
+                        </div>
+                        <div class="inputBox2 clearfix">
+                            <div id="user-card" class="input-group pull-left">
+                                <span class="input-group-addon brown">证件类型：</span>
+                                <select id="user-cardType" class="form-control input-lg">
+                                    <option value="99">请选择</option>
+                                    <option value="0">身份证</option>
+                                    <option value="1">护照</option>
+                                    <option value="2">军官证</option>
+                                    <option value="3">士兵证</option>
+                                    <option value="4">港澳居民来往内地通行</option>
+                                    <option value="5">户口本</option>
+                                    <option value="6">外国护照</option>
+                                    <option value="7">其他</option>
+                                    <option value="8">文职证</option>
+                                    <option value="9">警官证</option>
+                                    <option value="A">台胞证</option>
+                                </select>
+                            </div>
+                            <div id="user-cardNo" class="user_info_mb input-group pull-left">
+                                <span class="input-group-addon brown">证件号码：</span>
+                                <input id="user-cardNo-input" type="text" class="form-control" placeholder="输入证件号码">
+                            </div>
+                            <div id="user-Brithday" class="user_info_mb input-group pull-left">
+                                <span class="input-group-addon brown">出生日期：</span>
+                                <input id="user-brith-input" type="text" class="form-control" placeholder="输入出生日期">
+                            </div>
+                        </div>
+                        <div class="inputBox2 clearfix">
+                            <div id="user-Nationality" class="user_info_mb input-group pull-left">
+                                <span class="input-group-addon brown">国籍：</span>
+                                <input id="user-nationality-input" type="text" class="form-control" placeholder="输入国籍">
+                            </div>
+                            <div id="user-Education" class="input-group pull-left">
+                                <span class="input-group-addon brown">学历：</span>
+                                <input id="user-education-input" type="text" class="form-control" placeholder="输入学历">
+                            </div>
+                            <div id="user-Zipcode" class="user_info_mb input-group pull-left">
+                                <span class="input-group-addon">邮政编码：</span>
+                                <input id="user-zipcode-input" type="text" class="form-control" placeholder="输入邮政编码">
+                            </div>
+                        </div>
+                        <div class="inputBox2 clearfix">
+                            <div id="user-Occupation" class="user_info_mb input-group pull-left">
+                                <span class="input-group-addon brown">职业：</span>
+                                <input id="user-occupation-input" type="text" class="form-control" placeholder="输入职业">
+                            </div>
+                            <div id="user-Position" class="input-group pull-left">
+                                <span class="input-group-addon">职务：</span>
+                                <input id="user-position-input" type="text" class="form-control" placeholder="输入职务">
+                            </div>
+                            <div id="user-cardNo" class="user_info_mb input-group pull-left">
+                                <span class="input-group-addon">工作单位：</span>
+                                <input id="user-employer-input" type="text" class="form-control" placeholder="输入工作单位">
+                            </div>
+                        </div>
+                        <div class="inputBox3 clearfix">
+                            <div id="user-province" class="input-group pull-left">
+                                <span class="input-group-addon brown">省：</span>
+                                <select class="form-control input-lg">
+                                    <option>请选择</option>
+                                </select>
+                            </div>
+                            <div id="user-city" class="input-group pull-left">
+                                <span class="input-group-addon brown">市：</span>
+                                <select class="form-control input-lg">
+                                    <option>请选择</option>
+                                </select>
+                            </div>
+                            <div id="user-address" class="input-group pull-left">
+                                <span class="input-group-addon brown">地址：</span>
+                                <input type="text" class="form-control" placeholder="详细地址">
+                            </div>
+                        </div>
+                        <div class="inputBox2 clearfix">
+                            <div id="contact-name" class="input-group pull-left">
+                                <span class="input-group-addon">联系人：</span>
+                                <input type="text" class="form-control" placeholder="联系人姓名">
+                            </div>
+                            <div id="contact-phone" class="input-group pull-left">
+                                <span class="input-group-addon">联系方式：</span>
+                                <input type="text" class="form-control" placeholder="联系人联系方式">
+                            </div>
+                            <div id="user-other" class="input-group pull-left">
+                                <span class="input-group-addon">其他：</span>
+                                <input type="text" class="form-control" placeholder="其他联系方式（如固定电话）">
+                            </div>
+                        </div>
+
+                        <div class="info-title clearfix">
+                            <p class="pull-left">关注内容</p>
+                        </div>
+
+                        <label id="focuse-manager">
+                            <span>基金经理：</span>
+                            <input type="checkbox" name="manager" value="1"><span>邱国鹭</span>
+                            <input type="checkbox" name="manager" value="2"><span>邓晓峰</span>
+                            <br class="visible-xs-block"/>
+                            <input type="checkbox" name="manager" value="3"><span>孙庆瑞</span>
+                            <input type="checkbox" name="manager" value="4"><span>卓利伟</span>
+                            <input type="checkbox" name="manager" value="5"><span>冯柳  </span>
+                            <br class="visible-xs-block"/>
+                            <input type="checkbox" name="manager" value="6"><span>王世宏</span>
+                            <input type="checkbox" name="manager" value="7"><span>韩海峰</span>
+                        </label>
+                        <div id="focuse-message" class="form-group">
+                            <label for="name">描述：</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+
+                        <div id="relativeInfo" class="info-title clearfix">
+                            <p class="pull-left">相关资料</p>
+                        </div>
+                        <div id="relativeDiv">
+                            <div class="info-div shenfen">
+                                <p class="pull-left">证件认证材料</p>
+                                <div id="client_card" class='card_div'>
+                                    <div class="pull-left">
+                                        <img id="card_img1" src="../static/img/crm_intention/empty.png" class="card_img">
+                                        <a id="uploadBtn1" class="reviewBtn upload">上传
+                                            <input id='uploadInput1' type="file" name="file" class="better-input" onchange="selectImage(this,'card_img1','1');"/>
+                                        </a>
+                                        <a id="deleteBtn1" class="reviewBtn" onclick="deleteImage('card_img1');">删除</a>
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="card_img2" src="../static/img/crm_intention/empty.png" class="card_img">
+                                        <a id="uploadBtn2" class="reviewBtn upload">上传
+                                            <input id='uploadInput2' type="file" name="file" class="better-input" onchange="selectImage(this,'card_img2','1');"/>
+                                        </a>
+                                        <a id="deleteBtn2" class="reviewBtn" onclick="deleteImage('card_img2');">删除</a>
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="card_img3" src="../static/img/crm_intention/empty.png" class="card_img">
+                                        <a id="uploadBtn3" class="reviewBtn upload">上传
+                                            <input id='uploadInput3' type="file" name="file" class="better-input" onchange="selectImage(this,'card_img3','1');"/>
+                                        </a>
+                                        <a id="deleteBtn3" class="reviewBtn" onclick="deleteImage('card_img3');">删除</a>
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="card_img4" src="../static/img/crm_intention/empty.png" class="card_img">
+                                        <a id="uploadBtn4" class="reviewBtn upload">上传
+                                            <input id='uploadInput4' type="file" name="file" class="better-input" onchange="selectImage(this,'card_img4','1');"/>
+                                        </a>
+                                        <a id="deleteBtn4" class="reviewBtn" onclick="deleteImage('card_img4');">删除</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-div wenjuan">
+                                <p class="pull-left">风险测试结果</p>
+                                <div id='client_risk' class='card_div'>
+                                    <p class="result pull-left">尚未测试</p>
+                                    <a id="check_wenjuan" class="brown pull-left">查看测试问卷详情</a>
+                                    <a id="uploadBtn" class="pull-right">上传
+                                        <input id='uploadInput1' type="file" name="file" class="better-input" onchange="selectImage(this,'uploadBtn','2');"/>
+                                    </a>
+                                    <input id='wenjuan_point' type="text" class="form-control pull-right" placeholder="填写问卷分数"/>
+                                </div>
+                            </div>
+                            <div class="info-div asset">
+                                <p class="pull-left">资产证明材料</p>
+                                <div id="client_asset" class='card_div'>
+                                    <div class="pull-left">
+                                        <img id="asset_img1" src="../static/img/crm_intention/empty.png" class="card_img">
+                                        <a id="uploadBtn1" class="reviewBtn upload">上传
+                                            <input id='uploadInput1' type="file" name="file" class="better-input" onchange="selectImage(this,'asset_img1','3');"/>
+                                        </a>
+                                        <a id="deleteBtn1" class="reviewBtn" onclick="deleteImage('asset_img1');">删除</a>
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="asset_img2" src="../static/img/crm_intention/empty.png" class="card_img">
+                                        <a id="uploadBtn2" class="reviewBtn upload">上传
+                                            <input id='uploadInput2' type="file" name="file" class="better-input" onchange="selectImage(this,'asset_img2','3');"/>
+                                        </a>
+                                        <a id="deleteBtn2" class="reviewBtn" onclick="deleteImage('asset_img2');">删除</a>
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="asset_img3" src="../static/img/crm_intention/empty.png" class="card_img">
+                                        <a id="uploadBtn3" class="reviewBtn upload">上传
+                                            <input id='uploadInput3' type="file" name="file" class="better-input" onchange="selectImage(this,'asset_img3','3');"/>
+                                        </a>
+                                        <a id="deleteBtn3" class="reviewBtn" onclick="deleteImage('asset_img3');">删除</a>
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="asset_img4" src="../static/img/crm_intention/empty.png" class="card_img">
+                                        <a id="uploadBtn4" class="reviewBtn upload">上传
+                                            <input id='uploadInput4' type="file" name="file" class="better-input" onchange="selectImage(this,'asset_img4','3');"/>
+                                        </a>
+                                        <a id="deleteBtn4" class="reviewBtn" onclick="deleteImage('asset_img4');">删除</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="list-right-button">
+                    <a id="quitBtn">取消</a>
+                    <a id="saveBtn">保存</a>
+                    <a id="saveAndNewBtn">保存并新建<span class="hidden-xs">待办</span></a>
+                </div>
+
+                <p id="bottom-msgBar" class="visible-xs-block"><a id="bottom-msgBar_t1" href="../account_personal">工作中心</a><em class="glyphicon glyphicon-menu-right"></em><a id="bottom-msgBar_t2" href="../account_records">客户信息</a><em class="glyphicon glyphicon-menu-right"></em><span>编辑客户</span></p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>

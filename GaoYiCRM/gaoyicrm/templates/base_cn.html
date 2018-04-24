@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+
+    {% block head %}
+    {% endblock %}
+    <meta http-equiv=”Cache-Control” content=”no-transform”/>
+    <meta http-equiv=”Cache-Control” content=”no-siteapp”/>
+    <meta name="applicable-device" content="pc,mobile"/>
+    <meta name="MobileOptimized" content="width"/>
+    <meta name="HandheldFriendly" content="true"/>
+
+    <script src="../static/js/footer.js"></script>
+
+    <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <script src="../static/js/html5shiv.js"></script>
+    <script src="../static/js/respond.min.js"></script>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?f14c26bb6c82e31a385aa913e5e313fb";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?6b884c279d075fd061643cbc16f2cf9f";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+<div id="header">
+    <div id="header-1" class="hidden-xs">
+        <div class="content clearfix">
+            <p id="header-1-phone" class="pull-left">联系电话： <em>0755 8869 3999&nbsp;&nbsp;&nbsp;(周一至周五: 8:15 - 18:45)</em></p>
+            <div id="header-1-search" class="input-group pull-right">
+                <a id="chinese-versions">中文</a>
+                <span>  |  </span>
+                <a id="english-versions">English</a>
+            </div>
+            <p id="loginOk" class="pull-right font12 cl-ccc mr25">欢迎您，<span style="cursor: pointer;" onclick="javascript:window.location.href='../account_home'"></span><em class="cl-333"> | </em><a class="cl-ccc">退出</a></p>
+            <p id="header-1-login" class="pull-right font12 cl-ccc mr25">您好，请<a href="../login" class="cl-ccc">登陆</a><span class="cl-333 ml10 mr10">|</span><a href="../register" class="cl-ccc">免费注册</a></p>
+        </div>
+    </div>
+    <div id="header-2">
+        <div class="content clearfix">
+            <img id="header-logo" class="hidden-xs pull-left" src="../static/img/global/logo.png" alt="">
+            <ul id="header-nav-pc" class="nav nav-pills hidden-xs pull-left">
+                {% block banner %}
+                    <li class="font16"><a href="../" class="cl-fff">首页</a></li>
+                    <li class="font16"><a href="../company" class="cl-fff">公司介绍</a></li>
+                    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>
+                    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>
+                    <li class="font16"><a href="../contact_information" class="cl-fff">联系我们</a></li>
+                {% endblock%}
+            </ul>
+            <div id="showNavBtn" class="visible-xs-block">
+                <img id="showNavBtn-show" src="../static/img/global/openNav.png" alt="">
+                <img id="showNavBtn-hide" src="../static/img/global/closeNav.png" alt="">
+            </div>
+            <img id="logo-mb" class="visible-xs-block" src="../static/img/global/logo.png" alt="">
+            <div id="header-zhcx">
+                <a id="header-zhcx-pc" class="hidden-xs clearfix">
+                    <img class="pull-left" src="../static/img/global/ren2.png" alt="">
+                    <p class="pull-left">账户查询</p>
+                </a>
+                <a id="header-zhcx-mb" class="visible-xs-block">
+                    <img src="../static/img/global/ren.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="header-nav-mb" class="visible-xs-block">
+    <ul id="header-nav-mb-box" class="list-unstyled">
+        <li><a class="cl-fff" href="../">首页</a></li>
+        <li><a class="cl-fff" href="../company">公司介绍</a></li>
+        <li><a class="cl-fff" href="../investTeam_qgl">投资团队</a></li>
+        <li><a class="cl-fff" href="../trends_media">高毅动态</a></li>
+        <li><a class="cl-fff" href="../contact_information">联系我们</a></li>
+        <li><a class="cl-fff" href="http://mp.weixin.qq.com/s?__biz=MzA5MTM0NTg4Nw==&mid=401579532&idx=1&sn=7ef6dafde0c4c54d7ee48e9fb3c10630&scene=0#wechat_redirect">关注微信</a></li>
+    </ul>
+    <div id="header-2-search" class="input-group">
+        <a id="chinese-versions-mb">中文</a>
+        <span>  |  </span>
+        <a id="english-versions-mb">English</a>
+        {#        <input type="text" class="form-control" placeholder="Search for...">#}
+        {#  			<span class="input-group-btn">#}
+        {#  				<button class="btn btn-default glyphicon glyphicon-search" type="button"></button>#}
+        {#  			</span>#}
+    </div>
+</div>
+{% block body %}
+{% endblock %}
+<!-- 网站底部 - 页脚 -->
+<div id="footer">
+    <div id="footer-left-bg" class="hidden-xs"></div>
+    <div id="footer-right-bg" class="hidden-xs"></div>
+
+    <div id="footer-1" class="hidden-xs">
+        <div class="content clearfix">
+            <div id="footer-1-left" class="pull-left pt30">
+                <div class="footer-navs font12">
+                    <div class="clearfix mb10">
+                        <p class="pull-left">账户查询</p>
+                        <a class="pull-left" href="../account_home">资产明细</a>
+                        <a class="pull-left" href="../account_product/manager=managerZero">公司产品</a>
+                        <a class="pull-left" href="../account_records">交易记录</a>
+                        <a class="pull-left" href="../account_inquiry">预约记录</a>
+                        <a class="pull-left" href="../account_personal">个人资料</a>
+                    </div>
+                    <div class="clearfix mb10">
+                        <p class="pull-left">关于我们</p>
+                        <a class="pull-left" href="../company">公司介绍</a>
+                        <a class="pull-left" href="../contact_information">联系我们</a>
+                    </div>
+                    <div class="clearfix mb10">
+                        <p class="pull-left">投资团队</p>
+                        <a class="pull-left" href="../investTeam_qgl">邱国鹭</a>
+                        <a class="pull-left" href="../investTeam_dxf">邓晓峰</a>
+                        <a class="pull-left" href="../investTeam_sqr">孙庆瑞</a>
+                        <a class="pull-left" href="../investTeam_zlw">卓利伟</a>
+                        <a class="pull-left" href="../investTeam_fl">冯&nbsp;&nbsp;&nbsp;&nbsp;柳</a>
+                        <a class="pull-left" href="../investTeam_wsh">王世宏</a>
+                    </div>
+                    <div class="clearfix mb10">
+                        <p class="pull-left">高毅动态</p>
+                        <a class="pull-left" href="../trends_media">高毅精选</a>
+                        <a class="pull-left" href="../trends_research">财富观察</a>
+                    </div>
+                    <div class="clearfix">
+                        <p class="pull-left" >客户服务</p>
+                        {# <a class="pull-left">旗下产品</a>#}
+                        <a class="pull-left" href="../contact_information">在线留言</a>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-1-right" class="pull-left pt28 pl50">
+                <p class="font12 cl-808080">扫描二维码添加微信公众号</p>
+                <div class="clearfix mt18">
+                    <div class="QRCode mr65 pb20 pull-left ">
+                        <img src="../static/img/global/fwh.jpg" alt="">
+                        <p class="font12 cl-666 mt10">高毅服务号</p>
+                        <p class="font12" style="width:135px;color:#666;margin-left: -20px">（微信客服 净值查询）</p>
+                    </div>
+                    <div class="QRCode mr65 pb20 pull-left">
+                        <img src="../static/img/global/dyh.jpg" alt="">
+                        <p class="font12 cl-666 mt10">高毅订阅号</p>
+                        <p class="font12" style="color:#666;">（理财阅读）</p>
+                    </div>
+                    {#   <div class="QRCode pb20 pull-left"> #}
+                    {#       <img src="../static/img/global/khd.jpg" alt=""> #}
+                    {#       <p class="font12 cl-666 mt10">高毅APP客户端<span>（手机应用）</span></p> #}
+                    {#   </div> #}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-3" class="visible-xs-block">
+        <div class="content clearfix">
+            <a href="../company" class="pull-left font12 cl-666">关于我们</a>
+            <a href="../investTeam_qgl" class="pull-left font12 cl-666">投资团队</a>
+            <a href="../trends_media" class="pull-left font12 cl-666">高毅动态</a>
+            <a href="../contact_information" class="pull-left font12 cl-666">在线留言</a>
+        </div>
+    </div>
+
+    <div id="footer-2">
+        <div class="content clearfix">
+            <p class="cl-999 font12 pull-left" style="text-align:justify">版权所有@2016高毅资产，沪ICP备15004693号；基金业协会登记编码：P1002305；公司注册地办公电话：021-20572618<br>本网站所有资讯与说明文字仅供参考，如有与本公司相关公告及基金法律文件不符，以相关公告及基金法律文件为准。市场有风险，投资需谨慎。</p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

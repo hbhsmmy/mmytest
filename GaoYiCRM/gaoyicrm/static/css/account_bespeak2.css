@@ -1,0 +1,313 @@
+
+p{
+	margin: 0;
+}
+
+#bespeak-content{
+	margin-top: 80px;
+}
+
+#info-title{
+	font-size: 18px;
+	color: #c29658;
+	font-weight: bold;
+	border-bottom: solid 1px #ccc;
+}
+
+#info-title p{
+	margin-bottom: 0;
+	margin-bottom: -1px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #dfb579;
+}
+
+#info-left{
+	width: 60%;
+	padding-right: 60px;
+	padding-top: 60px;
+	margin-bottom: 60px;
+}
+#bespeak-content-titie{
+	color: #666;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 27px;
+}
+#bespeak-content-titie em{
+	color: #666;
+	font-size: 13px;
+	font-style: normal;
+}
+#order{
+	border-bottom: 1px solid #ccc;
+}
+#user-phone1{
+	/*width: 42%;*/
+	color: #333;
+	font-size: 14px;
+	font-weight: normal;
+}
+#user-phone1 span{
+	margin-left: 4px;
+}
+#user-phone1 em{
+	font-style: normal;
+}
+#user-phone{
+	/*width: 40%;*/
+	margin-bottom: 0px;
+}
+#user-phone span{
+	/*width: 40%;*/
+}
+
+.label_phone{
+	width: 40%;
+	/*margin-left: 5%;*/
+	color: #333;
+	font-size: 14px;
+	font-weight: normal;
+}
+.label_phone span{
+	margin-left: 6px;
+}
+.label_phone1{
+	padding-left: 20px;
+	width: 40%;
+	/*margin-left:;*/
+	white-space:nowrap;
+}
+.label_phone > input {
+	margin-top: 0px;
+	height: 40px;
+	line-height: 40px;
+}
+/*----------------------2015.11.17新添加-----------------*/
+#user-email{
+	width: 42%;
+}
+#user-type{
+	padding-left: 20px;
+	width: 55%;
+	margin-bottom: 25px;
+}
+
+/*----------------------2015.12.07 修改-----------------*/
+#user-type label{
+	width: 33%;
+}
+/*----------------------2015.12.07 修改 end-----------------*/
+
+/*----------------------2015.12.07 添加 -----------------*/
+#user-date{
+	width: 48.5%;
+}
+#user-time{
+	width: 48.5%;
+}
+/*----------------------2015.12.07 添加 end -----------------*/
+
+
+
+/*--------------------------2015.11.17新添加-end*/
+
+
+#user-message{
+	/*background: #eee;*/
+}
+#user-message label{
+	font-size: 13px;
+	padding-left: 12px;
+	padding-top: 6px;
+	color: #666;
+	position: absolute;
+	font-weight: normal;
+}
+#user-message textarea{
+	padding-left: 55px;
+	height: 176px;
+}
+#agree{
+	font-size: 13px;
+	color: #666;
+	font-weight: normal;
+	margin-bottom: 23px;
+}
+#confirmBtn{
+	width: 150px;
+	height: 40px;
+	font-size: 16px;
+	background: none;
+	position: relative;
+	background: #dfb578;
+	color: #fff;
+	margin-right: 15px;
+}
+#confirmBtn_icon{
+	position: absolute;
+	line-height: 40px;
+	right: 10px;
+	width: 20px;
+}
+#reBtn{
+	width: 150px;
+	height: 40px;
+	font-size: 16px;
+	background: none;
+	color: #dfb578;
+	border:1px solid #dfb578;
+}
+
+
+#info-right{
+	padding-top: 60px;
+	width: 40%;
+}
+
+
+#reminder-titie{
+	color: #666;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 27px;
+	padding-left: 60px;
+}
+#reminder-txt{
+	font-size: 13px;
+	color: #666;
+	border-left: 1px solid #ddd;
+	height: 360px;
+	padding-left: 60px;
+}
+.reminder-txt em{
+	display: inline-block;
+	width: 25px;
+	height: 16px;
+	line-height: 16px;
+	border-radius:3px 8px 8px 3px;
+	background: #dfb578;
+	text-align: center;
+	margin-right: 5px;
+	color: #fff;
+}
+#reminder-txt-p1{
+	margin-bottom: 35px;
+}
+#reminder-txt-p2{
+	margin-bottom: 63px;
+	line-height: 25px;
+}
+#reminder-txt-p3{
+	margin-bottom: 15px;
+}
+#reminder-txt-p4{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+/*-------------------内容块end----------------------*/
+
+
+
+#bottom-msgBar{
+	margin-top: 96px;
+	font-size: 13px;
+    line-height: 12px;
+    padding-left: 20px;
+    margin-bottom: 45px;
+    border-top: 1px solid #dddddd;
+    padding-top: 20px;
+}
+#bottom-msgBar a{
+	color: #666;
+}
+#bottom-msgBar em{
+	margin-right: 15px;
+	color: #bbbbbb;
+}
+#bottom-msgBar_t1{
+	margin-right: 16px;
+}
+#bottom-msgBar_t2{
+	margin-right: 17px;
+}
+#bottom-msgBar span{
+	color: #c29658;
+}
+
+.yycp{
+	margin-bottom: 20px;
+}
+.yycp span{
+	padding-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	#bespeak-content{
+		margin-top: 25px;
+	}
+	#info-left{
+		width: 100%;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-top: 40px;
+	}
+	#info-right{
+		padding-top:0px;
+		width: 100%;
+		padding-right: 20px;
+	}
+	#user-name {
+  	  width: 100%;
+	}
+	#user-phone {
+  	  /*width: 100%;*/
+	}
+
+
+	/*----------------------2015.11.17新添加-----------------*/
+	#user-email{
+  	  width: 100%;
+	}
+	#user-type{
+  	  width: 60%;
+	}
+	.label_phone{
+	    width: 100%;
+    	padding-left: 90px;
+	}
+	/*----------------------2015.11.17新添加-end*/
+
+
+
+
+
+	#reminder-titie{
+		padding-left: 20px;
+	}
+	#reminder-txt{
+		padding-left: 20px;
+		border: none;
+		height: auto;
+	}
+	#info-title{
+		 margin-bottom: 15px;
+	}
+	#bottom-msgBar{
+		margin-top: 57px;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding-left: 0;
+	}
+	#confirmBtn{
+		margin-right:0;
+		width: 48%;
+	}
+	#reBtn{
+		width: 48%;
+		float: right!important;
+	}
+	.glyphicon{
+		top: 2px;
+	}
+
+}

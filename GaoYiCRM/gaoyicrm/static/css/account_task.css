@@ -1,0 +1,624 @@
+
+p{
+	margin: 0;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 280px;
+	background: url("../img/account/banner3.jpg") center no-repeat;
+}
+/* 2015-11-20 修改 */
+#banner-yt{
+	position: absolute;
+	right: 50px;
+	top: 190px;
+	width: 268px;
+}
+#banner-zt{
+	position: absolute;
+	right: 50px;
+	top: 155px;
+	width: 179px;
+}
+
+/* 2015-11-20 修改 - end */
+
+#account-content{
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+/*-------------------内容块----------------------*/
+#register-box{
+	width: 100%;
+}
+
+.list-right-button{
+	width: 100%;
+}
+.list-right-button a{
+	position: absolute;
+	width: 130px;
+	height: 30px;
+	font-size: 13px;
+	color: #86560f;
+	line-height: 29px;
+	text-align: center;
+	border: solid 1px #86560f;
+	border-radius: 15px;
+	display: block;
+	margin-top: 10px;
+}
+#quitBtn{
+	right:150px;
+}
+#saveBtn{
+	right: 0px;
+}
+
+#focuse-manager{
+	width: 100%;
+	color: #666;
+	margin-top: 15px;
+	font-weight: normal;
+}
+#focuse-manager span{
+	font-size: 15px;
+	margin-right: 20px;
+}
+
+#focuse-message{
+	margin-top: 10px;
+}
+#focuse-message label{
+	font-size: 15px;
+	padding-left: 12px;
+	color: #666;
+	position: absolute;
+	font-weight: normal;
+	padding-top: 10px;
+}
+#focuse-message textarea{
+	padding-left: 55px;
+	height: 117px;
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+.inputBox1{
+	position: relative;
+	margin-top: 15px;
+}
+.inputBox1 > div{
+	width: 320px;
+	height: 47.5px;
+}
+.inputBox2{
+	position: relative;
+}
+
+#select-time{
+	width: 255px;
+}
+#select-time input{
+	margin-left: 10px;
+	padding-right: 15px;
+}
+#task-time{
+	height: 40px;
+}
+#client-name{
+	padding-right: 15px;
+	margin-right: 45px;
+}
+#client-name span{
+	margin-top:12.5px;
+	font-size: 15px;
+}
+#user-email{
+	margin-left: 42.5px;
+}
+#user-province{
+	width: 17.5%;
+}
+#user-city{
+	width: 17.5%;
+}
+#user-address{
+	width: 60%;
+	margin-top: 5px;
+}
+#account-navs{
+	width: 12.5%;
+}
+#account-info{
+	width: 82.5%;
+}
+#gender{
+	margin-top: 10px;
+	margin-left: 25px;
+	font-weight: normal;
+}
+#gender span{
+	margin-left: 15px;
+}
+.info-title{
+	font-size: 16px;
+	color: #86560f;
+	font-weight: bold;
+	border-bottom: solid 1px #ccc;
+}
+.info-title p{
+	margin-bottom: 0;
+	margin-bottom: -1px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #86560f;
+}
+
+#info-content{
+	margin-top: 20px;
+}
+
+
+#record{
+	display: block;
+}
+
+#info-t-bar{
+	height: 50px;
+	background: #eee;
+	line-height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.l1{
+	width: 52%;
+	padding-left: 20px;
+}
+.l1 p{
+	width: 265px;
+}
+.l2{
+	width: 20%;
+}
+.l3{
+	width: 14%;
+	text-align: center;
+}
+.l4{
+	width: 14%;
+	text-align: center;
+}
+
+.list-infoContent{
+	margin-top: 20px;
+}
+
+.list-left{
+	width: 82%;
+	height: inherit;
+	padding-right: 10px;
+	padding-left: 15px;
+	/*background: #f0f;*/
+}
+
+.list-left-info{
+	margin-top: 12.5px;
+	text-align: center;
+	width: 100%;
+	border-top: solid 1px #ddd;
+}
+
+.list-info{
+	/*width: 25%;*/
+	color: #666;
+}
+.list-info p{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.list-info em{
+	font-size: 15px;
+	font-style: normal;
+}
+#listBox li{
+	height: 165px;
+	width: 100%;
+	color: #666;
+}
+#listBox li .l1{
+	color: #666;
+}
+#listBox li .l1 em{
+	color: #8f8f8f;
+	margin-top: 16px;
+}
+.ycl{
+	font-size: 12px;
+	/*background: #dfb579;*/
+	border-radius: 5px;
+	color: #dfb579;
+}
+.jxz{
+	font-size: 12px;
+	/*background: #c6002a;*/
+	border-radius: 5px;
+	color: #b4002a;
+}
+.qxyy{
+	font-size: 14px;
+	color: #009cf8;
+	cursor: pointer;
+}
+
+.listBg1{
+	background: #fff;
+}
+.listBg2{
+	background: #f9f9f9;
+}
+
+.l-i-1{
+	width: 17.5%;
+	text-align: left;
+}
+.l-i-2{
+	width: 55%;
+	text-align: left
+}
+.l-i-3{
+	width: 27.5%;
+	text-align: left;
+}
+.l-i-4{
+	margin-top: 12.5px;
+	width: 100%;
+	text-align: left;
+}
+
+.list-right{
+	width: 18%;
+	height: 100%;
+	/*background: #f00;*/
+}
+
+
+.mb-l3{
+	color: #fff;
+	margin-right: 8px;
+	line-height: 25px;
+	margin-top: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+
+.goumai{
+	background: #dfb579;
+}
+.shuhui{
+	background: #c6002a;
+}
+
+
+/*翻页导航*/
+.pagination li a{
+	color: #666;
+	cursor: pointer;
+}
+.pagination li a:hover{
+	color: #dfb578;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #dfb578;
+	border-color: #dfb578;
+}
+/*翻页导航end*/
+
+
+#loadMore{
+	height: 115px;
+	text-align: center;
+}
+#loadMore img{
+	margin-top: 10px;
+	width: 75px;
+}
+
+
+/*-------------------暂无交易记录----------------------*/
+#noRecord{
+	text-align: center;
+	margin-top: 45px;
+}
+#noRecord_nothing{
+	width: 76px;
+}
+#noRecord_titie{
+	font-size: 18px;
+	color: #666;
+	font-weight: bold;
+	margin-top: 16px;
+}
+#noRecord_txt{
+	font-size: 14px;
+	color: #666;
+	width: 306px;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+#noRecord_cpBtn{
+	position: relative;
+	background: #dfb578;
+	width: 180px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	border-radius: 20px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-top: 29px;
+}
+#noRecord_cpBtn_icon{
+	position: absolute;
+	width: 20px;
+	right: 10px;
+	margin-top: 10px;
+}
+
+
+#bottom-msgBar{
+	font-size: 14px;
+	line-height: 12px;
+	margin-top: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-top: 1px solid #dddddd;
+	padding-top: 20px;
+}
+#bottom-msgBar a{
+	color: #666;
+}
+#bottom-msgBar em{
+	margin-right: 15px;
+	color: #bbbbbb;
+}
+#bottom-msgBar_t1{
+	margin-right: 16px;
+}
+#bottom-msgBar_t2{
+	margin-right: 17px;
+}
+#bottom-msgBar span{
+	color: #c29658;
+}
+
+
+/*-------------------内容块end----------------------*/
+
+
+
+/*-------------模态框------------*/
+.modal-dialog{
+	margin-top: 20%;
+}
+.btn-qx, .btn-qx:hover{
+	padding-left: 20px;
+	padding-right: 20px;
+	border-color: #dfb578;
+	background: none;
+	color: #dfb578;
+}
+.btn-qr, .btn-qr:hover{
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #dfb578;
+	border-color: #dfb578;
+	color: #fff;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+	/* 2015-11-20 修改 */
+	#main{
+		padding-top: 60px;
+	}
+	.banner{
+		width: 100%;
+		height: 100px;
+		background: url("../img/account/banner3.jpg") center no-repeat;
+		background-size: 100% 100%;
+	}
+	#banner-yt{
+		top: 60px;
+		right: 20px;
+		width: 188px;
+	}
+	#banner-zt{
+		top: 40px;
+		right: 20px;
+		width: 83px;
+	}
+	/* 2015-11-20 修改 - end */
+	#account-content{
+		margin-top: 30px;
+	}
+	.info-title{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	#account-info{
+		width: 100%;
+	}
+
+
+	.l1{
+		font-size: 14px;
+		width: 100%;
+		padding-left: 0;
+		line-height: 50px;
+		border-bottom: solid 1px #ddd;
+	}
+	.l1 p{
+		margin-right: 10px;
+	}
+	.ycl{
+		margin-top: 15px;
+		line-height: 16px;
+	}
+	.jxz{
+		margin-top: 15px;
+		line-height: 16px;
+	}
+	.qxyy{
+		display: block;
+		line-height: 20px;
+		margin-top: 35px;
+	}
+
+
+	.l2{
+		width: 50%;
+		margin-top: 10px;
+	}
+	.l2 span{
+		display: block;
+		line-height: 25px;
+	}
+
+	.l4{
+		float: right!important;
+		text-align: right;
+		width: 50%;
+	}
+
+	#client-name{
+		width: 90%;
+		margin-left: 5%;
+	}
+	#client-name span{
+		margin-top:12.5px;
+		font-size: 13.5px;
+	}
+	#user-name{
+		width: 90%;
+		margin-right: 5%;
+	}
+	#user-name span{
+		margin-top:12.5px;
+		font-size: 13.5px;
+	}
+	#select-time{
+		width: 65%;
+		margin-left: 5%;
+	}
+	#select-hour{
+		width: 25%;
+	}
+	#gender_div{
+		margin-top: 5px;
+		margin-right: 5%;
+		font-weight: normal;
+	}
+	#focuse-message{
+		margin-top: 10px;
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	/*.list-right-button{*/
+		/*width: 90%;*/
+		/*padding-right: 5%;*/
+	/*}*/
+
+	#quitBtn{
+		right:35%;
+		width: 25%;
+	}
+	#saveBtn{
+		right: 5%;
+		width: 25%;
+	}
+
+	.listBg1{
+		background: #eee;
+	}
+	.listBg2{
+		background: #f9f9f9;
+	}
+
+	#listBox li{
+		height: 125px;
+		padding-left: 20px;
+		padding-right: 20px;
+		line-height: 50px;
+		font-size: 14px;
+		color: #666;
+	}
+
+
+	/**/
+	#noRecord_txt{
+		width: 100%;
+		margin: 0 auto;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 24px;
+	}
+	#noRecord_cpBtn{
+		width: auto;
+		margin: 0 auto;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 24px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+html, body{
+	height: 100%;
+}
+#main{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#info404{
+	text-align: center;
+}
+#pic404{
+	max-width: 369px;
+	width: 40%;
+	margin-top: 20%;
+}
+#title404{
+	font-size: 24px;
+	color: #333;
+	margin-top: 38px;
+}
+#txt404{
+	font-size: 18px;
+	color: #666;
+	margin-top: 18px;
+}
+#footer{
+	margin-top: -87px;
+}

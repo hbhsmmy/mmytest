@@ -1,0 +1,124 @@
+#retrieve-title{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 55px;
+	padding-top: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-bottom: solid 1px #ccc;
+	color: #666;
+}
+#retrieve-box{
+	position: relative;
+	width: 400px;
+	height: 355px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+#retrieve-step1{
+	margin-top: 80px;
+	display: block;
+}
+#retrieve-step2{
+	display: none;
+	margin-top: 80px;
+}
+#retrieve-step3{
+	display: none;
+	margin-top: 80px;
+}
+.stepBtn{
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: #c29658;
+	font-size: 16px;
+	color: #fff;
+	background: #c29658 ;
+}
+.stepBtn:hover{
+	color: #fff;
+}
+#okIcon{
+	width: 75px;
+	height: 75px;
+	margin-left: 40%;
+}
+#okTxt{
+	margin-top: 20px;
+	margin-left: 35%;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666;
+}
+#user-name2{
+	background: none;
+}
+#user-name2 .input-group-addon{
+	background: none;
+}
+#user-name2 p{
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+
+.carousel-indicators{
+	margin-bottom: 0;
+	position: relative;
+	bottom: auto;
+	top: 0px;
+	line-height: 75px;
+}
+.carousel-indicators li{
+	background-color: #dfb578;
+	border-color: #dfb578;
+	cursor: auto;
+}
+.carousel-indicators .active{
+	background-color: #fff;
+	border-color: #dfb578;
+}
+select.input-lg{
+	height: 40px;
+	line-height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+	.content{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#retrieve-box{
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		margin-bottom: 59px;
+	}
+	#retrieve-step1{
+		margin-top: 40px;
+		display: block;
+	}
+	#retrieve-step2{
+		display: none;
+		margin-top: 40px;
+	}
+	#step1Btn{
+		width: 100%;
+	}
+	#step2Btn{
+		width: 100%;
+	}
+	#step3Btn{
+		width: 100%;
+	}
+	.carousel-indicators{
+		line-height: 60px;
+	}
+	#retrieve-title{
+		padding-top: 0;
+	}
+}

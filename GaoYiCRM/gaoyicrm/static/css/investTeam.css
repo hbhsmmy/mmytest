@@ -1,0 +1,512 @@
+
+p{
+	margin: 0;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 308px;
+	background: url("../img/investTeam/banner.jpg") center no-repeat;
+}
+
+#banner-yt{
+	position: absolute;
+	right: 50px;
+	top: 170px;
+	width: 290px;
+}
+#banner-zt{
+	position: absolute;
+	right: 50px;
+	top: 125px;
+	width: 200px;
+}
+.investTeam-pc-navsContent{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 90px;
+	width: 100%;
+	background: url("../img/global/blank2.png");
+}
+.investTeam-pc-navs{
+	height: 90px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.investTeam-pc-nav{
+	padding-top: 25px;
+	height: 100%;
+	width: 16.5%;
+	text-align: center;
+}
+.investTeam-pc-nav a{
+	color: #fff;
+	display: block;
+	border-color: #d6d2d1;
+}
+.investTeam-pc-nav a:hover{
+	color: #dfb578;
+	text-decoration: none;
+}
+.investTeam-pc-nav-curr a{
+	color: #dfb578;
+}
+.investTeam-pc-nav-curr{
+	background: url("../img/investTeam/jiantou.png") center bottom no-repeat;
+}
+.investTeam-pc-nav p{
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+.investTeam-pc-nav span{
+	font-size: 13px;
+}
+
+.btn-style2{
+	position: relative;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 20px;
+	background: none;
+	border:none;
+	z-index: 2;
+	behavior: url(../ie-css3.htc);
+}
+
+.btn-style222{
+	position: relative;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 20px;
+	background: none;
+	border: solid 1px #dfb578;
+	z-index: 2;
+	behavior: url(../ie-css3.htc);
+}
+
+#account-navs-mb-content{
+	width: 100%;
+	border-bottom: solid 1px #ccc;
+}
+#account-navs-mb{
+	height: 50px;
+	background: #f5f5f5;
+	margin-right: 10px;
+	background:#f5f5f5 url("../img/global/bian.gif") right top no-repeat;
+}
+#account-navs-mb-info{
+	/*border-bottom: solid 1px #ccc;*/
+}
+.account-navs-mb-nav{
+	text-align: center;
+	width: 99px;
+	font-weight: bold;
+	border-right: solid 1px #e5e5e5;
+	color: #666;
+    font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 20px;
+
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.account-navs-mb-nav img{
+	position: absolute;
+	width: 37px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -18px;
+	margin-bottom: -1px;
+}
+.account-navs-mb-navCurr{
+	color: #dfb579;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2015-12-04 修改 */
+#info1{
+	height: auto;
+}
+#info1-text{
+	padding-top: 65px;
+	padding-left: 370px;
+	padding-bottom: 35px;
+}
+#info1-text > p{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+#info1-text > em{
+	display: block;
+	font-style: normal;
+	font-size: 15px;
+	/*2015-12-10 修改了字号*/
+	padding-bottom: 20px;
+}
+#info1-text > span{
+	display: block;
+	line-height: 30px;
+}
+#info1-text > span > em{
+	color: #86560f;
+	/*2015-12-10 修改了color颜色*/
+	font-style: normal;
+}
+#info1-text a{
+	display: block;
+	font-size: 13px;
+	color: #86560f;
+	/*2015-12-10 修改了color颜色*/
+	width: 140px;
+	height: 30px;
+	line-height: 28px;
+	padding-right: 15px;
+	margin-top: 28px;
+	border-color: #86560f;
+	/*2015-12-10 修改了border颜色*/
+}
+#info1-text a img{
+	position: absolute;
+	right: 5px;
+	width: 15px;
+	top: 50%;
+	margin-top: -7.5px;
+}
+/* 2015-12-04 修改 end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2015-12-04 修改 */
+#info2{
+	padding-top: 26px;
+	background: #f3f3f3;
+	padding-bottom: 40px;
+}
+.info2-text{
+	padding-top: 0;
+	width: 100%;
+	line-height: 23px;
+}
+/* 2015-12-18 添加 */
+.info2-text .info2-btn{
+	display: block;
+	font-size: 13px;
+	color: #86560f;
+	width: 140px;
+	height: 30px;
+	line-height: 28px;
+	padding-right: 15px;
+	border-color: #86560f;
+}
+.info2-text .info2-btn img{
+	position: absolute;
+	right: 5px;
+	width: 15px;
+	top: 50%;
+	margin-top: -7.5px;
+}
+/* 2015-12-18 添加 end */
+
+.info2-text h4{
+	margin-top: 15px;
+    margin-bottom: 10px;
+	font-size: 13px;
+	color: #333333;
+	font-weight: bold;
+}
+.info2-text h5{
+	margin-top: 0;
+    margin-bottom: 10px;
+	font-size: 13px;
+	color: #333333;
+	font-weight: bold;
+}
+.info2-text em{
+	color: #86560f;
+	/*2015-12-10 修改了color颜色*/
+	font-style: normal;
+}
+.info2-text img{
+	width: 100%;
+}
+/* 2015-12-18 添加 */
+.info2-text #book{
+	position: absolute;
+	left: 0;
+	width: 82px;
+}
+.info2-text #bookTxt{
+	padding-left: 110px;
+}
+/* 2015-12-18 添加 end */
+
+#info2-contentInfo-left{
+	width: 47%;
+}
+/* 2015-12-18 修改 */
+#info2-contentInfo-right{
+	width: 47%;
+	position: relative;
+}
+/* 2015-12-18 修改 end */
+.info2-title{
+	color: #fff;
+	line-height: 34px;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 20px;
+	background: #86560f;
+	/*2015-12-10 修改了background颜色*/
+	border-radius: 3px 12px 12px 3px;
+}
+/* 2015-12-04 修改 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+#info3{
+	padding-top: 65px;
+	padding-bottom: 60px;
+}
+#info3-contentInfo{
+	/*padding-top: 30px;*/
+}
+#article{
+	padding-top: 20px;
+	width: 48%;
+}
+#article-title{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#article-txt{
+	line-height: 21px;
+}
+#news{
+	width: 48%;
+}
+
+
+/*报道、新闻条目*/
+.news-lists{
+	padding: 0;
+	margin: 0;
+    list-style: none;
+}
+.news-lists li{
+	line-height: 60px;
+	border-color: #d9d9d9;
+}
+.news-lists li > a{
+	display: block;
+	line-height: 60px;
+}
+.news-lists li > a > p{
+	width: 75%;
+}
+.news-lists li > a > em{
+	line-height: 60px;
+	margin-left: 8px;
+}
+.news-lists li > a:hover > p, .news-lists li > a:hover > span{
+	text-decoration: underline;
+}
+
+
+#bottom-breadcrumb{
+	margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	#main{
+		padding-top: 60px;
+	}
+	.banner{
+		width: 100%;
+		height: 100px;
+		background: #151515 url("../img/investTeam/banner1.jpg") center no-repeat;
+		background-size: 375px 100px;
+	}
+	#banner-yt{
+		top: 70px;
+		right: 20px;
+		width: 235px;
+	}
+	#banner-zt{
+		top: 40px;
+		right: 20px;
+		width: 130px;
+	}
+
+
+
+
+	#info1{
+		padding-left: 20px;
+		padding-right: 20px;
+		height: auto;
+	}
+
+	/* 2015-12-04 删除 */
+	/*#info1-pic{
+		position: absolute;
+		bottom: auto;
+		top: 14px;
+		left: 10px;
+		height: 235px;
+	}
+	#info1-pic img{
+		width: 203px;
+	}*/
+	/* 2015-12-04 删除 end*/
+
+	/* 2015-12-04 修改 */
+	#info1-text{
+		padding: 0;
+		padding-top: 170px;
+		width: 100%;
+	}
+	#info1-text > p{
+		text-align: right;
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	#info1-text > em{
+		text-align: right;
+		display: block;
+		font-style: normal;
+		font-size: 14px;
+		padding-bottom: 50px;
+	}
+	#info1-text > span{
+		font-size: 13px;
+		line-height: 25px;
+	}
+	#info1-text > a{
+		width: 100%;
+		height: 40px;
+		line-height: 38px;
+		margin-bottom: 20px;
+		padding-right: 0;
+	}
+	#info1-text > a img{
+		width: 20px;
+		height: 20px;
+		margin-top: -10px;
+	}
+	/* 2015-12-04 修改 end */
+
+
+	#info2{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#info2-contentInfo-left{
+		width: 100%;
+	}
+	#info2-contentInfo-right{
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	
+	#info3{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 30px;
+	}
+	#article{
+		width: 100%;
+		padding-bottom: 20px;
+		border-bottom: solid 1px #cccccc;
+	}
+	#news{
+		width: 100%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

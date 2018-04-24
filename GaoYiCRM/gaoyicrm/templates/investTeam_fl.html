@@ -1,0 +1,161 @@
+{% extends "base_cn.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅资产 - 投资团队</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/investTeam.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/investTeam_dxf.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/investTeam.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">首页</a></li>
+    <li class="font16"><a href="../company" class="cl-fff">公司介绍</a></li>
+    <li class="font16 header-nav-curr"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>
+    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">联系我们</a></li>
+{% endblock%}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+
+        <div class="banner">
+            <div class="content">
+              {# <img id="banner-yt" src="../static/img/investTeam/yt.png" alt=""> #}
+                <img id="banner-zt" src="../static/img/investTeam/zt.png" alt="">
+            </div>
+            <div class="investTeam-pc-navsContent hidden-xs">
+                <div class="content">
+                    <ul class="investTeam-pc-navs clearfix">
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_qgl" class="border-r"><p>邱国鹭</p><span>董事长</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_dxf" class="border-r"><p>邓晓峰</p><span>首席投资官</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_sqr" class="border-r"><p>孙庆瑞</p><span>董事总经理</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_zlw" class="border-r"><p>卓利伟</p><span>首席研究官</span></a></li>
+                        <li class="pull-left investTeam-pc-nav investTeam-pc-nav-curr"><a href="../investTeam_fl" class="border-r"><p>冯柳</p><span>董事总经理</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_wsh"><p>王世宏</p><span>董事总经理</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="account-navs-mb-content" class="visible-xs-block">
+            <div id="account-navs-mb" class="swiper-container">
+                <div id="account-navs-mb-info" class="swiper-wrapper">
+                    <a href="../investTeam_qgl" class="swiper-slide account-navs-mb-nav">邱国鹭</a>
+                    <a href="../investTeam_dxf" class="swiper-slide account-navs-mb-nav">邓晓峰</a>
+                    <a href="../investTeam_sqr" class="swiper-slide account-navs-mb-nav">孙庆瑞</a>
+                    <a href="../investTeam_zlw" class="swiper-slide account-navs-mb-nav">卓利伟</a>
+                    <a href="../investTeam_fl" class="swiper-slide account-navs-mb-nav account-navs-mb-navCurr">冯柳</a>
+                    <a href="../investTeam_wsh" class="swiper-slide account-navs-mb-nav">王世宏</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="info1" class="content">
+            <div id="info1-pic">
+                <img src="../static/img/investTeam/fl.jpg" alt="">
+            </div>
+            <div id="info1-text">
+                <p class="cl-86560f">冯柳</p>
+                <em class="cl-86560f">董事总经理</em>
+                <span class="cl-333 font15">民间投资高手，网名“茅台03”。过去13年持续获得较高投资回报，对消费、医药、零售行业有较深见解，对市场及投资方法有较多独到见解和创造性认识。</span>
+                <span class="mt10 font15"><strong>投资风格</strong>：<em>以长期投资、价值投资、集中投资、逆向投资见长，不使用杠杆、亦不控制回撤</em>。是实至名归的民间高手。</span>
+                <a class="btn-style2" href="../account_product/manager=managerFive">登录了解管理产品<img src="../static/img/global/jt3.png" alt=""></a>
+           	<a class="btn-style2"></a>
+	     </div>
+        </div>
+
+        <div id="info2">
+            <div class="content">
+                <div class="site-con-title clearfix">
+                    <p class="pull-left">履历介绍及投资理念</p>
+                </div>
+                <div id="info2-contentInfo" class="clearfix">
+                    <div id="info2-contentInfo-left" class="pull-left">
+                        <div class="info2-text cl-666 siteText">
+                            <p>现任高毅资产董事总经理。民间投资高手，网名“茅台03”。曾任职于娃哈哈集团从事快消品销售工作。从2003年起专注于二级市场投资以来，持续获得较高投资回报，对消费、医药、零售行业有较深见解，对市场及投资方法有较多独到见解和创造性认识。</p>
+                            <p class="mt10">在十余年的投资生涯中，创造了远超大盘的业绩回报。</p>
+                            <p class="mt10">投资体系自成一脉。投资风格以长期投资、价值投资、集中投资以及满仓操作见长，不使用杠杆，亦不控制回撤，是实至名归的民间高手。</p>
+                            <p class="mt10">国内最早在互联网上为人所知的价值投资者之一。过去10多年来在互联网上持续无间断地进行投资理念分享和实盘披露，网名"茅台03"，在个人投资者中具有较强的影响力。</p>
+                            <p class="mt10">个人博客：<a target="_blank" href="http://www.taoguba.com.cn/blog.action?userID=7148">
+                                http://www.taoguba.com.cn/blog.action?userID=7148 </a></p>
+                        </div>
+                    </div>
+                    <div id="info2-contentInfo-right" class="pull-right">
+                        <div class="info2-title radius20">自成一脉的投资策略：</div>
+                        <div class="info2-text cl-666 siteText mt15">
+                            <h4>世界观</h4>
+                            <p>这个世界是不断变化的，而这些变化绝大部分是在人们的认识和控制之外的，所以我们要尽量避开多决定因子的投资，降低变化的复杂性，尽可能让自己处于不被变化伤害的位置。
+                                寻找无需卖出的优质投资标的和时机然后时刻思考是否需要卖出。</p>
+                            <h4>思维方式</h4>
+                            <p>对看的见的信息寻求恰当的视角、对看不见的部分展开大胆推论和遐想</p>
+                            <h4>策略</h4>
+                            <p>在非换股期间一般不持有高比例现金，放弃做波段甚至躲避大幅度下跌的想法，这样虽然会不够完美，但可令人放弃贪念并限制恐惧所带来的错误行为，有利于把精力放到更大更简单的事情上去</p>
+                            <h4>战术运用</h4>
+                            <p>对市场阶段进行划分，归为简单、复杂和可逆三个阶段，在简单阶段开仓，依靠该阶段的简单特性度过煎熬阶段，然后在利润的安慰下就比较容易度过复杂阶段，然后在可逆阶段进行下一个目标的寻找和切换准备。
+                                好的投资机会是有限的，投资者的精力及能力圈亦是有限的，真正的风险控制在于有效且充分深入的思考，因此集中投资是主要的风格选择。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="info3" class="content">
+            <div class="site-con-title clearfix">
+                <p class="pull-left">冯柳投资思想</p>
+                <a href="../investTeam_news_fl" class="pull-right">MORE</a>
+            </div>
+            <div id="info3-contentInfo" class="clearfix">
+                <div id="article" class="pull-left">
+                </div>
+                <div id="news" class="pull-right">
+                    <!-- 报道、新闻条目 -->
+                    <ul class="news-lists siteText">
+                    </ul>
+                </div>
+            </div>
+            <!-- 面包屑 -->
+            <div id="bottom-breadcrumb" class="breadcrumb border-t cl-bbb mb35 visible-xs-block">
+                <a class="cl-555" href="../index">首页</a> <em class="glyphicon glyphicon-menu-right"></em> <a class="cl-555" href="../investTeam_qgl">投资团队</a> <em class="glyphicon glyphicon-menu-right"></em> <span class="cl-c29658">冯柳</span>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
+
+</body>
+</html>

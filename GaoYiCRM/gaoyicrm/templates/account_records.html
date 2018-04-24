@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 客户信息</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/account.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/account_records.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header_account.js"></script>
+        <!-- 引入页面底部js -->
+        <script src="../static/js/footer.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/account_records.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">首页</a></li>
+    <li class="font16"><a href="../company" class="cl-fff">公司介绍</a></li>
+    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>
+    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">联系我们</a></li>
+{% endblock%}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+
+        <div id="account-navs-mb-content">
+            <div id="account-navs-mb" class="swiper-container visible-xs-block">
+                <div id="account-navs-mb-info" class="swiper-wrapper">
+                    <a href="../account_personal" class="swiper-slide account-navs-mb-nav">工作中心</a>
+                    <a href="../account_product" class="swiper-slide account-navs-mb-nav">产品信息</a>
+                    <a href="../account_records" class="swiper-slide account-navs-mb-nav account-navs-mb-navCurr">客户信息</a>
+                    <a href="../account_inquiry" class="swiper-slide account-navs-mb-nav">留言记录</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="account-content" class="content clearfix">
+            <div id="account-navs" class="pull-left hidden-xs">
+                <a class="account-nav" href="../account_personal"><p>工作中心</p></a>
+                <a class="account-nav" href="../account_product/manager=managerZero"><p>产品信息</p></a>
+                <a class="account-nav navCurr" href="../account_records"><p>客户信息</p></a>
+                <a class="account-nav" href="../account_inquiry"><p>留言记录</p></a>
+                <a class="account-nav nav-end" href="../account_function"><p>快捷功能</p></a>
+            </div>
+            <div id="account-info" class="pull-right">
+
+                <div id="info-title" class="clearfix hidden-xs">
+                    <p class="pull-left">客户列表</p>
+                    <p id="user-count" class="pull-right"></p>
+                </div>
+                <div id="search_div" class="clearfix">
+                    <input id="user-search" type="text" class="form-control pull-left"  placeholder="输入用户名">
+                    <button id="userBtn_pc" class="userBtn hidden-xs pull-right">新增用户</button>
+                    <button id="userBtn_mb" class="userBtn visible-xs pull-right">新 增</button>
+{#                    <button id="userBtn_pc" class="userBtn pull-right">新增<span class="hidden-xs">用户</span></button>#}
+                    <button id="searchBtn" class="pull-left">搜 索</button>
+                </div>
+                <div id="filter" class="hidden-xs">
+                    <div id="filter-khlx" class="filter-select clearfix">
+                        <span class="pull-left">客户类型：</span>
+                        <p class="pull-left filter-curr">全部</p>
+                        <p class="pull-left">个人</p>
+                        <p class="pull-left">机构</p>
+                    </div>
+                    <div id="filter-khqd" class="filter-select clearfix">
+                        <span class="pull-left">客户渠道：</span>
+                        <p class="pull-left filter-curr">全部</p>
+                        <p class="pull-left">直销</p>
+                        <p class="pull-left">代销</p>
+                    </div>
+                    <div id="filter-khzt" class="filter-select clearfix">
+                        <span class="pull-left">客户状态：</span>
+                        <p class="pull-left filter-curr">全部</p>
+                        <p class="pull-left">正式</p>
+                        <p class="pull-left">潜在</p>
+                    </div>
+                    <div id="filter-jjjl" class="filter-select clearfix">
+                        <span class="pull-left">基金经理：</span>
+{#                        <p class="pull-left filter-curr">全部</p>#}
+{#                        <p class="pull-left">邱国鹭</p>#}
+{#                        <p class="pull-left">邓晓峰</p>#}
+{#                        <p class="pull-left">孙庆瑞</p>#}
+{#                        <p class="pull-left">卓利伟</p>#}
+{#                        <p class="pull-left">冯柳</p>#}
+{#                        <p class="pull-left">王世宏</p>#}
+{#                        <p class="pull-left">韩海峰</p>#}
+                    </div>
+                </div>
+
+                <div id="filter-mb" class="visible-xs-block">
+                    <div id="filter-mb-btns1" class="clearfix">
+                        <p id="filter-mb-btn1" class="pull-left"><span>类型－全部</span></p>
+                        <p id="filter-mb-btn2" class="pull-left"><span>渠道－全部</span></p>
+                    </div>
+                    <div id="filter-mb-cp" class="filter-mb-navs clearfix">
+                        <p class="pull-left hide">类型－全部</p>
+                        <p class="pull-left">类型－个人</p>
+                        <p class="pull-left">类型－机构</p>
+                    </div>
+                    <div id="filter-mb-px" class="filter-mb-navs clearfix">
+                        <p class="pull-left hide">渠道－全部</p>
+                        <p class="pull-left">渠道－直销</p>
+                        <p class="pull-left">渠道－代销</p>
+                    </div>
+                </div>
+                <div id="filter-mb" class="visible-xs-block">
+                    <div id="filter-mb-btns2" class="clearfix">
+                        <p id="filter-mb-btn3" class="pull-left"><span>状态－全部</span></p>
+                        <p id="filter-mb-btn4" class="pull-left"><span>经理－全部</span></p>
+                    </div>
+                    <div id="filter-mb-xx" class="filter-mb-navs clearfix">
+                        <p class="pull-left hide">状态－全部</p>
+                        <p class="pull-left">状态－正式</p>
+                        <p class="pull-left">状态－潜在</p>
+                    </div>
+                    <div id="filter-mb-xy" class="filter-mb-navs clearfix">
+{#                        <p class="pull-left filter-curr">经理－全部</p>#}
+{#                        <p class="pull-left">经理－邱国鹭</p>#}
+{#                        <p class="pull-left">经理－邓晓峰</p>#}
+{#                        <p class="pull-left">经理－孙庆瑞</p>#}
+{#                        <p class="pull-left">经理－卓利伟</p>#}
+{#                        <p class="pull-left">经理－冯柳</p>#}
+{#                        <p class="pull-left">经理－王世宏</p>#}
+{#                        <p class="pull-left">经理－韩海峰</p>#}
+                    </div>
+                </div>
+                <div id="noRecord">
+                    <img id="noRecord_nothing" src="../static/img/global/nothing.png">
+                    <p id="noRecord_titie">没有此类型客户</p>
+                </div>
+                <div id="record">
+                    <ul id="listBox" class="list-unstyled">
+                    </ul>
+                    <nav class="hidden-xs">
+                        <ul class="pagination">
+                        </ul>
+                    </nav>
+                </div>
+                <div class="loadMore visible-xs-block mt20 mb40"></div>
+                <p id="bottom-msgBar" class="visible-xs-block">
+                    <a id="bottom-msgBar_t1" href="../account_personal">工作中心</a>
+                    <em class="glyphicon glyphicon-menu-right"></em>
+                    <span>客户信息</span>
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>

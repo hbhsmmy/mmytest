@@ -1,0 +1,114 @@
+#main{
+	position: relative;
+	width: 100%;
+}
+#result{
+    height: 280px;
+    position: relative;
+    margin: 0 auto;
+    background: #FFFDFA;
+    border-radius: 20px;
+    border: 2px solid #F1E1C9;
+    margin-top: 130px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+#result-name{
+	font-size: 24px;
+	width: 120px;
+	height: 120px;
+	border-radius:120px;
+	background: #DFB578;
+	position: relative;
+	margin:auto;
+	margin-top: 30px;
+	line-height: 120px;
+	color: #FFF;
+	text-align: center;
+}
+#result-txt{
+	font-size: 24px;
+	color: #C29658;
+	margin-top: 30px;
+	text-align: center;
+}
+#result-tips{
+	font-size: 13px;
+	color: #666666;
+	text-align: center;
+	margin: auto;
+	margin-top: 24px;
+	line-height: 25px;
+	
+}
+#result-btns{
+	width: 340px;
+	margin: auto;
+	margin-top: 44px;
+}
+
+#result-btns-again{
+	font-size: 16px;
+	display: block;
+	width: 40%;
+	color: #dfb578;
+	border: solid 1px #dfb578;
+	background: #fff;
+}
+#result-btns-submit{
+	font-size: 16px;
+	width: 48%;
+	color: #fff;
+	background: #dfb578 url("../img/global/jiantou1.gif") right center no-repeat;
+}
+#notes{
+	margin-bottom: 44px;
+    padding-left: 77px;
+    padding-right: 77px;
+    padding-top: 17px;
+}
+.notes-txt{
+	line-height: 26px;
+	font-size: 13px;
+	color: #555555;
+	margin-top: 17px;
+}
+#notes-tips{
+	margin-top: 28px;
+	color: #666666;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	#result{
+		border: 0;
+	    border-radius: 0;
+	    background: none;
+	    margin-left: 20px;
+	    margin-right: 20px;  
+	    height:auto;
+	    padding-top: 30px;
+	    margin-top: 0;
+	}
+	#result-name{
+		font-size: 18px;
+		width: 72px;
+		height: 72px;
+		border-radius:72px;
+		line-height: 72px;
+	}
+	#result-txt{
+		font-size: 18px;
+	}
+	#notes{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	#result-btns{
+		width: auto;
+	}
+}
+
+
+
+

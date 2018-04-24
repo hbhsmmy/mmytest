@@ -1,0 +1,295 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/html">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 账户查询</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+{#        <link href="../static/css/lyz.calendar.css" rel="stylesheet" type="text/css" />#}
+{#        <script src="../static/js/lyz.calendar.min.js" type="text/javascript"></script>#}
+{#        <link href="../static/css/DateTimePicker.css" rel="stylesheet">#}
+{#        <script src="../static/js/DateTimePicker.js"></script>#}
+
+        <script src="../static/js/bootstrap-datepicker.js"></script>
+        <link href="../static/css/datepicker.css" rel="stylesheet">
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/account.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/account_user_details.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header_account.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/account_user_detail.js"></script>
+    {% endblock %}
+</head>
+<body>
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+
+        <div class="banner visible-xs-block">
+            <div class="userInfo content clearfix">
+                <p id="userName_mb" class="pull-right"></p>
+            </div>
+            <a id="taskBtn_mb" class="Btn_mb pull-right">新建</a>
+            <a id="editBtn_mb" class="Btn_mb pull-right">编辑</a>
+            <a id="deletBtn_mb" class="Btn_mb pull-right">移除</a>
+            <p id="userUpdate_mb"><p/>
+        </div>
+
+        <div id="account-navs-mb-content">
+            <div id="account-navs-mb" class="swiper-container visible-xs-block">
+                <div id="account-navs-mb-info" class="swiper-wrapper">
+                    <a href="../account_personal" class="swiper-slide account-navs-mb-nav">工作中心</a>
+                    <a href="../account_product" class="swiper-slide account-navs-mb-nav">产品信息</a>
+                    <a href="../account_records" class="swiper-slide account-navs-mb-nav account-navs-mb-navCurr">客户信息</a>
+                    <a href="../account_inquiry" class="swiper-slide account-navs-mb-nav">留言记录</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="account-content" class="content clearfix">
+            <div id="account-navs" class="pull-left hidden-xs">
+                <a class="account-nav" href="../account_personal"><p>工作中心</p></a>
+                <a class="account-nav" href="../account_product/manager=managerZero"><p>产品信息</p></a>
+                <a class="account-nav navCurr" href="../account_records"><p>客户信息</p></a>
+                <a class="account-nav" href="../account_inquiry"><p>留言记录</p></a>
+                <a class="account-nav nav-end" href="../account_function"><p>快捷功能</p></a>
+            </div>
+            <div id="account-info" class="pull-right">
+                <div id="info-title" class="clearfix hidden-xs">
+                    <p class="pull-left">客户详情</p>
+                    <a id="deletBtn" class="right-top-btn pull-right">移除客户</a>
+                    <a id="editBtn" class="right-top-btn pull-right">编辑资料</a>
+                    <a id="IntentBtn" class="right-top-btn pull-right">新建意向</a>
+                    <a id="taskBtn" class="right-top-btn pull-right">新建接触</a>
+                </div>
+
+                <div id="user_info" class="hidden-xs">
+                    <div class="userInfo clearfix">
+                        <div id="userT" class="pull-left">
+                            <p id="userName_pc"></p>
+                        </div>
+
+                    </div>
+                    <p id="createInfo" class="timeInfo pull-left"></p>
+                    <p id="updateInfo" class="timeInfo pull-right"></p>
+                </div>
+                <br/>
+                <div id="info2">
+                    <div class="info-title-more clearfix hidden-xs">
+                        <p class="pull-left info-title-more-curr">客户资料</p>
+                        <p id='client_bar_1' class="pull-left">资产信息</p>
+                        <p id='client_bar_2' class="pull-left">交易信息</p>
+                        <p id='client_bar_3' class="pull-left">意向记录</p>
+                        <p class="pull-left">接触历史<div id="count-div" class="pull-left"><img id="contact_bg" src="../static/img/crm_intention/tixing.png"><span id="contact_tip">10</span></div></p>
+                    </div>
+
+                    <div id="status-mb" class="visible-xs-block">
+                        <div id="status-mb-info" class="clearfix">
+                            <p id="filter-mb-btn1" class="status-mb-type status-mb-type-navCurr pull-left"><span>资料</span></p>
+                            <p id="filter-mb-btn2" class="status-mb-type pull-left"><span>资产</span></p>
+                            <p id="filter-mb-btn3" class="status-mb-type pull-left"><span>交易</span></p>
+{#                            <p id='client_bar_3' class="pull-left">意向记录</p>#}
+                            <p id="filter-mb-btn4" class="status-mb-type pull-left"><span>接触</span></p>
+                        </div>
+                    </div>
+
+                    <div id="info2_content1">
+                        <div id="content1_record">
+                            <ul id="info3-lists" class="siteText cl-777">
+                                <li class="clearfix short list-bg2">
+                                    <p id='customer_mobile' class="pull-left"></p>
+                                    <p id='customer_email' class="pull-left"></p>
+                                    <p id='customer_wx' class="pull-left"></p>
+                                </li>
+
+                                <li class="clearfix short list-bg1">
+                                    <p id='client_type' class="pull-left"></p>
+                                    <p id='card_type' class="pull-left"></p>
+                                    <p id='card_no' class="pull-left"></p>
+                                </li>
+
+                                <li class="clearfix short list-bg2">
+                                    <p id='client_education' class="pull-left"></p>
+                                    <p id='client_occupation' class="pull-left"></p>
+                                    <p id='client_employer' class="pull-left"></p>
+                                </li>
+
+                                <li class="clearfix short list-bg1">
+                                    <p id='website_name' class="pull-left"></p>
+                                    <p id='contact_name' class="pull-left"></p>
+                                    <p id='contact_mobile' class="pull-left"></p>
+                                </li>
+
+                                <li id="businessscope" class="clearfix list-bg2">
+                                    <p class="pull-left">经营范围</p>
+                                    <span id="customer_businessscope" class="pull-left cl-333"></span>
+                                </li>
+                                <li class="clearfix list-bg2">
+                                    <p class="pull-left">联系地址</p>
+                                    <span id="customer_address" class="pull-left cl-333"></span>
+                                </li>
+                                <li class="clearfix list-bg2">
+                                    <p class="pull-left">TAID</p>
+                                    <span id="ta_id" class="pull-left cl-333"></span>
+                                </li>
+
+                            </ul>
+                            <ul id="info3-lists" class="siteText cl-777">
+                                <li class="clearfix list-bg1">
+                                    <p class="pull-left">感兴趣的基金经理</p>
+                                    <span id='customer_managers' class="pull-left cl-333"></span>
+                                </li>
+                                <li class="clearfix list-bg1">
+                                    <p class="pull-left">感兴趣的内容</p>
+                                    <span id='customer_interest' class="pull-left cl-333"></span>
+                                </li>
+                                <li class="clearfix list-bg2">
+                                    <p class="pull-left">客户渠道</p>
+                                    <span id='customer_channel' class="pull-left cl-333"></span>
+                                </li>
+                                <li class="clearfix list-bg1">
+                                    <p class="pull-left">经办人</p>
+                                    <span id='customer_manager' class="pull-left cl-333"></span>
+                                </li>
+                                <li class="clearfix list-bg2">
+                                    <p class="pull-left">客户来源</p>
+                                    <span id='customer_src' class="pull-left cl-333"></span>
+                                </li>
+                            </ul>
+                            </ul>
+                            <div id="info-title" class="info-title-top clearfix">
+                                <p class="pull-left">相关资料</p>
+                            </div>
+                            <div class="info-div shenfen">
+                                <p class="pull-left">证件认证材料</p>
+                                <div id="client_card" class='card_div'>
+                                    <div class="pull-left">
+                                        <img id="card_img1" src="../static/img/crm_intention/empty0.png" class="card_img">
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="card_img2" src="../static/img/crm_intention/empty0.png" class="card_img">
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="card_img3" src="../static/img/crm_intention/empty0.png" class="card_img">
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="card_img4" src="../static/img/crm_intention/empty0.png" class="card_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-div wenjuan">
+                                <p class="pull-left">风险测试结果：</p>
+                                <p id='client_risk' class="brown result pull-left">C2 54分&nbsp;&nbsp;</p>
+                                <p id='client_risk_time_title' class="pull-left">问卷填写时间：</p>
+                                <p id='client_risk_time' class="brown result pull-left"></p>
+{#                                <p class="pull-left">风险揭示书确认：</p>#}
+{#                                <p id='client_risk' class="brown result pull-left">20170707 10:05:05&nbsp;&nbsp;</p>#}
+                                <a id="check_wenjuan" class="brown pull-right">查看测试问卷详情</a>
+                            </div>
+                            <div class="info-div asset1">
+                                <p class="pull-left">资产证明材料</p>
+                                <div id="client_asset" class='card_div'>
+                                    <div class="pull-left">
+                                        <img id="asset_img1" src="../static/img/crm_intention/empty0.png" class="card_img">
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="asset_img2" src="../static/img/crm_intention/empty0.png" class="card_img">
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="asset_img3" src="../static/img/crm_intention/empty0.png" class="card_img">
+                                    </div>
+                                    <div class="pull-left">
+                                        <img id="asset_img4" src="../static/img/crm_intention/empty0.png" class="card_img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="info2_content2">
+
+                        <div id="select-time" class="input-group">
+                            <span class="input-group-addon"><img src="../static/img/account/icons_date.png" alt="">查询日期：</span>
+                            <input id="txtEndDate" class="form-control" placeholder="选择日期查看"/>
+                        </div>
+
+                        <div id="zongzichan" class="clearfix">
+                            <p id="assets_p" class="pull-left">总资产（元）：<span id="assets"></span></p>
+                            <p id="totalreturn_money_p" class="pull-left">累计收益（元）：<span id="totalreturn_money"></span></p>
+                            <p id="totalreturn_rate_p" class="pull-left">累计收益率：<span id="totalreturn_rate"></span></p>
+                        </div>
+                        <div id="info-title-funds" class="clearfix">
+                            <p class="pull-left">资产明细</p>
+                        </div>
+                        <div id="noRecord_2" class="noRecord">
+                            <img id="noRecord_nothing_2" class="noRecord_nothing"  src="../static/img/global/nothing.png">
+                            <p id="noRecord_title_2" class="noRecord_title">当前日期客户未持有或已赎回产品</p>
+                        </div>
+                        <div id="record">
+                            <ul id="listBox1" class="list-unstyled">
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="info2_content3">
+                        <div id="trade">
+                            <ul id="listBox2" class="list-unstyled">
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="info2_content4" class="hidden-xs">
+                        <div id="noRecord_4" class="noRecord">
+                            <img id="noRecord_nothing_4" class="noRecord_nothing" src="../static/img/global/nothing.png">
+                            <p id="noRecord_title_4" class="noRecord_title">尚无意向记录，如有需要点击右上方“新建意向”按钮</p>
+                        </div>
+                        <ul id="listBox3" class="list-unstyled">
+                        </ul>
+                    </div>
+
+                    <div id="info2_content5">
+                        <div id="noRecord_5" class="noRecord">
+                            <img id="noRecord_nothing_5" class="noRecord_nothing" src="../static/img/global/nothing.png">
+                            <p id="noRecord_title_5" class="noRecord_title">尚无接触记录，如有需要点击右上方“新建接触”按钮</p>
+                        </div>
+                        <div id="record">
+                            <ul id="listBox4" class="list-unstyled">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>

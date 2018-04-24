@@ -1,0 +1,96 @@
+#main .content{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#fxts{
+	margin-top: 27px;
+}
+#wenjuanTitle{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 25px;
+}
+#guanyu{
+	margin-bottom: 35px;
+}
+.wenjuanTxt{
+	margin-bottom: 15px;
+}
+.userInfoCon{
+	
+}
+.userInfo{
+	width: 300px;
+	font-size: 13px;
+	color: #333;
+	margin-bottom: 15px;
+}
+.userInfo em{
+	font-weight: bold;
+	font-style: normal;
+}
+#userCar{
+	margin-right: 50px;
+}
+#userDegree{
+	height: 40px;
+	margin-right: 50px;
+}
+#userVocation{
+	height: 40px;
+}
+.test{
+	font-size: 13px;
+	color: #666;
+}
+.test p{
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 15px;
+	padding-top: 15px;
+}
+.test li{
+	margin-bottom: 15px;
+}
+.test input{
+	margin-right: 10px;
+}
+.radios{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+#queren{
+	margin: 0 auto;
+	display: block;
+	width: 180px;
+	color: #fff;
+	background-color: #c29658;
+	margin-bottom: 56px;
+	margin-top: 60px;
+}
+
+
+select.input-lg{
+	height: 40px;
+	line-height: 40px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	#main .content{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 30px;
+		padding-top: 20px;
+	}
+	.userInfo{
+		width: 100%;
+	}
+	#userDegree{
+		margin-right: 0px;
+	}
+}

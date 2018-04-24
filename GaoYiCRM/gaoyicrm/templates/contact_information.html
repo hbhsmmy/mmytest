@@ -1,0 +1,194 @@
+{% extends "base_cn.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅资产 - 联系方式</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/contact.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/contact_information.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/contact_information.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">首页</a></li>
+    <li class="font16"><a href="../company" class="cl-fff">公司介绍</a></li>
+    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>
+    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>
+    <li class="font16 header-nav-curr"><a href="../contact_information" class="cl-fff">联系我们</a></li>
+{% endblock%}
+{% block body %}
+	<!-- 当前网页 - 内容 -->
+	<div id="main">
+		
+		<div class="banner">
+			<div class="content">
+			       {#<img id="banner-yt" src="../static/img/contact/yt1.png" alt="">#}
+				<img id="banner-zt" src="../static/img/contact/zt1.png" alt="">
+			</div>
+		</div>
+
+		<!-- 移动端内容区 顶部导航（此导航为PC端内容区左侧导航响应式后状态） -->
+		<div class="con-mb-top-navs visible-xs-block">
+			<div class="mb-top-navs swiper-container">
+		        <div class="mb-top-navs-info swiper-wrapper">
+		            <a href="../contact_information" class="swiper-slide mb-top-navs-nav mb-top-navs-navCurr">联系方式</a>
+		            <a href="../contact_recruitment" class="swiper-slide mb-top-navs-nav">招贤纳士</a>
+		        </div>
+		    </div>
+		</div>
+
+		
+
+		<div id="contact-content" class="content clearfix">
+
+			<!-- 面包屑 -->
+			<div class="breadcrumb border-b cl-bbb hidden-xs">
+				<a class="cl-555" href="../">首页</a> <em class="glyphicon glyphicon-menu-right"></em> <a class="cl-555" href="../contact_information">联系我们</a> <em class="glyphicon glyphicon-menu-right"></em> <span class="cl-c29658">联系方式</span>
+			</div>
+			
+			<!-- PC端内容区 左侧导航 -->
+			<div class="con-left-navs pull-left hidden-xs">
+				<a class="con-left-nav navCurr" href="../contact_information"><p>联系方式</p></a>
+				<a class="con-left-nav nav-end" href="../contact_recruitment"><p>招贤纳士</p></a>
+			</div>
+
+	
+			<!-- 页面内容信息 -->
+			<div class="siteConRight pull-right clearfix">
+				
+				<!-- 联系我们 -->
+				<div id="information" class="pull-right">
+
+					<!-- 当前页面title -->
+					<div class="site-con-title clearfix visible-xs-block">
+						<p class="pull-left">联系我们</p>
+					</div>
+
+					<p class="fl-333 font15 mb30 hidden-xs">联系我们</p>
+					<p id="information-email" class="siteText cl-333 mb15">联系邮箱： irgroup@gyasset.com</p>
+					<p id="information-telephone" class="siteText cl-333 mb15">联系电话： 0755 8869 3999</p>
+                    <p id="information-time" class="siteText cl-333 mb15">工作时间： 8:15 - 18:45 （周一至周五）</p>
+				</div>
+				
+				<div id="message" class="pull-left">
+
+					<!-- 当前页面title -->
+					<div class="site-con-title clearfix visible-xs-block">
+						<p class="pull-left">给我们留言</p>
+					</div>
+
+					<p class="fl-333 font15 mb30 hidden-xs">给我们留言</p>
+
+					<form class="bs-example bs-example-form" data-example-id="simple-input-groups">
+						<div id="user-name" class="input-group">
+							<span class="input-group-addon">*姓名：</span>
+							<input type="text" class="form-control" placeholder="您的真实姓名">
+						</div>
+						<div id="user-phone" class="input-group">
+							<span class="input-group-addon">*手机号码：</span>
+							<input type="text" class="form-control" onkeyup="this.value=this.value.replace(/\D/g,'')" maxlength="11" onafterpaste="this.value=this.value.replace(/\D/g,'')" placeholder="11位手机号码">
+						</div>
+						<div id="user-email" class="input-group">
+							<span class="input-group-addon">Email：</span>
+							<input type="text" class="form-control" placeholder="常用邮件地址">
+						</div>
+{#						<!-- 2015.12.07 - 添加 -->#}
+{#						<div id="user-type" class="radio clearfix">#}
+{#						   <label class="pull-left pl50">#}
+{#						      <input type="radio" name="transactionType" id="user-type1" value="购买" checked>购买#}
+{#						   </label>#}
+{#						   <label class="pull-left">#}
+{#						      <input type="radio" name="transactionType" id="user-type2" value="赎回">赎回#}
+{#						   </label>#}
+{#						   <label class="pull-left">#}
+{#						      <input type="radio" name="transactionType" id="user-type2" value="其他">其他#}
+{#						   </label>#}
+{#						</div>#}
+{#						<!-- 2015.12.07 - 添加 end -->#}
+						<div id="user-message" class="form-group">
+							<label for="name">*留言：</label>
+							<textarea class="form-control" rows="3"></textarea>
+						</div>
+						<!-- 2015.12.07 - 添加 -->
+					   	<p class=" mb10">您希望客户经理回复电话的时间：</p>
+					   	<div class="clearfix">
+						   	<div id="user-date" class="input-group pull-left">
+								<span class="input-group-addon">日期：</span>
+								<select class="form-control input-lg">
+									<option>工作日（周一至周五）</option>
+									<option>周一</option>
+									<option>周二</option>
+									<option>周三</option>
+									<option>周四</option>
+									<option>周五</option>
+								</select>
+							</div>
+						   	<div id="user-time" class="input-group pull-right">
+								<span class="input-group-addon">时间：</span>
+								<select class="form-control input-lg">
+									<option>全天（8:15 - 18:45）</option>
+									<option>8：15 - 10：00</option>
+									<option>10：00 - 12：00</option>
+									<option>12：00 - 14：00</option>
+									<option>14：00 - 16：00</option>
+									<option>16：00 - 18：45</option>
+								</select>
+							</div>
+					   	</div>
+						<!-- 2015.12.07 - 添加 end -->
+						<label id="agree">
+					    	<input type="checkbox" checked> 我愿意接受高毅最新的产品和活动的最新通知</a>
+					   	</label>
+					   	<div id="message-btns" class="clearfix">
+							<button id="submitBtn" type="button" class="btn-style1 btn pull-left">提交<img id="confirmBtn_icon" src="../static/img/global/jt1.png"></button>
+							<button id="reBtn" type="button" class="btn-style2 btn pull-right">重填</button>
+					   	</div>
+					</form>
+				</div>
+
+				<div class="clear"></div>
+				<!-- 面包屑 -->
+				<div class="breadcrumb border-t cl-bbb mb35 visible-xs-block pull-left">
+					<a class="cl-555" href="../">首页</a> <em class="glyphicon glyphicon-menu-right"></em> <a class="cl-555" href="../contact_information">联系我们</a> <em class="glyphicon glyphicon-menu-right"></em> <span class="cl-c29658">联系方式</span>
+				</div>
+
+			</div>
+			
+		</div>	
+	</div>
+
+{% endblock %}
+</body>
+</html>

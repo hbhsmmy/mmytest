@@ -1,0 +1,177 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 在线预约</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/account.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/account_bespeak2.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header.js"></script>
+        <!-- 引入页面底部js -->
+        <script src="../static/js/footer.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/account_bespeak2.js"></script>
+    {% endblock %}
+
+</head>
+<body>
+
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">首页</a></li>
+    <li class="font16"><a href="../company" class="cl-fff">公司介绍</a></li>
+    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>
+    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">联系我们</a></li>
+{% endblock%}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+        <div id="bespeak-content" class="content clearfix">
+            <div id="info-left" class="pull-left">
+                <div id="info-title" class="clearfix visible-xs-block">
+                    <p class="pull-left">在线预约</p>
+                </div>
+                <p id="bespeak-content-titie" class="hidden-xs">为了保证您预约成功，请正确填写以下信息</p>
+                <p id="bespeak-content-fundname" class="yycp">预约产品：<span></span></p>
+                <form class="bs-example bs-example-form" data-example-id="simple-input-groups">
+                    <div class="clearfix">
+                        <span class="pull-left lh40">回复电话：</span>
+                        <label class="pull-left lh40 label_phone1">
+                            <div id="user-phone1" class="pull-left">
+                                <input type="radio" name="transactionType1" id="user-type1" value="预留手机号" checked>
+                                <span>预留手机号：</span>
+                                <em></em>
+                            </div>
+                        </label>
+                        <label class="pull-right label_phone">
+                            <input class="pull-left" type="radio" name="transactionType1" id="user-type1" value="其他电话">
+                            <span class="pull-left lh40">其他电话：</span>
+                            <div id="user-phone" class="input-group">
+                                <input type="text" class="form-control" onkeyup="this.value=this.value.replace(/\D/g,'')" maxlength="11" onafterpaste="this.value=this.value.replace(/\D/g,'')" placeholder="输入您的电话">
+                            </div>
+                        </label>
+                    </div>
+
+
+                    <!-- 2015.12.07 - 修改 -->
+                    <div class="clearfix">
+
+                        <p class="pull-left lh40">业务类型：</p>
+
+                        <div id="user-type" class="radio pull-left clearfix">
+                            <label class="pull-left pl50">
+                                <input type="radio" name="transactionType" id="user-type1" value="购买" checked>购买
+                            </label>
+                            <label class="pull-left">
+                                <input type="radio" name="transactionType" id="user-type2" value="赎回">赎回
+                            </label>
+                            <!-- 2015.12.07 - 添加 -->
+                            <label class="pull-left">
+                                <input type="radio" name="transactionType" id="user-type2" value="其他">其他
+                            </label>
+                            <!-- 2015.12.07 - 添加 end -->
+                        </div>
+
+                    </div>
+                    <!-- 2015.12.07 - 修改 - end -->
+
+
+                    <div id="user-message" class="form-group" >
+                        <label for="name">留言：</label>
+                        <textarea class="form-control" rows="3" onkeyup="checkLength(this)"></textarea>
+                    </div>
+
+{#                                        <label id="agree" class="clearfix" style="width:100%;">#}
+{#                                            <input class="pull-left" type="checkbox" checked>#}
+{#                                            <span class="pull-left">我愿意接受高毅最新的产品和活动的最新通知</span>#}
+{#                                            <span id="leftnum" class="pull-right">还可输入140字</span>#}
+{#                                        </label>#}
+
+                    <label id="agree" class="clearfix pull-left ">
+                        <input type="checkbox" checked> 我愿意接受高毅最新的产品和活动的最新通知</input>
+                    </label>
+                    <label  class="clearfix pull-right " >
+                        <span id="leftnum" class="pull-right">还可输入140字</span>
+                    </label>
+                    <br/><br/><br/>
+                    <!-- 2015.12.07 - 添加 -->
+                    <p class="mb10 ">您希望客户经理回复电话的时间：</p>
+                    <div class="clearfix ">
+                        <div id="user-date" class="input-group pull-left">
+                            <span class="input-group-addon">提醒日期：</span>
+                            <select class="form-control input-lg">
+                                <option>工作日（周一至周五）</option>
+                                <option>周一</option>
+                                <option>周二</option>
+                                <option>周三</option>
+                                <option>周四</option>
+                                <option>周五</option>
+                            </select>
+                        </div>
+                        <div id="user-time" class="input-group pull-right">
+                            <span class="input-group-addon">提醒时间：</span>
+                            <select class="form-control input-lg">
+                                <option>全天（8:15 - 18:45）</option>
+                                <option>8：15 - 10：00</option>
+                                <option>10：00 - 12：00</option>
+                                <option>12：00 - 14：00</option>
+                                <option>14：00 - 16：00</option>
+                                <option>16：00 - 18：45</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- 2015.12.07 - 添加 end -->
+
+                    <div id="btns" class="clearfix">
+                        <button id="confirmBtn" type="button" class="btn pull-left">提交<img id="confirmBtn_icon" src="../static/img/global/jt1.png"></button>
+                        <button id="reBtn" type="button" class="btn pull-left">重填</button>
+                    </div>
+                </form>
+            </div>
+            <div id="info-right" class="pull-left">
+                <p id="reminder-titie">温馨提示</p>
+                <div id="reminder-txt">
+                    <p id="reminder-txt-p1" class="reminder-txt"><em>1</em>预约成功后，客服人员将在1个工作日内与您联系；
+                    <p id="reminder-txt-p2" class="reminder-txt"><em>2</em>高毅向您保证：网上填写的所有资料只为预约提供方便，不作其它用途（预约无任何其它费用）；</p>
+                    <p id="reminder-txt-p3">若您不希望等待，建议您直接拨打客服电话：</p>
+                    <p id="reminder-txt-p4">0755-8869 3999</p>
+                    <p>(周一至周五: 8:15 - 18:45)</p>
+                </div>
+            </div>
+        </div>
+        <p id="bottom-msgBar" class="visible-xs-block"><a id="bottom-msgBar_t1" href="index.html">首页</a><em class="glyphicon glyphicon-menu-right"></em><span>在线预约</span></p>
+    </div>
+{% endblock %}
+
+</body>
+</html>

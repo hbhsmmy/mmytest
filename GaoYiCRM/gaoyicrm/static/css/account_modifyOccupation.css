@@ -1,0 +1,180 @@
+
+p{
+	margin: 0;
+}
+/* 2015-11-20 修改 */
+.banner{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url("../img/account/banner3.jpg") center no-repeat;
+}
+#banner-yt{
+	position: absolute;
+	right: 50px;
+	top: 190px;
+	width: 271px;
+}
+#banner-zt{
+	position: absolute;
+	right: 50px;
+	top: 155px;
+	width: 200px;
+}
+/* 2015-11-20 修改 - end */
+
+
+#account-content{
+	margin-top: 130px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+/*-------------------内容块----------------------*/
+
+#account-info{
+	width: 70%;
+}
+.info-title{
+	font-size: 16px;
+	color: #c29658;
+	font-weight: bold;
+	border-bottom: solid 1px #ccc;
+}
+.info-title p{
+	margin-bottom: 0;
+	margin-bottom: -1px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #dfb579;
+}
+
+#inputs{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 76px;
+}
+#btnCon{
+	text-align: center;
+}
+#enterBtn{
+	width: 180px;
+	color: #fff;
+	margin-top: 30px;
+	background: #dfb578 url("../img/global/jiantou1.png") right center no-repeat;
+}
+
+/*-------------------内容块end----------------------*/
+
+
+#bottom-msgBar{
+	margin-top: 40px;
+	font-size: 13px;
+    line-height: 12px;
+    margin-bottom: 45px;
+    border-top: 1px solid #dddddd;
+    padding-top: 20px;
+}
+#bottom-msgBar a{
+	color: #666;
+}
+#bottom-msgBar em{
+	margin-right: 15px;
+	color: #bbbbbb;
+}
+#bottom-msgBar_t1{
+	margin-right: 16px;
+}
+#bottom-msgBar_t2{
+	margin-right: 17px;
+}
+#bottom-msgBar span{
+	color: #c29658;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+	/* 2015-11-20 修改 */
+	#main{
+		padding-top: 60px;
+	}
+	.banner{
+		width: 100%;
+		height: 100px;
+		background: url("../img/account/banner3.jpg") center no-repeat;
+		background-size: 100% 100%;
+	}
+	#banner-yt{
+		top: 60px;
+		right: 20px;
+		width: 204px;
+	}
+	#banner-zt{
+		top: 40px;
+		right: 20px;
+		width: 84px;
+	}
+	/* 2015-11-20 修改 - end */
+	#account-content{
+		margin-top: 0;
+		margin-bottom: 0;
+		/*padding-left: 20px;
+		padding-right: 20px;*/
+	}
+	#account-info{
+		width: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 30px;
+		margin-bottom: 76px;
+	}
+	#inputs{
+		width: 100%;
+		margin-top: 30px;
+	}
+	#enterBtn{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

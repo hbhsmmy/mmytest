@@ -1,0 +1,82 @@
+#main{
+	padding-top: 115px;
+	padding-bottom: 65px;
+}
+#bangdingContent{
+	/*height: 200px;*/
+}
+#retrieve-title{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 55px;
+	padding-top: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-bottom: solid 1px #ccc;
+	color: #666;
+}
+#accountAll{
+	margin:0;
+	padding:0;
+	list-style: none;
+	margin-top: 47px;
+}
+#accountAll li{
+	position: relative;
+	width: 440px;
+	height: 84px;
+	padding-top: 23px;
+	padding-left: 55px;
+	margin-bottom: 30px;
+	background: #f5f5f5;
+}
+#accountAll li input{
+	position: absolute;
+	width: 94%;
+	/*height: 100%;*/
+	margin-top: 0px;
+	margin-left: 6%;
+	left: 0px;
+	top: 34px;
+	cursor: pointer;
+}
+#btnCon{
+	text-align: center;
+}
+#enterBtn{
+	width: 180px;
+	color: #fff;
+	margin-top: 30px;
+	background: #dfb578 url("../img/global/jiantou1.png") right center no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+	#main{
+		padding-top: 60px;
+		padding-bottom: 65px;
+	}
+	.content{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#accountAll li{
+		width: 100%;
+		padding-left: 14%;
+	}
+	#accountAll{
+		margin-top: 30px;
+	}
+	#enterBtn{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+

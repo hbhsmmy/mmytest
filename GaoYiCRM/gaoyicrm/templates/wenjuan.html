@@ -1,0 +1,230 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 风险属性评估问卷</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- 全局css -->
+        <!-- <link href="css/global.css" rel="stylesheet"> -->
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/wenjuan.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        {#        <script src="../static/js/header.js"></script>#}
+        <!-- 引入页面底部js -->
+        <script src="../static/js/footer.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/wenjuan.js"></script>
+    {% endblock %}
+</head>
+<body>
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+        {#    <div id="header-room"></div>#}
+        <div class="content">
+            <p id="fxts" class="font13 cl-666">风险提示：私募基金投资需承担各类风险，本金可能遭受损失。同时，私募基金投资还要考虑市场风险、信用风险、流动性风险、操作风险等各类投资风险。您在基金认购过程中应当注意核对自己的风险识别和风险承受能力，选择与自己风险识别能力和风险承受能力相匹配的私募基金。</p>
+            <h4 id="wenjuanTitle">风险属性评估问卷</h4>
+            <p class="font13 cl-666 wenjuanTxt">本问卷旨在协助您了解自己对投资风险的承受度和投资目标，问卷信息将帮助我们提供适合您的投资产品供您参考。</p>
+            <p class="font13 cl-666 wenjuanTxt">以下一系列问题可在您选择合适的私募基金前，协助评估您的风险承受能力、理财方式及投资目标：</p>
+            <div id="userName1" class="userInfo">
+                <span>客户姓名：</span>
+                <em></em>
+            </div>
+
+            {#        <div id="userName" class="userInfo">#}
+            {#            <span>用户名：</span>#}
+            {#            <em></em>#}
+            {#        </div>#}
+            {#        <div id="userPhone" class="userInfo">#}
+            {#            <span>联系方式：</span>#}
+            {#            <em></em>#}
+            {#        </div>#}
+            <div id="subWenJuanInfo" class="wenjuanInfo">
+                <div class="test">
+                    <p>一、您是否为自己购买私募基金产品：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test14" value="88">a. 是</li>
+                        <li><input type="radio" name="test14" value="99">b. 不是</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>二、您符合以下何种合格投资者财务条件：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test15" value="88">a. 符合金融资产不低于300万元（金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货权益等）；</li>
+                        <li><input type="radio" name="test15" value="99">b. 符合最近三年个人年均收入不低于50万元。</li>
+                    </ul>
+                </div>
+            </div>
+
+            {#        <div class="userInfoCon clearfix">#}
+            {#            <div id="userCar" class="userInfo pull-left">#}
+            {#                <span>证件类型：</span>#}
+            {#                <em></em>#}
+            {#            </div>#}
+            {#            <div id="userCarCode" class="userInfo pull-left">#}
+            {#                <span>证件号码：</span>#}
+            {#                <em></em>#}
+            {#            </div>#}
+            {#        </div>#}
+            {#        <div class="userInfoCon clearfix">#}
+            {#            <div id="userDegree" class="input-group pull-left userInfo">#}
+            {#                <span class="input-group-addon">学历：</span>#}
+            {#                <select class="form-control input-lg">#}
+            {#                    <option value="0">小学</option>#}
+            {#                    <option value="1">初中</option>#}
+            {#                    <option value="2">高中</option>#}
+            {#                    <option value="3">大专</option>#}
+            {#                    <option value="4">本科</option>#}
+            {#                    <option value="5">研究生（硕士）</option>#}
+            {#                    <option value="6">研究生（博士）</option>#}
+            {#                </select>#}
+            {#            </div>#}
+            {#            <div id="userVocation" class="input-group pull-left userInfo">#}
+            {#                <span class="input-group-addon">职业：</span>#}
+            {#                <input type="text" class="form-control" placeholder="请填写您的职业" value="">#}
+            {#            </div>#}
+            {#        </div>#}
+            <div id="wenjuanInfo" class="clearfix">
+                <div class="test">
+                    <p>1、您的主要收入来源是：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test1" value="1">a.无固定收入（1分）</li>
+                        <li><input type="radio" name="test1" value="2">b.工资、劳务报酬（2分）</li>
+                        <li><input type="radio" name="test1" value="3">c.生产经营所得（3分）</li>
+                        <li><input type="radio" name="test1" value="3">d.出租、出售房地产等非金融性资产收入（3分）</li>
+                        <li><input type="radio" name="test1" value="4">e.利息、股息、转让等金融性资产收入（4分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>2、您的家庭可支配年收入为（折合人民币）：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test2" value="1">a.50万元以下（1分）</li>
+                        <li><input type="radio" name="test2" value="2">b.50—100万元（2分）</li>
+                        <li><input type="radio" name="test2" value="3">c.100—500万元（3分）</li>
+                        <li><input type="radio" name="test2" value="4">d.500—1000万元（4分）</li>
+                        <li><input type="radio" name="test2" value="5">e.1000万元以上（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>3、在您每年的家庭可支配收入中，可用于金融投资（储蓄存款除外）的比例为：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test3" value="1">a.小于10%（1分）</li>
+                        <li><input type="radio" name="test3" value="2">b.10%至25%（2分）</li>
+                        <li><input type="radio" name="test3" value="4">c.25%至50%（4分）</li>
+                        <li><input type="radio" name="test3" value="5">d.大于50%（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>4、您是否有尚未清偿的数额较大的债务，如有，其性质是：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test4" value="1">a.有，亲戚朋友借款（1分）</li>
+                        <li><input type="radio" name="test4" value="2">b.有，信用卡欠款、消费信贷等短期信用债务（2分）</li>
+                        <li><input type="radio" name="test4" value="3">c.有，住房抵押贷款等长期定额债务（3分）</li>
+                        <li><input type="radio" name="test4" value="5">d.没有（4分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>5、您的投资知识可描述为：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test5" value="1">a.有限：基本没有金融产品方面的知识（1分）</li>
+                        <li><input type="radio" name="test5" value="2">b.一般：对金融产品及其相关风险具有基本的知识和理解（2分）</li>
+                        <li><input type="radio" name="test5" value="4">c.丰富：对金融产品及其相关风险具有丰富的知识和理解（4分）</li>
+                    </ul>
+                </div>
+
+                <div class="test">
+                    <p>6、您的投资经验可描述为：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test6" value="1">a.除银行储蓄外，基本没有其他投资经验（1分）</li>
+                        <li><input type="radio" name="test6" value="2">b.购买过债券、保险等理财产品（2分）</li>
+                        <li><input type="radio" name="test6" value="3">c.参与过股票、基金等产品的交易（3分）</li>
+                        <li><input type="radio" name="test6" value="5">d.参与过权证、期货、期权等产品的交易（4分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>7、您有多少年投资基金、股票、信托、私募证券或金融衍生产品等风险投资品的经验：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test7" value="1">a.没有经验（1分）</li>
+                        <li><input type="radio" name="test7" value="2">b.少于2年（2分）</li>
+                        <li><input type="radio" name="test7" value="3">c.2至5年（3分）</li>
+                        <li><input type="radio" name="test7" value="4">d.5至10年（4分）</li>
+                        <li><input type="radio" name="test7" value="5">e.10年以上（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>8、您计划的投资期限是多久：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test8" value="1">a.1年以下（1分）</li>
+                        <li><input type="radio" name="test8" value="2">b.1至3年（2分）</li>
+                        <li><input type="radio" name="test8" value="3">c.3至5年（3分）</li>
+                        <li><input type="radio" name="test8" value="5">d.5年以上（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>9、您打算重点投资于哪些种类的投资品种：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test9" value="1">a.其他产品或者服务（1分）</li>
+                        <li><input type="radio" name="test9" value="2">b.债券、货币市场基金、债券基金等固定收益类投资品种（2分）</li>
+                        <li><input type="radio" name="test9" value="3">c.股票、混合型基金、股票型基金等权益类投资品种（3分）</li>
+                        <li><input type="radio" name="test9" value="4">d.期货、期权等金融衍生品（4分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>10、以下哪项描述最符合您的投资态度：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test10" value="1">a.厌恶风险，不希望本金损失，希望获得稳定回报（1分）</li>
+                        <li><input type="radio" name="test10" value="2">b.保守投资，不希望本金损失，愿意承担一定幅度的收益波动（2分）</li>
+                        <li><input type="radio" name="test10" value="3">c.寻求资金的较高收益和成长性，愿意为此承担有限本金损失（3分）</li>
+                        <li><input type="radio" name="test10" value="4">d.希望赚取高回报，愿意为此承担较大本金损失（4分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>11、假设有两种投资：投资A预期获得10%的收益，可能承担的损失非常小；投资B预期获得30%的收益，但可能承担较大亏损。您会怎么支配您的投资：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test11" value="1">a.全部投资于收益较小且风险较小的A（1分）</li>
+                        <li><input type="radio" name="test11" value="2">b.同时投资于A和B，但大部分资金投资于收益较小且风险较小的A（2分）</li>
+                        <li><input type="radio" name="test11" value="3">c.同时投资于A和B，但大部分资金投资于收益较大且风险较大的B（3分）</li>
+                        <li><input type="radio" name="test11" value="4">d.全部投资于收益较大且风险较大的B（4分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>12、您认为自己能承受的最大投资损失是多少：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test12" value="1">a.10%以内（1分）</li>
+                        <li><input type="radio" name="test12" value="2">b.10%-30%（2分）</li>
+                        <li><input type="radio" name="test12" value="3">c.30%-50%（3分）</li>
+                        <li><input type="radio" name="test12" value="4">d.超过50%（4分）</li>
+                    </ul>
+                </div>
+            </div>
+            <button id="queren" type="button" class="btn">提交</button>
+        </div>
+    </div>
+{% endblock %}
+
+</body>
+</html>

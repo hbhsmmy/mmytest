@@ -1,0 +1,175 @@
+
+#main{
+	padding-top: 115px;
+}
+#userInfo{
+	padding-top: 56px;
+	padding-bottom: 51px;
+	height: 152px;
+	border-bottom: solid 1px #e5e5e5;
+}
+#userPic{
+	width: 45px;
+	margin-right: 20px;
+	float: left;
+}
+#user_t{
+	float: left;
+}
+#userName{
+	font-size: 18px;
+	color: #333333;
+}
+#tongguo{
+	font-size: 13px;
+	color: #666666;
+	margin-top: 3px;
+}
+#loginCon{
+	position: relative;
+	width: 100%;
+	padding-top: 45px;
+	padding-bottom: 78px;
+}
+#loginConLeft{
+	height: 225px;
+	border-right: solid 1px #e5e5e5;
+	width: 46%;
+}
+#loginConRight{
+	height: 225px;
+	width: 53%;
+	padding-left: 77px;
+}
+#zhuce{
+	margin-left: 114px;
+	margin-top: 29px;
+	width: 164px;
+	color: #fff;
+	background: #dfb578 url("../img/global/jiantou1.png") right center no-repeat;
+}
+#loginBtn{
+	margin-left: 180px;
+	width: 165px;
+	color: #fff;
+	background: #dfb578 url("../img/global/jiantou1.png") right center no-repeat;
+}
+#zhuce_t{
+	margin-left: 56px;
+	margin-right: 95px;
+	margin-top: 35px;
+	font-style: 13px;
+	color: #666;
+}
+#shuru{
+	margin-top: 19px;
+	margin-left: 56px;
+}
+.tip{
+	width: 28px;
+	height: 18px;
+	background: #dfb578;
+	display: inline-block;
+	margin-right: 25px;
+	color: #fff;
+	text-align: center;
+	padding-right: 3px;
+	border-radius: 4px 9px 9px 4px;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+.tip_title{
+	font-size: 18px;
+	color: #333;
+}
+.tip_t{
+	font-size: 13px;
+	color: #666;
+}
+
+@media only screen and (max-width: 768px) {
+
+	#main{
+		padding-top: 60px;
+	}
+	.content{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#loginCon{
+		padding-top: 30px;
+	}
+	#userInfo{
+		text-align: center;
+		padding-top: 39px;
+		padding-bottom: 30px;
+		height: auto;
+		border-bottom: solid 1px #e5e5e5;
+	}
+	#userPic{
+		width: 45px;
+		margin-right: 0px;
+		margin-bottom: 20px;
+		float: none;
+	}
+	#user_t{
+		float: none;
+	}
+	#loginConLeft{
+		height: auto;
+		border: none;
+		width: 100%;
+		text-align: center;
+		border-bottom: solid 1px #e5e5e5;
+	}
+	#loginConRight{
+		height: auto;
+		width: 100%;
+		padding-left: 0px;
+		text-align: center;
+		margin-top: 25px;
+	}
+	.tip_t{
+		display: block;
+		margin-top: 5px;
+	}
+	.tip{
+		margin-right: 6px;
+	}
+	#zhuce{
+		margin-left: 0px;
+		margin-top: 19px;
+		width: 65%;
+		color: #fff;
+		background: #dfb578 url("../img/global/jiantou1.png") right center no-repeat;
+	}
+	#zhuce_t{
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 20px;
+		margin-bottom: 25px;
+		font-style: 13px;
+		color: #666;
+	}
+	#shuru{
+		margin-top: 19px;
+		margin-left: 0px;
+	}	
+	#loginBtn{
+		margin-left: 0px;
+		margin-top: 25px;
+		width: 65%;
+		color: #fff;
+		background: #dfb578 url("../img/global/jiantou1.png") right center no-repeat;
+	}
+}
+
+
+
+
+
+
+
+
+

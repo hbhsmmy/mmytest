@@ -1,0 +1,571 @@
+
+p{
+	margin: 0;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 425px;
+	overflow: hidden;
+}
+#pc-banner{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#pc-banner-picCon{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#pc-banner-picCon li{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#pc-banner-picCon li img{
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+}
+#pc-banner-dianCon{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	margin: 0 auto;
+	margin-top: -30px;
+	display: table;
+}
+#pc-banner-dianCon li{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#pc-banner-dianCon li img{
+	width: 10px;
+	height: 10px;
+}
+
+
+#mb-banner{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide img{
+	width: 100%;
+}
+.swiper-pagination-bullet{
+	border: solid 1px #ccc;
+}
+.swiper-pagination-bullet-active{
+	border: solid 1px #ccc;
+    background: #fff;
+}
+
+
+
+
+
+#banner-content{
+	height: 100%;
+}
+#leftJt{
+	position: absolute;
+	width: 28px;
+	bottom: 163px;
+	left: 65px;
+	cursor: pointer;
+}
+#rightJt{
+	position: absolute;
+	width: 28px;
+	bottom: 163px;
+	right: 65px;
+	cursor: pointer;
+}
+
+#loginBox{
+	position: absolute;
+	padding-left: 25px;
+	padding-right: 25px;
+	right: 0;
+	bottom: 0;
+	width: 290px;
+	height: 345px;
+	background: url("../img/global/blank3.png");
+}
+#loginBox-tip{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#remember{
+	color: #b5b5b5;
+	font-weight: normal;
+}
+#wangji{
+	color: #b5b5b5;
+	text-decoration: underline;
+}
+#loginBtns{
+	margin-top: 20px;
+}
+#loginBtn{
+	color: #fff;
+	width: 48%;
+	cursor: pointer;
+}
+#registerBtn{
+	display: block;
+	color: #dfb578;
+	width: 48%;
+	line-height: 38px;
+	cursor: pointer;
+}
+#shejiao{
+	margin-top: 10px;
+	text-align: center;
+}
+#shejiao p{
+	color: #dcdcdc;
+}
+#shejiao p span{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#shejiao p img{
+	height: 1px;
+	width: 20%;
+}
+#shejiao_weixin{
+	display: inline-block;
+	margin-top: 10px;
+	width: 35px;
+}
+#shejiao_weixin img{
+	width: 35px;
+}
+
+#banner-yt{
+	position: absolute;
+	right: 50px;
+	top: 190px;
+	width: 271px;
+}
+#banner-zt{
+	position: absolute;
+	right: 50px;
+	top: 125px;
+	width: 200px;
+}
+
+
+
+#team{
+	margin-top: 45px;
+}
+#teamAll{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.teamBox{
+	position: relative;
+	overflow: hidden;
+}
+.teamBox1{
+	width: 49%;
+	height: 230px;
+	background: #ccc;
+}
+.teamBox2{
+	margin-left: 2%;
+	width: 23.5%;
+	height: 430px;
+	background: #4f4f4f;
+}
+.teamBox3{
+	margin-left: 2%;
+	width: 23.5%;
+	height: 430px;
+	background: #f5f5f5;
+}
+/* 2015-12-04 修改 */
+.teamBox4{
+	margin-top: 20px;
+	width: 23.5%;
+	height: 430px;
+	background: #4f4f4f;
+}
+.teamBox5{
+	margin-top: 20px;
+	margin-left: 2%;
+	width: 23.5%;
+	height: 430px;
+	background: #f5f5f5;
+}
+/* 2015-12-04 修改 end */
+
+
+/* 2015-12-04 添加 */
+.teamBox6{
+	margin-top: 20px;
+	width: 49%;
+	height: 230px;
+	background: #ccc;
+}
+/* 2015-12-04 添加 end */
+.teamBox1:hover .currPic, .teamBox2:hover .currPic, .teamBox3:hover .currPic, .teamBox4:hover .currPic, .teamBox5:hover .currPic, .teamBox6:hover .currPic{
+	display: block;
+}
+.currPic{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../img/global/blank.png");
+}
+.currPic > img{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 50%;
+	margin-left: -30px;
+	top: 50%;
+	margin-top: -30px;
+}
+.teamBox1 .currPic{
+	width: 48%;
+}
+.teamBox2 .currPic > img, .teamBox3 .currPic > img, .teamBox4 .currPic > img, .teamBox5 .currPic > img{
+	top: 20%;
+	margin-top: 0;
+}
+.teamBox1 > img{
+	height: 100%;
+
+}
+.teamBox2 > img, .teamBox3 > img, .teamBox4 > img, .teamBox5 > img{
+	width: 100%;
+}
+
+/* 2015-12-04 修改 */
+.tameText{
+	position: absolute;
+	bottom: 0;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.tameText > img{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 20px;
+	height: 20px;
+}
+/* 2015-12-04 修改 end */
+
+/* 2015-12-04 添加 */
+.teamBox6 .currPic{
+	width: 48%;
+}
+.teamBox6 > img{
+	height: 100%;
+}
+.teamBox6 .tameText{
+	right: 0;
+	top: 0;
+	width: 52%;
+	height: 100%;
+	background: #cb9d5e;
+	padding-top: 50px;
+}
+/* 2015-12-04 添加 end */
+
+
+/* 2015-12-04 修改 */
+.teamBox1 .tameText{
+	right: 0;
+	top: 0;
+	width: 52%;
+	height: 100%;
+	background: #cb9d5e;
+	padding-top: 50px;
+}
+/* 2015-12-04 修改 end */
+.teamBox3 .tameText{
+	/*height: 180px;*/
+	height: 215px;
+	width: 100%;
+	background: #c8c8c8;
+}
+.teamBox2 .tameText{
+	height: 215px;
+	width: 100%;
+	background: #4f4f4f;
+}
+.teamBox4 .tameText{
+	height: 210px;
+	width: 100%;
+	background: #4f4f4f;
+}
+.teamBox5 .tameText{
+	height: 210px;
+	width: 100%;
+	background: #c8c8c8;
+}
+
+.tameName{
+	font-size: 18px;
+}
+.tameJob{
+	font-size: 12px;
+}
+.tameTxt{
+	padding-top: 15px;
+	line-height: 21px;
+}
+.teamBox4 > img, .teamBox5 > img, .teamBox2 > img, .teamBox3 > img{
+	top: 20px;
+}
+
+
+/* 2015-12-04 删除 */
+/*.teamBox6{
+	position: relative;
+	margin-top: 20px;
+	width: 49%;
+	height: 130px;
+	background: #cb9d5e;
+	overflow: hidden;
+}
+.teamBox6 .tameIcon{
+	position: absolute;
+	width: 70px;
+	height: 42px;
+	left: 20%;
+	right: 20%;
+	margin-top: 44px;
+	margin-right: 100px;
+}
+.teamBox6 .tameText{
+	width: 50%;
+	margin-left: 50%;
+}
+.teamBox6 .tameddd{
+	position: absolute;
+	right: 20px;
+	bottom: 33px;
+	width: 21px;
+	height: 5px;
+}*/
+/* 2015-12-04 删除 end */
+
+
+
+#news{
+	background: #f4f3f0;
+	padding-top: 35px;
+}
+
+#news-media{
+	position: relative;
+	width: 48%;
+	padding-bottom: 33px;
+}
+#news-research{
+	position: relative;
+	width: 48%;
+	padding-bottom: 33px;
+}
+
+
+
+/*报道、新闻条目*/
+.news-lists{
+	padding: 0;
+	margin: 0;
+    list-style: none;
+	padding-top: 30px;
+}
+.news-lists li{
+	line-height: 50px;
+	border-color: #d9d9d9;
+}
+.news-lists li > a{
+	display: block;
+	line-height: 50px;
+}
+.news-lists li > a > p{
+	width: 75%;
+}
+.news-lists li > a > em{
+	line-height: 50px;
+	margin-left: 8px;
+}
+.news-lists li > a:hover > p, .news-lists li > a:hover > span{
+	text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	#main{
+		padding-top: 60px;
+	}
+	.banner{
+		width: 100%;
+		height: auto;
+	}
+	#team{
+		margin-top: 20px;
+	}
+	#team .site-con-title{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	/* 2015-12-04 修改 */
+	.teamBox1{
+		position: relative;
+		width: 100%;
+		height: 240px;
+		background: #ccc;
+	}
+	.teamBox2{
+		position: relative;
+		margin-top: 5px;
+		margin-left: 2;
+		width: 49%;
+		/*height: 350px;*/
+		height: 420px;
+		background: #4f4f4f;
+	}
+	.teamBox3{
+		position: relative;
+		margin-top: 5px;
+		margin-left: 0;
+		width: 49%;
+		height: 420px;
+		background: #f5f5f5;
+	}
+	.teamBox4{
+		position: relative;
+		margin-top: 5px;
+		width: 49%;
+		height: 350px;
+		background: #4f4f4f;
+	}
+	.teamBox5{
+		position: relative;
+		margin-top: 5px;
+		margin-left: 2%;
+		width: 49%;
+		height: 350px;
+		background: #f5f5f5;
+	}
+
+	.teamBox6{
+		position: relative;
+		width: 100%;
+		height: 210px;
+		background: #ccc;
+	}
+	/* 2015-12-04 修改 end */
+
+	/* 2015-12-04 添加 */
+	.teamBox6 .currPic{
+		width: 50%;
+	}
+	.teamBox6 .tameText{
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		right: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	/* 2015-12-04 添加 end */
+
+	.teamBox1 .currPic{
+		width: 50%;
+	}
+	.teamBox1 .tameText{
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		right: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 20px;
+	}
+	.teamBox2 .tameText, .teamBox3 .tameText, .teamBox4 .tameText, .teamBox5 .tameText{
+		position: absolute;
+		height: 55%;
+		width: 100%;	
+		padding-left: 10px;
+		padding-right: 6px;
+		bottom: 0;
+	}
+	.tameTxt{
+		padding-top: 5px;
+		line-height: normal;
+	}
+	#news{
+		padding-left: 20px;
+		padding-right: 20px;
+		background: none;
+	}
+	#news-media{
+		width: 100%;
+	}
+	#news-research{
+		width: 100%;
+	}
+
+
+	.teamBox1 >img {
+    margin-left: -12%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

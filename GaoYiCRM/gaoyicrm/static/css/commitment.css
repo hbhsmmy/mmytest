@@ -1,0 +1,128 @@
+
+
+
+
+#commitment-title{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 55px;
+	padding-top: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-bottom: solid 1px #ccc;
+	color: #666;
+}
+#commitment-box{
+	position: relative;
+	width: 846px;
+	height: auto;
+	margin: 50px auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: solid 2px #f1e1c9;
+	border-radius: 18px;
+	background-color: #fffdfa;
+	text-align: center;
+	padding-left: 73px;
+	padding-right: 73px;
+}
+#title{
+	font-size: 25px;
+	color: #bb8d49;
+	font-weight: bold;
+	margin-top: 59px;
+	margin-bottom: 34px;
+}
+#txtBox{
+	text-align: left;
+	font-size: 12px;
+	color: #bb8d49;
+	line-height: 25px;
+	text-indent:2em;
+	margin-bottom: 65px;
+}
+#txtBox p{
+	margin-bottom: 0;
+}
+.t-bar{
+	width: 60px;
+	margin: 0 auto;
+	border-bottom: solid 1px #f1e1c9;
+}
+#commitmentBtns{
+	width: 320px;
+	margin: 0 auto;
+	margin-top: 14px;
+	margin-bottom: 44px;
+}
+#cancelBtn{
+	width: 48%;
+	height: 40px;
+	line-height: 40px;
+	color: #dfb578;
+	border: solid 1px #dfb578;
+	background: none;
+}
+#confirmBtn{
+	width: 48%;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	background: #dfb578 url("../img/global/jiantou1.png") right center no-repeat;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.content{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#commitment-box{
+		position: relative;
+		width: 100%;
+		height: auto;
+		/*margin: 0 auto;*/
+		margin-top: 25px;
+		margin-bottom: 65px;
+		border: none;
+		border-radius: 18px;
+		background-color: #fff;
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#title{
+		font-size: 25px;
+		color: #bb8d49;
+		font-weight: bold;
+		margin-top: 0;
+		margin-bottom: 25px;
+	}
+	#txtBox{
+		text-align: left;
+		font-size: 12px;
+		color: #bb8d49;
+		line-height: 25px;
+		text-indent:2em;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	#commitmentBtns{
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 34px;
+	}
+	#commitment-title{
+		padding-top: 0;
+	}
+}
+
+
+
+
+
+
+
+
+

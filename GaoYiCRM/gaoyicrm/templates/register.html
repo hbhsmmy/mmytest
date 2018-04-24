@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅资产 - 注册</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- 全局css -->
+        <!-- <link href="css/global.css" rel="stylesheet"> -->
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/register.css" rel="stylesheet">
+
+        <!-- 引入当前页面js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/register.js"></script>
+
+    {% endblock %}
+</head>
+<body>
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+        <div class="content">
+            <div id="header-room"></div>
+
+            <h4 id="register-title">注册高毅资产</h4>
+
+            <div id="register-step" class="clearfix">
+                <div class="pull-left step-1 step-on"><p class="hidden-xs"><em>1</em><span>设置账户及密码</span></p><p class="visible-xs-block stepNum">1</p></div>
+                <div class="pull-left step-2"><p class="hidden-xs"><em>2</em><span>填写个人信息</span></p><p class="visible-xs-block stepNum">2</p></div>
+                <div class="pull-left step-4"><p class="hidden-xs"><em>3</em><span>完成注册</span></p><p class="visible-xs-block stepNum">3</p></div>
+                <span id="jindu" class="pull-right hidden-xs">已完成0%</span>
+            </div>
+
+            <p id="stepTxt" class="visible-xs-block">设置账户及密码</p>
+
+            <div id="register-box">
+
+                <!-- 步骤一 -->
+                <div id="stepBox1">
+                    {% csrf_token %}
+                    <form id="inputs" class="bs-example bs-example-form" data-example-id="simple-input-groups">
+                        <div class="inputBox clearfix">
+                            <div id="user-name" class="input-group pull-left">
+                                <span class="input-group-addon">用户名：</span>
+                                <input type="text" class="form-control" placeholder="用户名需2-20个字符">
+                            </div>
+							<span class="tip pull-left">
+								<div class="errorTip hide"><p class="hidden-xs ">用户名需2-20个字符，支持中英文，数字，下划线_，减号-</p><em class="visible-xs-block  glyphicon glyphicon-remove-circle"></em></div>
+								<div class="tipsTip hide"><p class="hidden-xs">用户名需2-20个字符，支持中英文，数字，下划线_，减号-</p></div>
+								<div class="okTip hide glyphicon glyphicon-ok-circle"></div>
+							</span>
+                        </div>
+
+                        <div class="inputBox clearfix">
+                            <div id="user-password1" class="input-group pull-left">
+                                <span class="input-group-addon">设置密码：</span>
+                                <input type="password" class="form-control" placeholder="输入您的密码">
+                            </div>
+							<span class="tip pull-left">
+								<div class="errorTip hide"><p class="hidden-xs ">您的密码过于简单</p><em class="visible-xs-block  glyphicon glyphicon-remove-circle"></em></div>
+								<div class="tipsTip hide"><p class="hidden-xs">请输入8-16位密码，密码可包括字母，数字，符号</p></div>
+								<div class="okTip hide glyphicon glyphicon-ok-circle"></div>
+							</span>
+                        </div>
+
+                        <div class="inputBox clearfix">
+                            <div id="user-password2" class="input-group pull-left">
+                                <span class="input-group-addon">确认密码：</span>
+                                <input type="password" class="form-control" placeholder="再次输入您的密码">
+                            </div>
+							<span class="tip pull-left">
+								<div class="errorTip hide"><p class="hidden-xs ">密码同上次输入的不一致，请保持一致</p><em class="visible-xs-block  glyphicon glyphicon-remove-circle"></em></div>
+								<div class="tipsTip hide"><p class="hidden-xs">重新输入您的密码</p></div>
+								<div class="okTip hide glyphicon glyphicon-ok-circle"></div>
+							</span>
+                        </div>
+
+                        <div class="inputBox clearfix">
+                            <div id="user-phone" class="input-group pull-left">
+                                <span class="input-group-addon">手机号码：</span>
+                                <input type="text" class="form-control" placeholder="真实手机号码" maxlength="11" onafterpaste="this.value=this.value.replace(/\D/g,'')">
+                            </div>
+							<span class="tip pull-left">
+								<div class="errorTip hide"><p class="hidden-xs ">您的手机号码输入有误</p><em class="visible-xs-block  glyphicon glyphicon-remove-circle"></em></div>
+								<div class="tipsTip hide"><p class="hidden-xs">请输入您真实的手机号码</p></div>
+								<div class="okTip hide glyphicon glyphicon-ok-circle"></div>
+							</span>
+                        </div>
+
+                        <div id="proving" class="clearfix">
+                            <div id="proving-input" class="input-group pull-left">
+                                <span class="input-group-addon" id="basic-addon1">验证码：</span>
+                                <input type="text" class="form-control" placeholder="输入验证码" aria-describedby="basic-addon1">
+                            </div>
+                            <button id="getCodeBtn" type="button" class="btn pull-right">获取验证码</button>
+                        </div>
+                        <label id="agree">
+                            <input type="checkbox" checked> 我已阅读并同意<a href="../commitment">《高毅注册协议》</a>
+                        </label>
+                        <div id="stepBox1Btns" class="clearfix">
+                            <button id="registerBtn" type="button" class="btn pull-left">立即注册</button>
+                            <p id="goLogin" class="pull-right">已有账号，直接<a href="../login">登录</a></p>
+                        </div>
+                    </form>
+
+
+
+                </div>
+
+                <!-- 步骤二 -->
+                <div id="stepBox2">
+                    <form id="inputs" class="bs-example bs-example-form" data-example-id="simple-input-groups">
+                        <div class="inputBox clearfix">
+                            <div id="user-realName" class="input-group pull-left">
+                                <span class="input-group-addon">真实姓名：</span>
+                                <input type="text" class="form-control" placeholder="请输入您的真实姓名">
+                            </div>
+							<span class="tip pull-left">
+								<div class="errorTip hide"><p class="hidden-xs ">您输入的姓名不合法</p><em class="visible-xs-block  glyphicon glyphicon-remove-circle"></em></div>
+								<div class="tipsTip hide"><p class="hidden-xs">请输入您的真实姓名</p></div>
+								<div class="okTip hide glyphicon glyphicon-ok-circle"></div>
+							</span>
+                        </div>
+                        <div id="user-card" class="input-group">
+                            <span class="input-group-addon">证件类型：</span>
+                            <select id="user-cardType" class="form-control input-lg" autofocus>
+                                <option value="0">身份证</option>
+                                <option value="1">机构代码</option>
+                                <option value="2">护照</option>
+                                <option value="3">军官证</option>
+                                <option value="4">其他</option>
+                            </select>
+                        </div>
+                        <div class="inputBox clearfix">
+                            <div id="user-cardCode" class="input-group pull-left">
+                                <span class="input-group-addon">证件号码：</span>
+                                <input type="text" class="form-control" placeholder="请输入您的证件号码">
+                            </div>
+							<span class="tip pull-left">
+								<div class="errorTip hide"><p class="hidden-xs">您输入的证件号码有误</p><em class="visible-xs-block  glyphicon glyphicon-remove-circle"></em></div>
+								<div class="tipsTip hide"><p class="hidden-xs">请输入您的证件号码</p></div>
+								<div class="okTip hide glyphicon glyphicon-ok-circle"></div>
+							</span>
+                        </div>
+                    </form>
+                    <div id="stepBox2Btns" class="clearfix">
+                        <button id="step2Back" type="button" class="btn pull-left">上一步</button>
+                        <button id="step2Btn" type="button" class="btn pull-right">确 定</button>
+                    </div>
+                </div>
+
+                <!-- 步骤三 -->
+                <div id="stepBox3" class="clearfix">
+                    <div id="stepBox3-left" class="pull-left">
+                        <img id="okIcon" src="../static/img/global/ok1.png" alt="">
+                        <p id="okTxt">注册成功！填写风险问卷，开启投资之旅。</p>
+                        <a id="step3Btn" class="btn" href="../questionnaire">立即前往</a>
+                    </div>
+                    <div id="stepBox3-right" class="pull-right hidden-xs">
+                        <p id="right-t2">扫描二维码关注高毅微信公众号</p>
+                        <div class="ewmBox">
+                            <img src="../static/img/global/fwh.jpg">
+                            <p>高毅服务号</p>
+                        </div>
+                        <p id="right-t1">关注高毅微信公众号，可随时随地了解账户情况，及时了解高毅资讯和最新产品情况。</p>
+                    </div>
+                </div>
+                <p id="tips">如果注册遇到问题，可联系客服   0755 - 8869 3999</p>
+            </div>
+
+        </div>
+    </div>
+{% endblock%}
+</body>
+</html>

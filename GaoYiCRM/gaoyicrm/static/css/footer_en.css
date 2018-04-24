@@ -1,0 +1,110 @@
+
+#footer{
+	position: relative;
+	background-color: #f2f2f2;
+}
+
+
+#footer-left-bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 52.34%;
+	background: #dbd9d8;
+}
+#footer-right-bg{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 47.66%;
+	background: #d1cfcd;
+}
+
+
+#footer-1{
+	font-family: Arial;
+}
+#footer-1 > .content{
+	height: 100%;
+}
+#footer-1-left{
+	height: 100%;
+	width: 100%;
+	background: #d1cfcd;
+}
+#footer-1-right{
+	height: 100%;
+	width: 47.66%;
+	background: #d1cfcd;
+}
+
+
+#footer-2{
+	position: relative;
+	background: #1d1d1d;
+	font-family: Arial;
+}
+#footer-2 p{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	line-height: 21px;
+}
+
+
+#footer-3{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+	background: #eee;
+	line-height: 20px;
+	font-family: Arial;
+}
+#footer-3 > .content > a{
+	display: block;
+	text-align: center;
+	/*margin-left: 1%;*/
+}
+
+
+.footer-navs p{
+	color: #666666;
+	margin-bottom: 0;
+}
+.footer-navs a{
+	color: #808080;
+	width: 48px;
+	margin-left: 24px;
+}
+
+
+.QRCode{
+	width: 93px;
+	text-align: center;
+}
+.QRCode > img{
+	width: 93px;
+}
+.QRCode > p{
+	font-weight: bold;
+}
+.QRCode > p > span{
+	display: block;
+	font-weight: normal;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #footer-2{
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 20px;
+    }
+	#footer-2 p{
+		width: 100%;
+		text-align: left;
+		padding-bottom: 0;
+	}
+
+}

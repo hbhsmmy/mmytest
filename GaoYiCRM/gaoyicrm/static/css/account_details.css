@@ -1,0 +1,836 @@
+p{
+	margin: 0;
+}
+#sendbg{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 1680px;
+	padding-top: 380px;
+	background: #333333;
+	text-align: center;
+	opacity: 0.5;
+	z-index: 999;
+}
+#sendbg span{
+	font-size: 25px;
+	color: #dddddd;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url("../img/account/banner3.jpg") center no-repeat;
+}
+/* 2015-11-20 修改 */
+
+#banner-yt{
+	position: absolute;
+	right: 50px;
+	top: 190px;
+	width: 271px;
+}
+#banner-zt{
+	position: absolute;
+	right: 50px;
+	top: 155px;
+	width: 200px;
+}
+/* 2015-11-20 修改 - end */
+#details-content{
+	margin-top: 80px;
+}
+#msgBar{
+	font-size: 13px;
+	height: 33px;
+	line-height: 33px;
+	border-bottom: solid 1px #ccc;
+	margin-bottom: 20px;
+}
+#msgBar a{
+	color: #666;
+}
+#msgBar span{
+	color: #86560f;
+}
+#msgBar em{
+	font-size: 13px;
+	color: #959595;
+	padding-right: 14px;
+	padding-left: 14px;
+}
+#details-left{
+	width: 71%;
+}
+
+#info1{
+	width: 100%;
+	height: 151px;
+	background: #eee;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* 2015-11-19 修改 */
+#info1-title{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: solid 1px #ddd;
+}
+#info1-title p{
+	font-size: 14px;
+	/*font-weight: bold;*/
+	/*color: #666;*/
+}
+#info1-title span{
+	line-height: 20px;
+	padding-left: 5px;
+	padding-right: 10px;
+	margin-left: 5px;
+	background: #86560f;
+	margin-top: 15px;
+	border-radius: 5px 10px 10px 5px;
+	position: relative;
+	z-index: 2;
+	behavior: url(../ie-css3.htc);
+}
+#info1-title em{
+	font-size: 13px;
+	/*color: #999;*/
+	font-style: normal;
+	line-height: 50px;
+}
+#info1-info{
+	margin-top: 17px;
+}
+
+.info1-i em{
+	display: block;
+	font-style: normal;
+}
+#info1-clrq-mb{
+	font-size: 13px;
+	color: #999;
+	font-style: normal;
+	line-height: 50px;
+}
+#i1{
+	width: 18%;
+	text-align: left;
+}
+#i1 em{
+	font-size: 24px;
+	margin-top: 7px;
+}
+#i2{
+	width: 20%;
+	text-align: center;
+}
+#i2 em{
+	font-size: 18px;
+	margin-top: 12px;
+}
+#i3{
+	width: 20%;
+	text-align: center;
+}
+#i3 em{
+	font-size: 18px;
+	margin-top: 12px;
+}
+#i4{
+	width: 20%;
+	text-align: center;
+}
+#i4 em{
+	font-size: 18px;
+	margin-top: 12px;
+}
+#i5{
+	width: 20%;
+	text-align: right;
+}
+#i5 em{
+	font-size: 18px;
+	margin-top: 12px;
+}
+/* 2015-11-19 修改 - end */
+
+
+
+
+#info1-jjjl-t{
+	font-size: 13px;
+	color: #999;
+	/*margin-bottom: 8px;*/
+}
+#info1-jl{
+	display: block;
+	border: solid 1px #86560f;
+	width: 100%;
+	height: 50px;
+	background: none;
+	border-radius: 9px 25px 25px 9px;
+	line-height: 50px;
+	color: #86560f;
+}
+#info1-jl-pic{
+	width: 36px;
+	margin-left: 8px;
+	margin-top: 7px;
+}
+#info1-jl-name{
+	font-size: 13px;
+	margin-left: 15px;
+}
+#info1-jl-jt{
+	width: 20px;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+#info1-cpzx{
+	margin-top: 20px;
+}
+#info1-cpzx-t{
+	font-size: 13px;
+	color: #999;
+	margin-bottom: 5px;
+}
+#info1-cpzx span{
+	font-size: 12px;
+	color: #999;
+}
+#info1-cpzx em{
+	font-size: 18px;
+	color: #666;
+	font-style: normal;
+}
+#info1-cpzx-btns{
+	margin-top: 10px;
+}
+#info1-cpzx-btns a{
+	position: relative;
+	display: block;
+	font-size: 15px;
+	width: 100%;
+	height: 40px;
+	border-radius: 20px;
+	line-height: 40px;
+	text-align: center;
+}
+#info1-cpzx-btn1{
+	background: #86560f;
+	color: #fff;
+}
+#info1-cpzx-btn2{
+	background: none;
+	color: #86560f;
+	border: solid 1px #86560f;
+}
+#info1-cpzx-btns a img{
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	width: 20px;
+	margin-top: -2px;
+}
+
+
+
+
+
+#info2{
+	margin-top: 30px;
+}
+.info-title-more{
+	position: relative;
+	border-bottom: solid 1px #86560f;
+}
+.info-title-more p{
+	cursor: pointer;
+	margin-right: 75px;
+	font-size: 16px;
+	padding-bottom: 15px;
+	margin-bottom: -1px;
+}
+.info-title-more img{
+	position: absolute;
+	width: 28.5px;
+	bottom: -1px;
+	left: 25px;
+}
+.info-title-more-curr{
+	color: #86560f;
+	font-weight: bold;
+	background: url("../img/global/jiaojjj.png") center bottom no-repeat;
+	background-size: 28.5px 5.5px;
+}
+
+#content1_noRecord{
+	display: none;
+	text-align: center;
+	margin-top: 45px;
+}
+#content1_record{
+	display: block;
+}
+#info2_content1{
+	/*display: none;*/
+}
+#echartsContainer{
+	margin-top: 20px;
+	height: 380px;
+	border: solid 1px #f5f5f5;
+}
+#info2-lists{
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+.list-topBar{
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #eee;
+	height: 40px;
+	line-height: 40px;
+}
+.list-content li{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 40px;
+	line-height: 40px;
+}
+.list-bg1{
+	background: #fff;
+}
+.list-bg2{
+	background: #f9f9f9;
+}
+.list-bg3{
+	background: #eee;
+}
+.list-w1{
+	width: 14%;
+}
+.list-w2{
+	width: 18%;
+}
+.list-w3{
+	width: 18%;
+}
+
+.list-content{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/*翻页导航*/
+.pagination{
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.pagination li a{
+	color: #666;
+	cursor: pointer;
+}
+.pagination li a:hover{
+	color: #86560f;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #86560f;
+	border-color: #86560f;
+}
+.zhuyi{
+	font-size: 13px;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+#info2_content2{
+	padding-top: 20px;
+	display: none;
+	margin-bottom: 60px;
+}
+#info2_content2 h4{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+#info3-lists{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#info3-lists li{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+#info3-lists p{
+	width: 20%;
+}
+#info3-lists span{
+	width: 80%;
+}
+#info3-lists a{
+	text-decoration: underline;
+}
+
+#info4-lists{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#info4-lists li{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+#info4-lists div {
+	width: 80%;
+}
+
+#info4-lists p{
+	width: 30%;
+	font-size: 13.5px;
+	margin-top: 5px;
+}
+#info4-lists input{
+	width: 25%;
+	margin-right: 5%;
+	margin-top: 5px;
+}
+#info4-lists a{
+	text-decoration: underline;
+}
+#exportBtn1{
+	margin-top: -60px;
+	width: 20%;
+	height: 25px;
+	margin-left: 25px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 22px;
+	border-radius: 12px;
+	background: #f9f9f9;
+	color: #86560f;
+	border: solid 1px #86560f;
+}
+#exportBtn2{
+	margin-top: -20px;
+	width: 20%;
+	height: 25px;
+	margin-left: 25px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 22px;
+	border-radius: 12px;
+	background: #f9f9f9;
+	color: #86560f;
+	border: solid 1px #86560f;
+}
+
+#content3_noRecord{
+	display: none;
+	text-align: center;
+	margin-top: 45px;
+}
+#content3_record a{
+	width: 80%;
+}
+#content3_record button{
+	margin-top: -37.5px;
+	width: 12.5%;
+	height: 25px;
+	margin-left: 25px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 22px;
+	border-radius: 12px;
+	background: #fff;
+	color: #86560f;
+	border: solid 1px #86560f;
+}
+#info2_content3{
+	display: none;
+	margin-bottom: 60px;
+}
+#info2_content4{
+	display: none;
+	padding-top: 20px;
+}
+/*报道、新闻条目*/
+.news-lists{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	padding-top: 30px;
+}
+.news-lists li{
+	line-height: 50px;
+	border-color: #d9d9d9;
+}
+.news-lists li > a{
+	display: block;
+	line-height: 50px;
+}
+.news-lists li > a > p{
+	width: 75%;
+}
+.news-lists li > a > em{
+	line-height: 50px;
+	margin-left: 8px;
+}
+.news-lists li > a:hover > p, .news-lists li > a:hover > span{
+	text-decoration: underline;
+}
+
+
+#noRecord{
+	display: none;
+	text-align: center;
+	margin-top: 45px;
+}
+#noRecord_nothing{
+	width: 76px;
+}
+#noRecord_titie{
+	font-size: 18px;
+	color: #666;
+	font-weight: bold;
+	margin-top: 16px;
+}
+#noRecord_txt{
+	font-size: 14px;
+	color: #666;
+	width: 306px;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+#noRecord_cpBtn{
+	position: relative;
+	background: #86560f;
+	width: 180px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	border-radius: 20px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-top: 29px;
+}
+#noRecord_cpBtn_icon{
+	position: absolute;
+	width: 20px;
+	right: 10px;
+	margin-top: 10px;
+}
+
+#details-right{
+	width: 25%;
+	margin-bottom: 40px;
+}
+#details-userInfo{
+	text-align: center;
+	height: 270px;
+	background: #eee;
+}
+#details-userInfo img{
+	width: 160px;
+	margin-top: 20px;
+}
+#details-userInfo p{
+	margin-top: 18px;
+	font-size: 20px;
+	color: #333;
+}
+#details-userInfo em{
+	margin-top: 12px;
+	font-size: 13px;
+	color: #999;
+	font-style: normal;
+}
+#details-cpzx{
+	text-align: center;
+	height: 250px;
+	background: #f9f9f9;
+}
+#details-cpzx p{
+	font-size: 14px;
+	color: #666;
+	padding-top: 30px;
+}
+#details-cpzx em{
+	font-size: 24px;
+	color: #333;
+	margin-top: 15px;
+	font-style: normal;
+}
+#details-cpzx span{
+	display: block;
+	color: #999;
+	font-size: 12px;
+}
+#details-cpzx a{
+	position: relative;
+	display: block;
+	font-size: 15px;
+	width: 160px;
+	height: 40px;
+	border-radius: 20px;
+	margin: 0 auto;
+	line-height: 40px;
+	margin-top: 20px;
+}
+#details-cpzx-btn1{
+	background: none;
+	color: #86560f;
+	border: solid 1px #86560f;
+}
+#details-cpzx-btn2{
+	background: #86560f;
+	color: #fff;
+}
+#details-cpzx a img{
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	width: 20px;
+	margin-top: -2px;
+}
+
+
+
+#details-fxts{
+	margin-top: 30px;
+	line-height: 24px;
+	font-size: 13px;
+	word-spacing:8px; letter-spacing: 1px;
+	color: #999;
+}
+#details-fxts em{
+	color: #777;
+	font-style: normal;
+}
+
+/*
+
+#bottom-msgBar{
+	font-size: 13px;
+    line-height: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 45px;
+    border-top: 1px solid #dddddd;
+    padding-top: 20px;
+}
+#bottom-msgBar a{
+	color: #666;
+}
+#bottom-msgBar em{
+	margin-right: 15px;
+	color: #bbbbbb;
+}
+#bottom-msgBar_t1{
+	margin-right: 16px;
+}
+#bottom-msgBar_t2{
+	margin-right: 17px;
+}
+#bottom-msgBar span{
+	color: #c29658;
+}*/
+
+@media only screen and (max-width: 768px) {
+	/* 2015-11-20 修改 */
+	.banner{
+		width: 100%;
+		height: 100px;
+		margin-top: -5px;
+		background: url("../img/account/banner3.jpg") center no-repeat;
+		background-size: 100% 100%;
+	}
+
+	#banner-yt{
+		top: 60px;
+		right: 20px;
+		width: 162px;
+	}
+	#banner-zt{
+		top: 40px;
+		right: 20px;
+		width: 83px;
+		margin-top: -10px;
+	}
+	#content3_record a{
+		width:100%;
+	}
+	#content3_record a p{
+		width:100%;
+	}
+	/* 2015-11-20 修改 - end */
+	#main{
+		padding-top: 60px;
+	}
+	#details-content{
+		margin-top: 0;
+	}
+	#details-left{
+		width: 100%;
+	}
+	#i1{
+		width: 34%;
+	}
+	#i1 em{
+		font-size: 18px;
+		margin-top: 12px;
+	}
+	#i2{
+		width: 33%;
+	}
+	#i3{
+		width: 33%;
+		text-align: right;
+	}
+	#i4{
+		width: 50%;
+		text-align: left;
+	}
+	#i5{
+		width: 50%;
+		text-align: right;
+	}
+	#info1{
+		background: none;
+		height: auto;
+	}
+	#info2{
+		margin-top: 50px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.info-title-more{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.info-title-more p{
+		width: 33%;
+		margin-right: 0px;
+		text-align: center;
+	}
+	#echartsContainer{
+		margin-top: 20px;
+		height: 280px;
+		border: 0;
+	}
+	.list-w1{
+		width: 25%;
+	}
+	.list-w2{
+		width: 25%;
+	}
+	.list-w3{
+		width: 25%;
+		text-align: right;
+	}
+
+	#info2_content3{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#info3-lists p{
+		width: 45%;
+	}
+	#info3-lists span{
+		width: 50%;
+	}
+
+	#info1-jjjl{
+		margin-top: 20px;
+	}
+
+	/*
+	#info2-info{
+		margin-bottom: 0;
+	}
+	.info2-bar .nhsyl{
+		text-align: center;
+		padding: 0;
+	}
+	.info2-bar{
+		float: left;
+		width: 25%;
+	}
+	.info2-bar span{
+		width: auto;
+		float: none;
+		padding-left: 0;
+	}
+	#bjj span, #hypj span, #ls300 span{
+		text-align: center;
+	}
+	.info2-lis-bg1{
+		background: #eee;
+	}
+	.info2-lis-bg2{
+		background: #f9f9f9;
+	}
+	.info2-lis-bg3{
+		background: #fff;
+	}
+	.info2-bar p{
+		width: auto;
+		float: none;
+	}
+	#info2-tip p{
+		padding-left: 0;
+		text-align: left;
+		padding-left: 20px;
+	}
+	#ls300 p, #ls300 span{
+		text-align: right;
+		padding-right: 20px;
+	}
+	#info3{
+		margin-top: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 0;
+	}
+	#info3-info{
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.info3-l{
+		height: auto;
+		line-height: normal;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.info3-l-bg1{
+		background: #f9f9f9;
+	}
+	.info3-l-bg2{
+		background: #fff;
+	}
+	.glyphicon{
+		top: 2px;
+	}*/
+}

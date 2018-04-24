@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    {% block head %}
+    {% endblock %}
+    <meta http-equiv=”Cache-Control” content=”no-transform”/>
+    <meta http-equiv=”Cache-Control” content=”no-siteapp”/>
+    <meta name="applicable-device" content="pc,mobile"/>
+    <meta name="MobileOptimized" content="width"/>
+    <meta name="HandheldFriendly" content="true"/>
+    
+    <link href="../static/css/footer_en.css" rel="stylesheet">
+    <script src="../static/js/footer.js"></script>
+
+    <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <script src="../static/js/html5shiv.js"></script>
+    <script src="../static/js/respond.min.js"></script>
+    <script>
+	var _hmt = _hmt || [];
+	(function() {
+  		var hm = document.createElement("script");
+ 	 	hm.src = "//hm.baidu.com/hm.js?f14c26bb6c82e31a385aa913e5e313fb";
+  		var s = document.getElementsByTagName("script")[0];
+  		s.parentNode.insertBefore(hm, s);
+	})();
+    </script>
+    <script>
+	var _hmt = _hmt || [];
+	(function() {
+  		var hm = document.createElement("script");
+  		hm.src = "//hm.baidu.com/hm.js?6b884c279d075fd061643cbc16f2cf9f";
+  		var s = document.getElementsByTagName("script")[0];
+  		s.parentNode.insertBefore(hm, s);
+	})();
+    </script>
+</head>
+<body>
+<div id="header">
+    <div id="header-1" class="hidden-xs">
+        <div class="content clearfix">
+            <p id="header-1-phone" class="pull-left">TEL:&nbsp;&nbsp;<em>+86 755 8869 3999</em>&nbsp;&nbsp;&nbsp;(Mon-Fri, 8:15 - 18:45 Beijing time)</p>
+            <div id="header-1-search" class="input-group pull-right">
+                <a id="chinese-versions">中文</a>
+                <span>  |  </span>
+                <a id="english-versions">English</a>
+            </div>
+            {#            <p id="loginOk" class="pull-right font12 cl-ccc mr25">欢迎您，<span></span><em class="cl-333"> | </em><a class="cl-ccc">退出</a></p>#}
+            {#            <p id="header-1-login" class="pull-right font12 cl-ccc mr25">您好，请<a href="../login" class="cl-ccc">登陆</a><span class="cl-333 ml10 mr10">|</span><a href="../register" class="cl-ccc">免费注册</a></p>#}
+        </div>
+    </div>
+    <div id="header-2">
+        <div class="content clearfix">
+            <img id="header-logo-en" class="hidden-xs pull-left" src="../static/img/global/logo_en.png" alt="">
+            <ul id="header-nav-pc" class="nav nav-pills hidden-xs pull-left" style="font-family: Arial">
+                {% block banner %}
+                    <li class="font16"><a href="../" class="cl-fff">Home</a></li>
+                    <li class="font16"><a href="../company" class="cl-fff">Company Profile</a></li>
+                    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">The Investment Team</a></li>
+                    <li class="font16"><a href="../contact_information" class="cl-fff">Contact Us</a></li>
+                {% endblock%}
+            </ul>
+            <div id="showNavBtn" class="visible-xs-block">
+                <img id="showNavBtn-show" src="../static/img/global/openNav.png" alt="">
+                <img id="showNavBtn-hide" src="../static/img/global/closeNav.png" alt="">
+            </div>
+            <img id="logo-mb-en" class="visible-xs-block" src="../static/img/global/logo_en.png" alt="">
+            {#            <div id="header-zhcx">#}
+            {#                <a id="header-zhcx-pc" class="hidden-xs clearfix">#}
+            {#                    <img class="pull-left" src="../static/img/global/ren2.png" alt="">#}
+            {#                    <p class="pull-left">账户查询</p>#}
+            {#                </a>#}
+            {#                <a id="header-zhcx-mb" class="visible-xs-block">#}
+            {#                    <img src="../static/img/global/ren.png" alt="">#}
+            {#                </a>#}
+            {#            </div>#}
+        </div>
+    </div>
+</div>
+<div id="header-nav-mb" class="visible-xs-block">
+    <ul id="header-nav-mb-box" class="list-unstyled">
+        <li><a class="cl-fff" href="../">Home</a></li>
+        <li><a class="cl-fff" href="../company">Company Profile</a></li>
+        <li><a class="cl-fff" href="../investTeam_qgl">The Investment Team</a></li>
+        <li><a class="cl-fff" href="../contact_information">Contact Us</a></li>
+    </ul>
+    <div id="header-2-search" class="input-group">
+        <a id="chinese-versions-mb">中文</a>
+        <span>  |  </span>
+        <a id="english-versions-mb">English</a>
+    </div>
+{#    <div id="header-2-search" class="input-group">#}
+  {#      <input type="text" class="form-control" placeholder="Search for...">#}
+  {#			<span class="input-group-btn">#}
+  {#				<button class="btn btn-default glyphicon glyphicon-search" type="button"></button>#}
+  {#			</span>#}
+  {#  </div>#}
+</div>
+{% block body %}
+{% endblock %}
+<!-- 网站底部 - 页脚 -->
+<div id="footer">
+    <div id="footer-1" class="hidden-xs" style="background: #d1cfcd;">
+        <div class="content clearfix">
+            <div id="footer-1-left" class="pull-left pt30" style="background: #d1cfcd;">
+                <div class="footer-navs font13">
+                    <div class="clearfix mb10">
+                        <a href="../" style="margin-left:0;">Home</a>
+                        <a href="../company">Company Profile</a>
+                        <a href="../contact_information">Contact Us</a>
+                    </div>
+                    <div class="clearfix mb10">
+                        <p style="font-weight: normal">
+                            <a style="margin-left: 0" href="../investTeam_qgl">The Investment Team :</a>
+                            <a href="../investTeam_qgl">Glen Qiu</a>
+                            <a href="../investTeam_dxf">Xiaofeng Deng</a>
+                            <a href="../investTeam_sqr">Qingrui Sun</a>
+                            <a href="../investTeam_zlw">Liwei Zhuo</a>
+                            <a href="../investTeam_fl">Liu Feng</a>
+                            <a href="../investTeam_wsh">Simon Wang</a>
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-3" class="visible-xs-block">
+        <div class="content clearfix">
+            <a href="../" class="pull-left font12 cl-666" style="width: 11.5%; text-align: center">Home</a>
+            <a href="../company" class="pull-left font12 cl-666" style="width: 31%; text-align: center">Company Profile</a>
+            <a href="../investTeam_qgl" class="pull-left font12 cl-666" style="width: 36.5%; text-align: center">The Investment Team</a>
+            <a href="../contact_information" class="pull-left font12 cl-666" style="width: 21%; text-align: center">Contact Us</a>
+        </div>
+    </div>
+
+    <div id="footer-2">
+	<div class="content clearfix">
+		<p class="cl-999 font12 pull-left" style="text-align: justify;">Copyright©2016 Perseverance Asset Management, All Rights Reserved. 沪ICP备15004693号. AMAC Registration Number: P1002305.<br>All the information within the website are for reference only. Please refer to the fund legal documents or public announcement released by our company if there is any discrepancy. Please be advised that all investments involve risk.</p>
+	</div>
+    </div>
+
+</div>
+</body>
+</html>

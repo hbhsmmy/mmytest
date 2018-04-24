@@ -1,0 +1,177 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 建立意向</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/account.css" rel="stylesheet">
+        <link href="../static/css/jquery.bigautocomplete.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/account_intention.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header_account.js"></script>
+        <script src="../static/js/jquery.bigautocomplete.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/account_intention.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">首页</a></li>
+    <li class="font16"><a href="../company" class="cl-fff">公司介绍</a></li>
+    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>
+    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">联系我们</a></li>
+{% endblock%}
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+
+        <div id="account-navs-mb-content">
+            <div id="account-navs-mb" class="swiper-container visible-xs-block">
+                <div id="account-navs-mb-info" class="swiper-wrapper">
+                    <a href="../account_personal" class="swiper-slide account-navs-mb-nav">工作中心</a>
+                    <a href="../account_product" class="swiper-slide account-navs-mb-nav">产品信息</a>
+                    <a href="../account_records" class="swiper-slide account-navs-mb-nav account-navs-mb-navCurr">客户信息</a>
+                    <a href="../account_inquiry" class="swiper-slide account-navs-mb-nav">留言记录</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="account-content" class="content clearfix">
+            <div id="account-navs" class="pull-left hidden-xs">
+                <a class="account-nav" href="../account_personal"><p>工作中心</p></a>
+                <a class="account-nav" href="../account_product"><p>产品信息</p></a>
+                <a class="account-nav navCurr" href="../account_records"><p>客户信息</p></a>
+                <a class="account-nav" href="../account_inquiry"><p>留言记录</p></a>
+                <a class="account-nav nav-end" href="../account_function"><p>快捷功能</p></a>
+            </div>
+            <div id="account-info" class="pull-right">
+
+                <div id="info-title" class="clearfix hidden-xs">
+                    <p class="pull-left">建立意向</p>
+                </div>
+
+                <div id="type_div" class="pull-left">
+                    <span>意向类型：</span>
+                    <input id="rengou"  type="radio" name="type" value="rengou" checked="checked"><span>申购</span>
+                    <input id="zhuijia" class='type-radio' type="radio" name="type" value="zhuijia"><span id="zhuijia-span">追加</span>
+                    <input id="shuhui"  class='type-radio' type="radio" name="type" value="shuhui"><span id="shuhui-span">赎回</span>
+                </div>
+
+                <div id="search_div" class="pull-left">
+                    <span class="pull-left">意向产品：</span>
+                    <input id="user-search" type="text" class="form-control search-content pull-left"  placeholder="填写客户的意向产品名称">
+                    <select id="user-select" class="search-content form-control input-lg pull-left"></select>
+                    <a id='fund_details' class="pull-left brown">查看产品详情</a>
+                </div>
+
+                <div id="openday_shares" class="pull-left">
+                    <p id='openday' class="pull-left">下一开放日：完成意向产品名称显示</p>
+                    <p id='shares' class="pull-left">下一开放日可赎回份额：完成意向产品名称显示</p>
+                </div>
+
+                <div id="client_type" class="clearfix pull-left">
+                    <p class="pull-left">客户交易资格：</p>
+                    <img class="help" data-toggle="modal" data-target="#myModal0" src="../static/img/crm_intention/icons_s_o_72.png"><span class="orange">个人信息</span>
+                    <img class="help" data-toggle="modal" data-target="#myModal1" src="../static/img/crm_intention/icons_s_o_72.png"><span class="orange">身份认证</span>
+                    <img class="help" data-toggle="modal" data-target="#myModal2" src="../static/img/crm_intention/icons_s_o_72.png"><span class="orange">风险问卷</span>
+                    <img class="help" data-toggle="modal" data-target="#myModal3" src="../static/img/crm_intention/icons_s_o_72.png"><span class="orange">资产证明</span>
+                </div>
+
+                <div id="trade_div" class="clearfix">
+                    <p id='trade_tpye' class="pull-left">认购金额（元）：</p>
+                    <input id="trade_input" type="text" class="form-control pull-left"  placeholder="填写意向金额" onkeyup="checkNum(this.value)">
+                    <p id='upper' class="pull-left"></p>
+                </div>
+
+                <div class="list-right-button">
+                    <a id="quitBtn" class="pull-left">取消</a>
+                    <a id="saveBtn" class="pull-right">保存</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+	<div class="modal fade" id="myModal0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">个人信息</h4>
+	      </div>
+	      <div id="modal-body0" class="modal-body">
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">身份认证</h4>
+	      </div>
+	      <div id="modal-body1" class="modal-body">
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">风险问卷</h4>
+	      </div>
+	      <div id="modal-body2" class="modal-body">
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">资产证明</h4>
+	      </div>
+	      <div id="modal-body3" class="modal-body">
+	      </div>
+	    </div>
+	  </div>
+	</div>
+{% endblock %}
+</body>
+</html>

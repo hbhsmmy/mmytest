@@ -1,0 +1,166 @@
+{% extends "base_cn.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅资产 - 公司介绍</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/company.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/company.js"></script>
+    {% endblock %}
+
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">首页</a></li>
+    <li class="font16 header-nav-curr"><a href="../company" class="cl-fff">公司介绍</a></li>
+    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>
+    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">联系我们</a></li>
+{% endblock%}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+
+        <div class="banner">
+            <div class="content">
+              {#  <img id="banner-yt" src="../static/img/company/yt.png" alt=""> #}
+                <img id="banner-zt" src="../static/img/company/zt.png" alt="">
+            </div>
+        </div>
+
+        <div id="companyTop" class="content">
+            <!-- 面包屑 -->
+            <div class="breadcrumb border-b cl-bbb hidden-xs">
+                <a class="cl-555" href="../">首页</a> <em class="glyphicon glyphicon-menu-right"></em> <span class="cl-c29658">公司介绍</span>
+            </div>
+            <div class="site-con-title clearfix visible-xs-block">
+                <p class="pull-left">公司介绍</p>
+            </div>
+        </div>
+        <div class="companyContent1">
+            <div class="content">
+                <div class="companyContent-img">
+                    <img src="../static/img/company/pic1.jpg" alt="">
+                </div>
+                <div class="companyContent-text">
+                    <div class="companyContent-title">
+                        <p class="companyContent-cnTitle">公司简况</p>
+			<br/>
+                      {#<p class="companyContent-enTitle">COMPANY INTRODUCTION</p>#}
+                    </div>
+                    <p class="companyContent-txt siteText cl-333" style="text-align: justify;">上海高毅资产管理合伙企业（有限合伙）是国内投研实力较强、管理规模较大、激励制度领先的平台型私募基金管理公司，专注于二级市场，致力于为优秀的投资经理配备一流的研究支持、渠道资源、品牌背书、资本对接和运营维护，打造以人为本的企业文化和扁平化的组织架构，让优秀的投资经理专注于投资，全力以赴地为投资者创造更佳的收益。</p>
+                </div>
+            </div>
+        </div>
+        <div class="companyContent2">
+            <div class="content">
+                <div class="companyContent-img">
+                    <img src="../static/img/company/pic2.jpg" alt="">
+                </div>
+                <div class="companyContent-text">
+                    <div class="companyContent-title">
+                        <p class="companyContent-cnTitle">创新机制</p>
+			<br/>
+                      {#<p class="companyContent-enTitle">INNOVATION MECHANISM</p>#}
+                    </div>
+                    <p class="companyContent-txt siteText cl-333" style="text-align: justify;">高毅资产采用多项业内领先的创新机制，包括投资经理跟投机制（确保投资经理与持有人的利益高度一致）、产品以投资经理名字命名的机制（激发投资经理为自己的个人名誉而战）、投资经理高业绩提成机制（使投资经理的收入高于自己独立创业所得）、投研人才股权激励机制（以人为本、立足投研的企业文化）、奖金递延机制（保持团队稳定性），真正从制度上促使投资经理将客户资金当作自己的资金来进行投资运作。</p>
+                </div>
+            </div>
+        </div>
+        <div class="companyContent1">
+            <div class="content">
+                <div class="companyContent-img">
+                    <img src="../static/img/company/pic3.jpg" alt="">
+                </div>
+                <div class="companyContent-text">
+                    <div class="companyContent-title">
+                        <p class="companyContent-cnTitle">投研团队</p>
+			<br/>
+                      {#<p class="companyContent-enTitle">THE INVESTMENT AND RESEARCH TEAM</p>#}
+                    </div>
+                    <p class="companyContent-txt siteText cl-333" style="text-align: justify;">高毅资产旗下汇聚了多位长期业绩优秀、市场经验丰富的明星投资经理。目前投研团队22人，投资经理包括千亿级基金公司投资总监、股票型基金8年业绩冠军、偏股混合型基金6年业绩亚军、公募基金十年金牛特别奖得主、私募基金三年金牛奖得主等，研究员绝大多数来自于嘉实、易方达、南方、博时、鹏华、招商等一线基金公司，整体投研实力在业内处于领先地位。由邱国鹭先生担任董事长，邓晓峰先生担任首席投资官，卓利伟先生担任首席研究官，孙庆瑞、冯柳、王世宏先生担任董事总经理。高毅资产已经在中国证券投资基金业协会备案，注册地在上海，团队分布在深圳、上海和北京。</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="platform" class="content">
+            <div class="site-con-title clearfix">
+                <p class="pull-left">平台机制</p>
+            </div>
+            <p id="platform-txt" class="siteText cl-333">公司通过建立一系列机制以保证投资经理同投资者的利益保持高度一致，真正做到将客户资金当作投资经理自己的资金来进行投资运作： </p>
+            <ul id="platform-lists" class="clearfix">
+                <li class="pull-left">
+                    <img class="platform-lists-icon" src="../static/img/company/icon1.png" alt="">
+                    <img class="platform-lists-jiantou hidden-xs" src="../static/img/company/jiantou.png" alt="">
+                    <div class="platform-lists-text">
+                        <p class="platform-lists-title">利润分配机制：</p>
+                        <p class="platform-lists-txt" >投资经理将获得业绩提成的三分之二（其中一小部分将用于奖励研究员），使优秀投研人员的收入在行业中处于领先水平。</p>
+                    </div>
+                </li>
+                <li class="pull-right">
+                    <img class="platform-lists-icon" src="../static/img/company/icon2.png" alt="">
+                    <img class="platform-lists-jiantou hidden-xs" src="../static/img/company/jiantou.png" alt="">
+                    <div class="platform-lists-text">
+                        <p class="platform-lists-title">产品命名机制：</p>
+                        <p class="platform-lists-txt">用投资经理的名字为所管理产品命名，以激励投资经理为名誉而战，从而提高投资经理的职业荣誉感和稳定性。 </p>
+                    </div>
+                </li>
+                <li class="pull-left">
+                    <img class="platform-lists-icon" src="../static/img/company/icon3.png" alt="">
+                    <img class="platform-lists-jiantou hidden-xs" src="../static/img/company/jiantou.png" alt="">
+                    <div class="platform-lists-text">
+                        <p class="platform-lists-title">跟投机制：</p>
+                        <p class="platform-lists-txt">投资经理需要将自己大部分的流动资产投到自己管理的产品中，以保证投资经理的利益同投资人保持高度一致，有效控制投资风险，提高投资质量。 </p>
+                    </div>
+                </li>
+                <li class="pull-right">
+                    <img class="platform-lists-icon" src="../static/img/company/icon4.png" alt="">
+                    <img class="platform-lists-jiantou hidden-xs" src="../static/img/company/jiantou.png" alt="">
+                    <div class="platform-lists-text">
+                        <p class="platform-lists-title">奖金递延机制：</p>
+                        <p class="platform-lists-txt">投资经理的奖金超过一定的金额以上的部分要再投回到所管理的产品中去，分若干年分期取出，以保持团队稳定性。</p>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- 面包屑 -->
+            <div class="breadcrumb border-t cl-bbb mb35 visible-xs-block">
+                <a class="cl-555" href="../index">首页</a> <em class="glyphicon glyphicon-menu-right"></em> <span class="cl-c29658">公司介绍</span>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
+</body>
+</html>

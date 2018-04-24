@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 意向详情</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <script src="../static/js/bootstrap-datepicker.js"></script>
+        <link href="../static/css/datepicker.css" rel="stylesheet">
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/account.css" rel="stylesheet">
+        <link href="../static/css/jquery.bigautocomplete.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/account_apply.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header_account.js"></script>
+        <script src="../static/js/jquery.bigautocomplete.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/account_add_apply.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">首页</a></li>
+    <li class="font16"><a href="../company" class="cl-fff">公司介绍</a></li>
+    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>
+    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">联系我们</a></li>
+{% endblock%}
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+
+        <div id="account-navs-mb-content">
+            <div id="account-navs-mb" class="swiper-container visible-xs-block">
+                <div id="account-navs-mb-info" class="swiper-wrapper">
+                    <a href="../account_personal" class="swiper-slide account-navs-mb-nav">工作中心</a>
+                    <a href="../account_product" class="swiper-slide account-navs-mb-nav">产品信息</a>
+                    <a href="../account_records" class="swiper-slide account-navs-mb-nav  account-navs-mb-navCurr">客户信息</a>
+                    <a href="../account_inquiry" class="swiper-slide account-navs-mb-nav">留言记录</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="account-content" class="content clearfix">
+            <div id="account-navs" class="pull-left hidden-xs">
+                <a class="account-nav" href="../account_personal"><p>工作中心</p></a>
+                <a class="account-nav" href="../account_product"><p>产品信息</p></a>
+                <a class="account-nav navCurr" href="../account_records"><p>客户信息</p></a>
+                <a class="account-nav" href="../account_inquiry"><p>留言记录</p></a>
+                <a class="account-nav nav-end" href="../account_function"><p>快捷功能</p></a>
+            </div>
+            <div id="account-info" class="pull-right">
+
+                <div id="info-title" class="clearfix hidden-xs">
+                    <p class="pull-left">意向详情</p>
+                    <p id='applyStatus' class="pull-right">当前状态：已录入</p>
+                </div>
+
+                <div id="type_div" class="pull-left">
+                    <span id="apply_type" class="pull-left"></span>
+                </div>
+
+                <div id="search_div" class="pull-left">
+                    <span id="apply_fund" class="pull-left"></span>
+                    <a id='fund_details' class="pull-left brown">查看产品详情</a>
+                </div>
+
+                <div id="openday_shares" class="pull-left">
+                    <p id='next_open_day' class="pull-left"></p>
+                    {#                    <p id='apply_amount' class="pull-left"></p>#}
+                    <input id="apply_amount" type="text" class="form-control search-content pull-right"  placeholder="填写意向金额或份额">
+                    <span id="apply_amount_type" class="pull-right"></span>
+                </div>
+
+                <div id="client_type" class="clearfix pull-left">
+                    <p class="pull-left">客户交易资格：</p>
+                    <img src="../static/img/crm_intention/icons_s_g_72.png"><span class="green">个人信息</span>
+                    <img src="../static/img/crm_intention/icons_s_g_72.png"><span class="green">身份认证</span>
+                    <img src="../static/img/crm_intention/icons_s_g_72.png"><span class="green">风险问卷</span>
+                    <img src="../static/img/crm_intention/icons_s_g_72.png"><span class="green">资产证明</span>
+                </div>
+                <div id="info-title" class="clearfix hidden-xs">
+                    <p class="pull-left">银行信息</p>
+                </div>
+                <div class="bank_div pull-left">
+                    <span class="pull-left">开户银行：</span>
+                    <input id="user-bankname" type="text" class="form-control search-content pull-left"  placeholder="填写客户的开户银行">
+                    <input id="user-backno" type="text" class="form-control search-content pull-right"  placeholder="填写客户的银行账户">
+                    <span class="pull-right">银行账号：</span>
+                </div>
+                <br/>
+                <div id="info-title" class="clearfix hidden-xs">
+                    <p class="pull-left">追加信息</p>
+                </div>
+                <div class="bank_div pull-left">
+                    <div id="firstLine" class="pull-left">
+                        <span class="pull-left">处理人员：</span>
+                        <span id="chulirenyuan" class="pull-left"></span>
+                        <input id="user-time-2" class="form-control search-content pull-right"  placeholder="填写资金到账时间">
+                        <span class="pull-right">到账时间：</span>
+                    </div>
+                    <div class="content-details pull-left">
+                        <span class="pull-left">资产证明表是否签署</span>
+                        <input id="asset-check" type="checkbox" class="content-checkbox pull-left">
+                    </div>
+                    <div class="content-details pull-left">
+                        <span class="pull-left">直销申请表是否确认</span>
+                        <input id="apply-check" type="checkbox" class="content-checkbox pull-left">
+                    </div>
+
+                    <div id="content1_record" class="pull-left">
+                        <ul id="info3-lists" class="siteText cl-777">
+                            <li class="clearfix short list-bg2">
+                                <p class="pull-left">资金到账时间</p>
+                                <span id="zijin_com" class="pull-left"></span>
+                                <p class="pull-left">静默到期时间</p>
+                                <span id="jingmo_com" class="pull-left"></span>
+                            </li>
+                            <li class="clearfix short list-bg1">
+                                <p class="pull-left">是否完成回访</p>
+                                <span id="huifang" class="pull-left"></span>
+                                <p class="pull-left">回访完成时间</p>
+                                <span id="huifang_com" class="pull-left"></span>
+                            </li>
+                            <li class="clearfix short list-bg2">
+                                <p class="pull-left">回访完成形式</p>
+                                <span id="huifang_sty" class="pull-left"></span>
+                                <p class="pull-left">回访完成人员</p>
+                                <span id="huifang_per" class="pull-left"></span>
+                            </li>
+                            <li class="clearfix short list-bg1">
+                                <p class="pull-left">合同寄送人员</p>
+                                <span id="contart_per" class="pull-left"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="list-right-button pull-left">
+                    <a id="deleteBtn" class="pull-left">删除</a>
+                    <a id="saveBtn" class="pull-right">确认</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>

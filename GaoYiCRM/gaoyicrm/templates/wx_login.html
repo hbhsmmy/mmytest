@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<title>高毅 - 登陆</title>
+
+	<!-- 引入 jquery -->
+	<script src="js/jquery-1.11.0.min.js"></script>
+
+	<!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- ========================================== -->
+   <!-- 引入 Bootstrap -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <script src="js/bootstrap.min.js"></script>
+   <!-- ========================================== -->
+	
+	
+	<!-- 页面布局css -->
+	<link href="css/layout.css" rel="stylesheet">
+	<!-- 引用页头css -->
+   <link href="css/header.css" rel="stylesheet">
+	<!-- 引用页脚css -->
+   <link href="css/footer.css" rel="stylesheet">
+   <!-- 当前页面css -->
+   <link href="css/wx_login.css" rel="stylesheet">
+
+   <!-- 引入页面头部js -->
+   <script src="js/header.js"></script>
+   	<!-- 引入页面底部js -->
+   	<script src="js/footer.js"></script>
+	<!-- 引入工具包js -->
+   	<script src="js/utils.js"></script>
+   <!-- 引入当前页面js -->
+   <script src="js/wx_login.js"></script>
+
+</head>
+<body>
+	
+	<!-- 网站导航 - 头部 -->
+	<div id="header">
+		<div id="header-1" class="hidden-xs">
+			<div class="content clearfix">
+				<p id="header-1-phone" class="pull-left">咨询电话  <em>0755-8869 3999</em></p>
+				<div id="header-1-search" class="input-group pull-right">
+					<input type="text" class="form-control" placeholder="搜索">
+					<span class="input-group-btn">
+						<button class="btn btn-default glyphicon glyphicon-search" type="button"></button>
+					</span>
+				</div>
+				<p id="loginOk" class="pull-right font12 cl-ccc mr25">欢迎您，<span>XXXXXX</span><em class="cl-333"> | </em><a href="index.html" class="cl-ccc">退出</a></p>
+				<p id="header-1-login" class="pull-right font12 cl-ccc mr25">您好，请<a href="login.html" class="cl-ccc">登陆</a><span class="cl-333 ml10 mr10">|</span><a href="register.html" class="cl-ccc">免费注册</a></p>
+			</div>
+		</div>
+		<div id="header-2">
+			<div class="content clearfix">
+				<img id="header-logo" class="pull-left" src="img/global/logo.png" alt="">
+				<ul id="header-nav-pc" class="nav nav-pills hidden-xs pull-left">
+					<li class="font16"><a href="index.html" class="cl-fff">首页</a></li>
+					<li class="font16"><a href="company.html" class="cl-fff">公司介绍</a></li>
+					<li class="font16"><a href="investTeam_qgl.html" class="cl-fff">投资团队</a></li>
+					<!-- 2015-12-16 修改 -->
+					<li class="font16"><a href="trends_research.html" class="cl-fff">高毅动态</a></li>
+					<!-- 2015-12-16 修改 end-->
+					<li class="font16"><a href="contact_information.html" class="cl-fff">联系我们</a></li>
+				</ul>
+				<div id="showNavBtn" class="visible-xs-block">
+					<img id="showNavBtn-show" src="img/global/openNav.png" alt="">
+					<img id="showNavBtn-hide" src="img/global/closeNav.png" alt="">
+				</div>
+				<div id="header-zhcx">
+					<a href="account_user_details.html" id="header-zhcx-pc" class="hidden-xs clearfix">
+						<img class="pull-left" src="img/global/ren2.png" alt="">
+						<p class="pull-left">账户查询</p>
+					</a>
+					<a href="account_user_details.html" id="header-zhcx-mb" class="visible-xs-block">
+						<img src="img/global/ren.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="header-nav-mb" class="visible-xs-block">
+		<ul id="header-nav-mb-box" class="list-unstyled">
+			<li><a class="cl-fff" href="index.html">首页</a></li>
+			<li><a class="cl-fff" href="company.html">公司介绍</a></li>
+			<li><a class="cl-fff" href="investTeam_qgl.html">投资团队</a></li>
+			<!-- 2015-12-16 修改 -->
+			<li><a class="cl-fff" href="trends_research.html">高毅动态</a></li>
+			<!-- 2015-12-16 修改 end-->
+			<li><a class="cl-fff" href="contact_information.html">联系我们</a></li>
+			<li><a class="cl-fff" href="">关注微信</a></li>
+		</ul>
+		<div id="header-2-search" class="input-group">
+			<input type="text" class="form-control" placeholder="Search for...">
+			<span class="input-group-btn">
+				<button class="btn btn-default glyphicon glyphicon-search" type="button"></button>
+			</span>
+		</div>
+	</div>
+
+	<!-- 当前网页 - 内容 -->
+	<div id="main">
+		
+		<!-- 登陆主要元素 -->
+		<div class="content">
+			<div id="userInfo" class="clearfix">
+				<img id="userPic" src="img/wx_login/userPic.jpg" alt="">
+				<div id="user_t">
+					<p id="userName"><span>崔志峰</span>，欢迎来到高毅资产</p>
+					<p id="tongguo">（已通过微信账号登录）</p>
+				</div>
+			</div>
+			<div id="loginCon" class="clearfix">
+				<div id="loginConLeft" class="pull-left">
+					<div class="tips"><em class="tip">A</em><span class="tip_title">没有高毅资产账号</span><span class="tip_t">（新用户，完成注册）</span></div>
+					<button id="zhuce" type="button" class="btn">注册并绑定</button>
+					<p id="zhuce_t">注册高毅资产账户并绑定微信账号，您将可以通过线上享受到账户查询、了解公司旗下产品情况、产品预约、定期报告等服务。</p>
+				</div>
+				<div id="loginConRight" class="pull-left">
+					<div class="tips"><em class="tip">B</em><span class="tip_title">已有高毅资产账号</span><span class="tip_t">（老用户，登录并绑定微信账号）</span></div>
+					<form id="shuru" class="bs-example bs-example-form clearfix" data-example-id="simple-input-groups">
+						<div id="user-name" class="input-group">
+							<span class="input-group-addon">账号：</span>
+							<input type="text" class="form-control" placeholder="输入用户名/手机号/证件号">
+						</div>
+						<div id="user-password" class="input-group">
+							<span class="input-group-addon">密码：</span>
+							<input type="password" class="form-control" placeholder="登录密码">
+						</div>
+						<a id="msgBtn" class="pull-right" href="retrieve.html" role="button">忘记密码?</a>
+					</form>
+					<button id="loginBtn" type="button" class="btn">登录并绑定</button>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- 网站底部 - 页脚 -->
+	<div id="footer">
+		<div id="footer-left-bg" class="hidden-xs"></div>
+		<div id="footer-right-bg" class="hidden-xs"></div>
+
+		<div id="footer-3" class="visible-xs-block">
+			<div class="content clearfix">
+				<a href="" class="pull-left font12 cl-666">关于我们</a>
+				<a href="investTeam_qgl.html" class="pull-left font12 cl-666">投研团队</a>
+				<!-- 2015-12-16 修改 -->
+				<a href="trends_research.html" class="pull-left font12 cl-666">高毅动态</a>
+				<!-- 2015-12-16 修改 end-->
+				<a href="" class="pull-left font12 cl-666">了解产品</a>
+			</div>
+		</div>
+
+		<div id="footer-2">
+			<div class="content clearfix">
+				<p class="cl-666 font12 pull-right">Email：<span class="font15 cl-ccc">irgroup@gyasset.com</span><br>服务热线：<span class="font15 cl-ccc">0755-8869 3999</span>（工作日 9:00 - 18:00）</p>
+			<!-- 2015-12-14 修改 -->
+				<p class="cl-999 font12 pull-left">Copyright©2013 Gaoyi Asset Management, All Rights Reserved.沪ICP备15004693号.<br>本网站所有资讯与说明文字仅供参考，如有与本公司相关公告及基金法律文件不符，以相关公告及基金法律文件为准。<br>市场有风险，投资需谨慎。 </span></p>
+				<!-- 2015-12-14 修改 end -->
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>

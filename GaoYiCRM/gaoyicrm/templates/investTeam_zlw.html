@@ -1,0 +1,167 @@
+{% extends "base_cn.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅资产 - 投资团队</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/investTeam.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/investTeam_zlw.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header.js"></script>
+        <!-- 引入页面底部js -->
+        <script src="../static/js/footer.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/investTeam.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">首页</a></li>
+    <li class="font16"><a href="../company" class="cl-fff">公司介绍</a></li>
+    <li class="font16 header-nav-curr"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>
+    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">联系我们</a></li>
+{% endblock%}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+        <div class="banner">
+            <div class="content">
+              {#  <img id="banner-yt" src="../static/img/investTeam/yt.png" alt=""> #}
+                <img id="banner-zt" src="../static/img/investTeam/zt.png" alt="">
+            </div>
+            <div class="investTeam-pc-navsContent hidden-xs">
+                <div class="content">
+                    <ul class="investTeam-pc-navs clearfix">
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_qgl" class="border-r"><p>邱国鹭</p><span>董事长</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_dxf" class="border-r"><p>邓晓峰</p><span>首席投资官</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_sqr" class="border-r"><p>孙庆瑞</p><span>董事总经理</span></a></li>
+                        <li class="pull-left investTeam-pc-nav investTeam-pc-nav-curr"><a href="../investTeam_zlw" class="border-r"><p>卓利伟</p><span>首席研究官</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_fl" class="border-r"><p>冯柳</p><span>董事总经理</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_wsh"><p>王世宏</p><span>董事总经理</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="account-navs-mb-content" class="visible-xs-block">
+            <div id="account-navs-mb" class="swiper-container">
+                <div id="account-navs-mb-info" class="swiper-wrapper">
+                    <a href="../investTeam_qgl" class="swiper-slide account-navs-mb-nav">邱国鹭</a>
+                    <a href="../investTeam_dxf" class="swiper-slide account-navs-mb-nav">邓晓峰</a>
+                    <a href="../investTeam_sqr" class="swiper-slide account-navs-mb-nav">孙庆瑞</a>
+                    <a href="../investTeam_zlw" class="swiper-slide account-navs-mb-nav account-navs-mb-navCurr">卓利伟</a>
+                    <a href="../investTeam_fl" class="swiper-slide account-navs-mb-nav">冯柳</a>
+                    <a href="../investTeam_wsh" class="swiper-slide account-navs-mb-nav">王世宏</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="info1" class="content">
+            <div id="info1-pic">
+                <img src="../static/img/investTeam/zlw.jpg" alt="">
+            </div>
+            <div id="info1-text">
+                <p class="cl-86560f">卓利伟</p>
+                <em class="cl-86560f">首席研究官</em>
+                <span class="font15">曾任上海景林资产合伙人、建信基金投资部副总监。</span>
+                <span class="cl-333 font15"><strong>过往业绩：</strong>2011年-2015年期间管理过较大规模的多个私募基金产品与QFII专户，<br><em>业绩优秀</em>。</span>
+                <span class="cl-333 font15"><strong>主要荣誉：</strong>2012年-2014年三年期私募股票金牛奖；2011年公募基金五星评级。</span>
+                <span class="cl-333 font15"><strong>投资风格：</strong><em>基本面投资的坚定实践者；追求可持续的价值与高质量的成长</em>。</span>
+                <span class="cl-333 font15"><strong>投资方法：</strong>基于深度的基本面研究与严谨的企业价值分析。</span>
+              {#<a class="btn-style2">登录了解管理产品<img src="../static/img/global/jt3.png" alt=""></a>#}
+		<a class="btn-style2"></a>
+            </div>
+        </div>
+
+        <div id="info2">
+            <div class="content">
+                <div class="site-con-title clearfix">
+                    <p class="pull-left">履历介绍及投资理念</p>
+                </div>
+                <div id="info2-contentInfo" class="clearfix">
+                    <div id="info2-contentInfo-left" class="pull-left">
+                        <div class="info2-text cl-666 siteText">
+                            <p class="mt10">现任高毅资产首席研究官。曾任上海景林资产管理有限公司合伙人，2015年获得股票型私募基金三年期金牛奖。之前就职于建信基金管理有限公司，先后担任行业研究员、基金经理、投资决策委员会成员、投资部副总监等职，管理建信恒久价值股票型基金等多个基金产品，期间均取得较优秀的投资业绩；其中建信恒久价值股票型基金在2011年被国内基金权威评级机构中国银河证券评为累计三年业绩五星评级。</p>
+                            <p class="mt10">曾担任过消费、TMT、房地产、化工等多个领域的行业研究员。</p>
+                        </div>
+                        <div class="info2-title radius20 mt30">投资方法：</div>
+                        <div class="info2-text cl-666 siteText mt15">
+                            <p>1、不断优化在宏观（经济与社会）、产业中观、企业微观方面的系统性的投资逻辑框架；</p>
+                            <p class="mt10">2、产业发展逻辑、商业模式、人的因素（企业家及其团队）、公司治理结构是判断企业价值最为重要的几个要素；</p>
+                            <p class="mt10">3、投资是对擅长领域的、高确定性的把握，并通过学习不断拓展擅长的领域；</p>
+                            <p class="mt10">4、归纳、推理与实证，是研究过程中不可或缺的三个方面；</p>
+                            <p class="mt10">5、更多的研究（足够的宽度与更重要的深度）是为了更少的决策。</p>
+                        </div>
+                    </div>
+
+                    <div id="info2-contentInfo-right" class="pull-right">
+                        <div class="info2-title radius20 mt15">对投资的理解：</div>
+                        <div class="info2-text cl-666 siteText mt15">
+                            <p>“投资是对真理或真相的追求，是对事物本质与主要矛盾的认识，是对确定性与大概率的把握。”</p>
+                            <p class="mt10">“好的投资是一个可以通过学习、不断自我复制与持续积累的过程，是一个可求证、可回溯的过程。”</p>
+                        </div>
+                        <div class="info2-title radius20 mt30">对价值投资的理解：</div>
+                        <div class="info2-text cl-666 siteText mt15">
+                            <p>“除了市场经常发生的错误定价之外，价值投资更重要的内容是对企业持续创造价值的核心能力的判断与把握。好的投资标的本质上都是一个具备安全边际的看涨期权。”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="info3" class="content">
+            <div class="site-con-title clearfix">
+                <p class="pull-left">卓利伟投资思想</p>
+                <a href="../investTeam_news_zlw" class="pull-right">MORE</a>
+            </div>
+            <div id="info3-contentInfo" class="clearfix">
+                <div id="article" class="pull-left">
+                </div>
+                <div id="news" class="pull-right">
+                    <!-- 报道、新闻条目 -->
+                    <ul class="news-lists siteText">
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 面包屑 -->
+            <div id="bottom-breadcrumb" class="breadcrumb border-t cl-bbb mb35 visible-xs-block">
+                <a class="cl-555" href="../">首页</a> <em class="glyphicon glyphicon-menu-right"></em> <a class="cl-555" href="../investTeam_qgl">投资团队</a> <em class="glyphicon glyphicon-menu-right"></em> <span class="cl-c29658">邱国鹭</span>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
+</body>
+</html>

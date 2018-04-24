@@ -1,0 +1,331 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 产品详情</title>
+
+        <!-- 引入 jquery -->
+        <script type="text/javascript" src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <script src="../static/js/bootstrap-datepicker.js"></script>
+        <link href="../static/css/datepicker.css" rel="stylesheet">
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+        <script src="../static/build/dist/echarts.js"></script>
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/account.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/account_details.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/account_details.js?date=20180330"></script>
+    {% endblock %}
+
+</head>
+<body>
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+
+    <!-- 当前网页 - 内容 -->
+    <div id="sendbg"><span>正在发送中，预计20秒完成</span></div>
+    <div id="main">
+
+        <div class="banner visible-xs-block">
+            <div class="content">
+                <!-- <img id="banner-yt" src="img/account/yt1.png" alt=""> -->
+                <img id="banner-zt" src="../static/img/account/zt1.png" alt="">
+            </div>
+        </div>
+
+        <div id="details-content" class="content clearfix">
+            <p id="msgBar" class="hidden-xs"><a href="../../account_personal">工作中心</a><em class="glyphicon glyphicon-menu-right"></em><a href="../../account_product">产品信息</a><em class="glyphicon glyphicon-menu-right"></em><span>产品详情</span></p>
+            <div id="details-left" class="pull-left">
+
+                <div id="info1">
+                    <div id="info1-title" class="clearfix cl-555">
+                        <p class="pull-left"></p>
+                    </div>
+                    <div id="info1-info" class="clearfix siteText cl-777">
+                        <div id="i1" class="info1-i pull-left">
+                            <p>份额净值</p>
+                            <em class="red"></em>
+                        </div>
+                        <div id="i2" class="info1-i pull-left">
+                            <p>累计净值</p>
+                            <em class="cl-333"></em>
+                        </div>
+                        <div id="i3" class="info1-i pull-left">
+                            <p>周涨跌幅</p>
+                            <em class="cl-333"></em>
+                        </div>
+                        <div id="i4" class="info1-i pull-left">
+                            <p>累计收益率</p>
+                            <em class="cl-333"></em>
+                        </div>
+                        <div id="i5" class="info1-i pull-right">
+                            <p>净值日期</p>
+                            <em class="cl-333"></em>
+                        </div>
+                    </div>
+                    {#                    <em id="info1-clrq-mb" class="visible-xs-block"></em>#}
+                    <div id="info1-jjjl" class="visible-xs-block">
+                        <p id="info1-jjjl-t">投资经理：</p>
+                        <a id="info1-jl" class="clearfix">
+                            <img id="info1-jl-pic" class="pull-left" alt="">
+                            <p id="info1-jl-name" class="pull-left"></p>
+                        </a>
+                    </div>
+                    <div id="info1-cpzx" class="visible-xs-block">
+                        <p id="info1-cpzx-t">产品咨询：</p>
+                        <em>0755-8869 3999</em>
+                        <span>（周一至周五 8:15--18:45）</span>
+                    </div>
+                </div>
+
+
+                <div id="info2">
+                    <div class="info-title-more clearfix">
+                        <p id='menu1' class="pull-left info-title-more-curr">收益净值</p>
+                        <p id='menu2' class="pull-left">产品要素</p>
+                        <p id='menu3' class="pull-left">基金报告</p>
+                        <p id='menu4' class="pull-left hidden-xs">延展功能</p>
+                    </div>
+
+                    <div id="info2_content1">
+                        <div id="content1_noRecord">
+                            <img id="noRecord_nothing" src="../static/img/global/nothing.png">
+                            <p id="noRecord_titie">您暂时不能查看！</p>
+                            <p id="noRecord_txt">该部分内容目前只对持有该产品或曾经购买过该产品的客户开放。</p>
+                            <a id="noRecord_cpBtn">去预约购买<img id="noRecord_cpBtn_icon" src="../static/img/global/jt1.png"></a>
+                        </div>
+                        <div id="content1_record">
+                            <div id="echartsContainer"></div>
+
+                            <div id="info2-lists">
+                                <div class="list-topBar clearfix siteText cl-555">
+                                    <p class="pull-left list-w1 text-left">净值日期</p>
+                                    <p class="pull-left list-w2 text-center">产品净值</p>
+                                    <p class="pull-left list-w2 text-center">累计净值</p>
+                                    <p class="pull-left list-w3 text-center">本周收益率</p>
+                                    <p class="hidden-xs pull-left list-w2 text-center">沪深300</p>
+                                    <p class="hidden-xs pull-left list-w1 text-right">创业板指</p>
+                                </div>
+                                <ul class="list-content siteText cl-333">
+                                </ul>
+                                <div class="clearfix hidden-xs">
+                                    <!-- 翻页导航 -->
+                                    <ul class="pagination pull-right">
+                                    </ul>
+                                </div>
+                                <!-- 加载更多 -->
+                                <div class="loadMore visible-xs-block mt20 mb40">
+
+                                </div>
+                                <p class="zhuyi cl-999">注：该处净值为费前净值，未扣除业绩提成以前的产品净值</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="info2_content2">
+                    <ul id="info3-lists" class="siteText cl-777">
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">基金名称：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">产品成立日期：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">产品运作日：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">产品类型：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">基金托管人：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">投资经理：</p>
+                            <span class="pull-left cl-333"><a href="../../investTeam_dxf" class="cl-dfb578"></a></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">外包服务商：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">销售渠道：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">封闭期：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">下一个开放日：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">认/申购预约申请时间：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">赎回预约申请时间：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">最低认/申购金额：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">赎回金额：</p>
+                            <span class="pull-left cl-333">赎回后剩余的金额不能低于1,000,000.00元，或者选择全部赎回</span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">投资范围：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">投资策略：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">预警线：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">平仓线：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">基金总份额：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">累积投资者数：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                    </ul>
+                    <h4 class="cl-dfb578">费率结构</h4>
+                    <ul id="info3-lists" class="siteText cl-777">
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">外包服务费：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">托管费：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">销售服务费：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">管理费：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">投资顾问费：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">认购费：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">业绩报酬提取比例：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">业绩报酬提取方式：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">业绩报酬提取频率：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg2">
+                            <p class="pull-left">业绩报酬提取受益人：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                        <li class="clearfix list-bg1">
+                            <p class="pull-left">初始门槛净值：</p>
+                            <span class="pull-left cl-333"></span>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div id="info2_content3">
+                    <div id="content3_noRecord">
+                        <img id="noRecord_nothing" src="../static/img/global/nothing.png">
+                        <p id="noRecord_titie">您暂时不能查看！</p>
+                        <p id="noRecord_txt">该部分内容目前只对持有该产品或曾经购买过该产品的客户开放。</p>
+                        <a id="noRecord_cpBtn">去预约购买<img id="noRecord_cpBtn_icon" src="../static/img/global/jt1.png"></a>
+                    </div>
+                    <!-- 报道、新闻条目 -->
+                    <ul id="content3_record" class="news-lists siteText">
+                    </ul>
+                </div>
+
+                <div id="info2_content4">
+                    <ul id="info4-lists" class="siteText cl-777">
+                        <li class="clearfix list-bg2">
+                            <div class="pull-left">
+                                <p class="pull-left">起始日期：</p>
+                                <p class="pull-left">终止日期：</p>
+                                <p class="pull-left">无风险收益：</p>
+                                <input id="txtBeginDate" class="form-control pull-left" placeholder="起始日期"/>
+                                <input id="txtEndDate" class="form-control pull-left" placeholder="终止日期"/>
+                                <input id="riskFree" class="form-control pull-left" placeholder="无风险收益" value="0.015"/>
+                            </div>
+                            <button id="exportBtn1" class="pull-right">导出预估净值</button>
+                            <button id="exportBtn2" class="pull-right">导出准确净值</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="details-right" class="pull-right hidden-xs">
+                <div id="details-userInfo">
+                    <img id="details-userInfo-pic">
+                    <p></p>
+                    <em></em>
+                </div>
+                <p id="details-fxts"><em>风险提示：</em><br>私募数据全部来源于合法渠道，尽力为用户提供权威、准确、完整、及时的私募数据，但无法对这些数据的准确性、及时性做出任何保证，据此做出任何决策，须自行承担风险与责任。</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+/.idea
+*.pyc
+/uploadskindeditor
+uploads/
+*.DS_Store
+*.swp
+/gaoyicrm/static/reports
+/gaoyicrm/static/tempfiles
+*.swo
+*.swm
+*.swn
+/templates
+*.tar.gz
+*.out

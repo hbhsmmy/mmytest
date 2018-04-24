@@ -1,0 +1,141 @@
+{% extends "base_en.html" %}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>Perseverance Asset - Company Profile</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/company_en.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/company.js"></script>
+    {% endblock %}
+
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">Home</a></li>
+    <li class="font16 header-nav-curr"><a href="../company" class="cl-fff">Company Profile</a></li>
+    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">The Investment Team</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">Contact Us</a></li>
+{% endblock%}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+
+        <div class="banner">
+            <div class="content">
+                <img id="banner-yt" src="../static/img/company/gsjs_img02.png" alt="">
+                <img id="banner-zt" src="../static/img/company/gsjs_img01.png" alt="">
+            </div>
+        </div>
+
+        <div id="companyTop" class="content">
+            <div class="site-con-title clearfix visible-xs-block">
+                <p class="pull-left" style="font-family: Arial">Company Profile</p>
+            </div>
+        </div>
+        <div class="companyContent1">
+            <div class="content">
+                <div class="companyContent-img">
+                    <img src="../static/img/company/pic1.jpg" alt="">
+                </div>
+                <div class="companyContent-text">
+                    <div class="companyContent-title">
+                        <p class="companyContent-cnTitle">Perseverance Asset</p>
+                        <p class="companyContent-enTitle">China's Leading Multi-manager Asset Management Firm</p>
+                    </div>
+                    <p class="companyContent-txt siteText cl-333 font15" style="text-align: justify; margin-bottom: 10px;">Perseverance Asset Management is China's leading multi-manager asset management firm, with investment capabilities across equities, fixed income and derivatives listed in China.  We are headquartered in Shenzhen and have offices in Shanghai and Beijing.</p>
+                    <p class="companyContent-txt siteText cl-333 font15" style="text-align: justify;">We aim to build the ultimate go-to platform that attracts and empowers the nation's most talented investment professionals, eventually delivering superior risk-adjusted returns to our investors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="companyContent2">
+            <div class="content">
+                <div class="companyContent-img">
+                    <img src="../static/img/company/pic2.jpg" alt="">
+                </div>
+                <div class="companyContent-text">
+                    <div class="companyContent-title">
+                        <p class="companyContent-cnTitle" style="text-align: left;">Our Advantages</p>
+                    </div>
+                    <div class="companyContent-txt siteText cl-333 font15" >
+                    <span>
+                    <ul style="text-align: justify; padding-left: 20px;">
+                        <li style="margin-bottom: 10px;"><b style="color: #86560f;">Extensive investment experience as the China Specialist</b> – Our senior investment management team members have an average of 16 years investment experience in China's equity markets with compelling track records. We are the specialist in managing China assets.</li>
+                        <li style="margin-bottom: 10px;"><b style="color: #86560f;">Seasoned research team</b> that works closely with our PMs and delivers exceptional fundamental and quantitative research work.</li>
+                        <li style="margin-bottom: 10px;"><b style="color: #86560f;">Robust operational and technological infrastructure</b> that enhances efficiency.</li>
+                        <li style="margin-bottom: 10px;"><b style="color: #86560f;">Rigorous risk management and compliance program in place</b> to protect our investors' interests.</li>
+                        <li style="margin-bottom: 10px;"><b style="color: #86560f;">Unique incentive mechanism</b> that attracts and retains outstanding portfolio managers of different styles, while fully aligning their long term interests with those of the investors.</li>
+                        <li style="margin-bottom: 10px;"><b style="color: #86560f;">Collective and collaborative environment</b> that prompts internal knowledge and experience sharing.</li>
+                        <li style="margin-bottom: 10px;"><b style="color: #86560f;">People oriented culture</b> – We believe our core competence lies in our people and we aspire to empower our employees to achieve their full potential.</li>
+                    </ul>
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="platform" class="content">
+            <div class="site-con-title-en clearfix">
+                <p class="pull-left"><br>Alignment of Interests with Investors</p>
+            </div>
+            <p id="platform-txt" class="siteText cl-333 font15" style="text-align: justify; line-height: 25px;">Our incentive mechanism is designed to attract and retain outstanding portfolio managers of different styles, while fully aligning their long term interests with those of the investors.</p>
+            <ul id="platform-lists" class="clearfix">
+                <li class="pull-left">
+                    <img class="platform-lists-icon" src="../static/img/company/icon1.png" alt="">
+                    <img class="platform-lists-jiantou hidden-xs" src="../static/img/company/jiantou.png" alt="">
+                    <div class="platform-lists-text">
+                        <p class="platform-lists-title">Profit sharing</p>
+                        <p class="platform-lists-txt" style="text-align: justify;">Majority of performance fees go to portfolio managers' bonuses. High payout ratio provides PMs with more financial upside than if they were to start their own funds.</p>
+                    </div>
+                </li>
+                <li class="pull-right">
+                    <img class="platform-lists-icon" src="../static/img/company/icon3.png" alt="">
+                    <img class="platform-lists-jiantou hidden-xs" src="../static/img/company/jiantou.png" alt="">
+                    <div class="platform-lists-text">
+                        <p class="platform-lists-title">Co-investment</p>
+                        <p class="platform-lists-txt" style="text-align: justify;">All portfolio managers are required to invest a significant part of their liquid assets into the funds that they manage.</p>
+                    </div>
+                </li>
+                <li class="pull-left">
+                    <img class="platform-lists-icon" src="../static/img/company/icon4.png" alt="">
+                    <img class="platform-lists-jiantou hidden-xs" src="../static/img/company/jiantou.png" alt="">
+                    <div class="platform-lists-text">
+                        <p class="platform-lists-title">Bonus deferral</p>
+                        <p class="platform-lists-txt" style="text-align: justify;">A significant part of a PM's variable remuneration above a predetermined threshold will be re-invested in the fund for at least 1-3 years.</p>
+            </ul>
+        </div>
+
+    </div>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,254 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 风险属性评估问卷</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- 全局css -->
+        <!-- <link href="css/global.css" rel="stylesheet"> -->
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/wenjuan.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        {#        <script src="../static/js/header.js"></script>#}
+        <!-- 引入页面底部js -->
+        <script src="../static/js/footer.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/wenjuan_org.js"></script>
+    {% endblock %}
+</head>
+<body>
+{#{% block banner %}#}
+{#    <li class="font16"><a href="../" class="cl-fff">首页</a></li>#}
+{#    <li class="font16"><a href="../company" class="cl-fff">公司介绍</a></li>#}
+{#    <li class="font16"><a href="../investTeam_qgl" class="cl-fff">投资团队</a></li>#}
+{#    <li class="font16"><a href="../trends_media" class="cl-fff">高毅动态</a></li>#}
+{#    <li class="font16"><a href="../contact_information" class="cl-fff">联系我们</a></li>#}
+{#{% endblock%}#}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+        {#    <div id="header-room"></div>#}
+        <div class="content">
+            <p id="fxts" class="font13 cl-666">风险提示：私募基金投资需承担各类风险，本金可能遭受损失。同时，私募基金投资还要考虑市场风险、信用风险、流动性风险、操作风险等各类投资风险。您在基金认购过程中应当注意核对自己的风险识别和风险承受能力，选择与自己风险识别能力和风险承受能力相匹配的私募基金。</p>
+            <h4 id="wenjuanTitle">风险属性评估问卷</h4>
+            <p class="font13 cl-666 wenjuanTxt">关于这份问卷旨在协助您了解自己对投资风险的承受度和投资目标，问卷信息将帮助我们提供适合您的投资产品供您参考。</p>
+            {#        <div id="userName" class="userInfo">#}
+            {#            <span>用户名：</span>#}
+            {#            <em></em>#}
+            {#        </div>#}
+            {#        <div id="userPhone" class="userInfo">#}
+            {#            <span>联系方式：</span>#}
+            {#            <em></em>#}
+            {#        </div>#}
+            <div id="userName1" class="userInfo">
+                <span>客户姓名：</span>
+                <em></em>
+            </div>
+            <div id="wenjuanInfo" class="clearfix">
+                <div class="test">
+                    <p>1、贵单位的性质：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test1" value="3">a.国有企事业单位（3分）</li>
+                        <li><input type="radio" name="test1" value="3">b.非上市民营企业（3分）</li>
+                        <li><input type="radio" name="test1" value="3">c.外资企业（3分）</li>
+                        <li><input type="radio" name="test1" value="4">d.上市公司（4分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>2、贵单位的净资产规模为：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test2" value="1">a.500万元以下（1分）</li>
+                        <li><input type="radio" name="test2" value="2">b.500万元-2000万元（2分）</li>
+                        <li><input type="radio" name="test2" value="3">c.2000万元-1亿元（3分）</li>
+                        <li><input type="radio" name="test2" value="5">d.超过1亿元（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>3、贵单位年营业收入为：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test3" value="1">a.500万元以下（1分）</li>
+                        <li><input type="radio" name="test3" value="2">b.500万元-2000万元（2分）</li>
+                        <li><input type="radio" name="test3" value="3">c.2000万元-1亿元（3分）</li>
+                        <li><input type="radio" name="test3" value="5">d.超过1亿元（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>4、贵单位证券账户资产为：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test4" value="1">a.300万元以内（1分）</li>
+                        <li><input type="radio" name="test4" value="2">b.300万元-1000万元（2分）</li>
+                        <li><input type="radio" name="test4" value="3">c.1000万元-3000万元（3分）</li>
+                        <li><input type="radio" name="test4" value="5">d.超过3000万元（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>5、贵单位是否有尚未清偿的数额较大的债务？如有，主要是：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test5" value="1">a.民间借贷（1分）</li>
+                        <li><input type="radio" name="test5" value="2">b.通过担保公司等中介机构募集的借款（2分）</li>
+                        <li><input type="radio" name="test5" value="3">c.公司债券或企业债券（3分）</li>
+                        <li><input type="radio" name="test5" value="4">d.银行贷款（4分）</li>
+                        <li><input type="radio" name="test5" value="5">e.没有数额较大的债务（5分）</li>
+                    </ul>
+                </div>
+
+                <div class="test">
+                    <p>6、对于金融产品投资工作，贵单位打算配置怎样的人员力量：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test6" value="1">a.一名兼职人员（包括负责人自行决策）（1分）</li>
+                        <li><input type="radio" name="test6" value="2">b.一名专职人员（2分）</li>
+                        <li><input type="radio" name="test6" value="3">c.多名兼职或专职人员，相互之间分工不明确（3分）</li>
+                        <li><input type="radio" name="test6" value="5">d.多名兼职或专职人员，相互之间有明确分工（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>7、贵单位所配置的负责金融产品投资工作的人员是否符合以下情况：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test7" value="2">a.现在或此前曾从事金融、经济或财会等与金融产品投资相关的工作超过两年（2分）</li>
+                        <li><input type="radio" name="test7" value="3">b.已取得金融、经济或财会等与金融产品投资相关专业学士以上学位（3分）</li>
+                        <li><input type="radio" name="test7" value="4">c.取得证券从业资格、期货从业资格、注册会计师证书（CPA）或注册金融分析师证书（CFA）中的一项及以上（4分）</li>
+                        <li><input type="radio" name="test7" value="0">d.本单位所配置的人员不符合以上任何一项描述（0分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>8、贵单位是否建立了金融产品投资相关的管理制度：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test8" value="1">a.没有。因为要保证操作的灵活性（1分）</li>
+                        <li><input type="radio" name="test8" value="3">b.已建立。包括了分工和授权的要求，但未包括投资风险控制的规则（3分）</li>
+                        <li><input type="radio" name="test8" value="5">c.已建立。包括了分工与授权、风险控制等一系列与金融产品投资有关的规则（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>9、贵单位的投资经验可以被概括为：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test9" value="1">a.有限：除银行活期账户和定期存款外，基本没有其他投资经验（1分）</li>
+                        <li><input type="radio" name="test9" value="2">b.一般：除银行活期账户和定期存款外，购买过基金、保险等理财产品，但还需要进一步的指导（2分）</li>
+                        <li><input type="radio" name="test9" value="4">c.丰富：本单位具有相当投资经验，参与过股票、基金等产品的交易，并倾向于自己做出投资决策（4分）</li>
+                        <li><input type="radio" name="test9" value="5">d.非常丰富：本单位对于投资非常有经验，参与过权证、期货或创业板等高风险产品的交易（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>10、有一位投资者一个月内做了15笔交易（同一品种买卖各一次算一笔），贵单位认为这样的交易频率：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test10" value="1">a.太高了（1分）</li>
+                        <li><input type="radio" name="test10" value="2">b.偏高（2分）</li>
+                        <li><input type="radio" name="test10" value="3">c.正常（3分）</li>
+                        <li><input type="radio" name="test10" value="4">d.偏低（4分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>11、过去一年时间内，您购买的不同金融产品（含同一类型的不同金融产品）的数量是：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test11" value="1">a.5个以下（1分）</li>
+                        <li><input type="radio" name="test11" value="3">b.6至10个（3分）</li>
+                        <li><input type="radio" name="test11" value="4">c.11至15个（4分）</li>
+                        <li><input type="radio" name="test11" value="5">d.16个以上（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>12、以下金融产品，贵单位投资经验在两年以上的有：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test12" value="1">a.银行存款（1分）</li>
+                        <li><input type="radio" name="test12" value="2">b.债券、货币市场基金、债券型基金或其它固定收益类产品（2分）</li>
+                        <li><input type="radio" name="test12" value="3">c.股票、混合型基金、偏股型基金、股票型基金等权益类投资品种（3分）</li>
+                        <li><input type="radio" name="test12" value="4">d.期货、融资融券（4分）</li>
+                        <li><input type="radio" name="test12" value="5">e.复杂金融产品或其他产品（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>13、如果贵单位曾经从事过金融产品投资，在交易较为活跃的月份，平均月交易额大概是多少：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test13" value="2">a.100万元以内（2分）</li>
+                        <li><input type="radio" name="test13" value="3">b.100万元-300万元（3分）</li>
+                        <li><input type="radio" name="test13" value="4">c.300万元-1000万元（4分）</li>
+                        <li><input type="radio" name="test13" value="5">d.1000万元以上（5分）</li>
+                        <li><input type="radio" name="test13" value="1">e.从未投资过金融产品（1分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>14、贵单位用于证券投资的大部分资金不会用作其它用途的时间段为：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test14" value="1">a.短期——0到1年（1分）</li>
+                        <li><input type="radio" name="test14" value="3">b.中期——1到5年（3分）</li>
+                        <li><input type="radio" name="test14" value="5">c.长期——5年以上（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>15、贵单位进行投资时的首要目标是：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test15" value="1">a.资产保值，我不愿意承担任何投资风险（1分）</li>
+                        <li><input type="radio" name="test15" value="2">b.尽可能保证本金安全，不在乎收益率比较低（2分）</li>
+                        <li><input type="radio" name="test15" value="4">c.产生较多的收益，可以承担一定的投资风险（4分）</li>
+                        <li><input type="radio" name="test15" value="5">d.实现资产大幅增长，愿意承担很大的投资风险（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>16、贵单位打算重点投资于哪个种类的投资品种：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test16" value="2">a.债券、货币市场基金、债券基金等固定收益类投资品种（2分）</li>
+                        <li><input type="radio" name="test16" value="3">b.股票、混合型基金、偏股型基金、股票型基金等权益类投资品种（3分）</li>
+                        <li><input type="radio" name="test16" value="4">c.期货、融资融券（4分）</li>
+                        <li><input type="radio" name="test16" value="5">d.复杂金融产品（5分）</li>
+                        <li><input type="radio" name="test16" value="2">e.其他产品（2分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>17、贵单位认为自己能承受的最大投资损失是多少：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test17" value="1">a.10%以内（1分）</li>
+                        <li><input type="radio" name="test17" value="2">b.10%-30%（2分）</li>
+                        <li><input type="radio" name="test17" value="4">c.30%-50%（4分）</li>
+                        <li><input type="radio" name="test17" value="5">d.超过50%（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>18、假设有两种不同的投资：投资A预期获得5%的收益，有可能承担非常小的损失；投资B预期获得20%的收益，但有可能面临25%甚至更高的亏损。您将您的投资资产分配为：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test18" value="1">a.全部投资于A（1分）</li>
+                        <li><input type="radio" name="test18" value="2">b.大部分投资于A（2分）</li>
+                        <li><input type="radio" name="test18" value="3">c.两种投资各一半（3分）</li>
+                        <li><input type="radio" name="test18" value="4">d.大部分投资于B（4分）</li>
+                        <li><input type="radio" name="test18" value="5">e.全部投资于B（5分）</li>
+                    </ul>
+                </div>
+                <div class="test">
+                    <p>19、贵单位参与金融产品投资的主要目的是什么：</p>
+                    <ul class="radios">
+                        <li><input type="radio" name="test19" value="1">a.闲置资金保值增值（1分）</li>
+                        <li><input type="radio" name="test19" value="2">b.获取主营业务以外的投资收益（2分）</li>
+                        <li><input type="radio" name="test19" value="3">c.现货套期保值、对冲主营业务风险（3分）</li>
+                        <li><input type="radio" name="test19" value="4">d.减持已持有的股票（4分）</li>
+                    </ul>
+                </div>
+            </div>
+            <button id="queren" type="button" class="btn">提交</button>
+        </div>
+    </div>
+{% endblock %}
+
+</body>
+</html>

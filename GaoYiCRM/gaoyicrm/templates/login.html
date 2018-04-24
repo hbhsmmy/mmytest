@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 登陆</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 全局css -->
+        <link href="css/global.css" rel="stylesheet">
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/login.css" rel="stylesheet">
+
+        <!-- 引入当前页面js -->
+        <script src="../static/js/login.js"></script>
+
+    {% endblock %}
+</head>
+<body>
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+        <!-- PC端背景与文字 -->
+        <div id="login-bg" class="hidden-xs">
+            <div class="content">
+                <img id="login-txt1" src="../static/img/login/title.png" alt="">
+                <img id="login-txt2" src="../static/img/login/txt.png" alt="">
+            </div>
+        </div>
+
+        <!-- 登陆主要元素 -->
+        <div id="login-content" class="content clearfix">
+            <div id="login-box" class="pull-right">
+
+                <h4 id="login-title" class="visible-xs-block">登录高毅资产CRM系统</h4>
+
+                <p id="login-tip" class="hidden-xs">登录高毅资产CRM系统</p>
+                <p id="login-status">* 您输入的用户名或密码错误</p>
+
+                <form class="bs-example bs-example-form" data-example-id="simple-input-groups">
+                    <div id="user-name" class="input-group">
+                        <span class="input-group-addon">账号：</span>
+                        <input type="text" class="form-control" placeholder="输入分配的员工帐号">
+                    </div>
+                    <div id="user-password" class="input-group">
+                        <span class="input-group-addon">密码：</span>
+                        <input type="password" class="form-control" placeholder="输入分配的员工密码">
+                    </div>
+                </form>
+                <span class="pull-right">记住账号密码</span><input id="rememberBox" type="checkbox" checked="checked" class="pull-right"/>
+                <div id="loginBtns" class="clearfix">
+                    <button id="changeBtn" type="submit" class="btn button pull-left">修改密码</button>
+                    <button id="loginBtn" type="submit" class="btn button pull-right">登录网站</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% endblock%}
+</body>
+</html>

@@ -1,0 +1,305 @@
+
+
+p{
+	margin: 0;
+}
+
+#main{
+	padding-top: 120px;
+}
+
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url("../img/account/banner2.jpg") center no-repeat;
+}
+/* 2015-11-20 修改 */
+#banner-yt{
+	position: absolute;
+	right: 50px;
+	top: 190px;
+	width: 271px;
+}
+#banner-zt{
+	position: absolute;
+	right: 50px;
+	top: 125px;
+	width: 200px;
+}
+/* 2015-11-20 修改 - end */
+#account-content{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+
+
+
+#account-info{
+	width: 70%;
+}
+
+#info1{
+	background: #eee;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#info1-title{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: solid 1px #ddd;
+}
+#info1-title em{
+	font-size: 13px;
+	color: #999;
+	font-style: normal;
+	line-height: 50px;
+}
+#info1-info{
+	margin-top: 20px;
+}
+
+.list-data1{
+	width: 50%;
+	margin-bottom: 10px;
+}
+.list-data2{
+	width: 50%; 
+	margin-bottom: 10px;
+}
+.list-data3{
+	margin-top: 10px;
+	width: 34%; 
+}
+.list-data4{
+	margin-top: 10px;
+	width: 33%; 
+	text-align: center;
+}
+.list-data5{
+	margin-top: 10px;
+	width: 33%; 
+	text-align: right;
+}
+.list-data3 span, .list-data4 span, .list-data5 span{
+	display: block;
+	margin-top: 5px;
+}
+
+
+
+
+#info2{
+	margin-top: 40px;
+}
+#echartsContainer{
+	margin-top: 20px;
+	height: 380px;
+	border: solid 1px #f5f5f5;
+}
+#info2-lists{
+	margin-top: 45px;
+}
+.list-topBar{
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #eee;
+	height: 40px;
+	line-height: 40px;
+}
+.list-content li{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 40px;
+	line-height: 40px;
+}
+.list-bg1{
+	background: #fff;
+}
+.list-bg2{
+	background: #f9f9f9;
+}
+.list-bg3{
+	background: #eee;
+}
+.list-w1{
+	width: 14%;
+}
+.list-w2{
+	width: 24%;
+}
+.list-w3{
+	width: 24%;
+}
+
+.list-content{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/*翻页导航*/
+.pagination{
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.pagination li a{
+	color: #666;
+	cursor: pointer;
+}
+.pagination li a:hover{
+	color: #dfb578;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #dfb578;
+    border-color: #dfb578;
+}
+
+
+#info3{
+	margin-bottom: 20px;
+}
+#info3-lists{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#info3-lists li{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#info3-lists a{
+	text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	/* 2015-11-20 修改 */
+	#main{
+		padding-top: 60px;
+	}
+	.banner{
+		width: 100%;
+		height: 100px;
+		background: url("../img/account/banner3.jpg") center no-repeat;
+		background-size: 100% 100%;
+	}
+	#banner-yt{
+		top: 60px;
+		right: 20px;
+		width: 162px;
+	}
+	#banner-zt{
+		top: 20px;
+		right: 20px;
+		width: 83px;
+	}
+	/* 2015-11-20 修改 - end */
+
+	#account-content{
+		margin-top: 25px;
+		/*padding-left: 20px;
+		padding-right: 20px;*/
+	}
+	#account-info{
+		width: 100%;
+	}
+	#info1{
+		background: none;
+		padding: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#info1 span{
+		display: block;
+		margin-top: 5px;
+	}
+	.list-data2{
+		width: 33%;
+		text-align: left;
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.list-data2 span{
+		margin-top: 5px;
+	}
+	.list-data3{
+		text-align: center;
+	}
+	.list-data4{
+		text-align: right;
+	}
+	
+	#info2{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#echartsContainer{
+		margin-top: 20px;
+		height: 280px;
+		border: 0;
+	}
+	.list-w1{
+		width: 34%;
+	}
+	.list-w2{
+		width: 33%;
+	}
+	.list-w3{
+		width: 33%;
+		text-align: right;
+	}
+
+	#info3{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.breadcrumb{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

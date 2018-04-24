@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>高毅 - 高毅动态</title>
+
+        <!-- 引入 jquery -->
+        <script src="../../staticjs/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../../static/css/footer.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../../static/css/trends.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../../static/css/investTeam_news_qgl_info.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../../static/js/header.js"></script>
+        <!-- 引入页面底部js -->
+        <script src="../../static/js/footer.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../../static/js/investTeam_news_info.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../../" class="cl-fff">首页</a></li>
+    <li class="font16"><a href="../../company" class="cl-fff">公司介绍</a></li>
+    <li class="font16 header-nav-curr"><a href="../../investTeam_qgl" class="cl-fff">投资团队</a></li>
+    <li class="font16"><a href="../../trends_media" class="cl-fff">高毅动态</a></li>
+    <li class="font16"><a href="../../contact_information" class="cl-fff">联系我们</a></li>
+{% endblock%}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+        <div class="banner">
+            <div class="content">
+                {#<img id="banner-yt" src="../../static/img/investTeam/yt.png" alt="">#}
+                <img id="banner-zt" src="../../static/img/investTeam/zt.png" alt="">
+            </div>
+        </div>
+
+        <!-- 移动端内容区 顶部导航（此导航为PC端内容区左侧导航响应式后状态） -->
+        <div class="con-mb-top-navs visible-xs-block">
+            <div class="mb-top-navs swiper-container">
+                <div class="mb-top-navs-info swiper-wrapper">
+                    <a href="../../investTeam_news_qgl" class="swiper-slide mb-top-navs-nav">邱国鹭</a>
+                    <a href="../../investTeam_news_dxf" class="swiper-slide mb-top-navs-nav">邓晓峰</a>
+                    <a href="../../investTeam_news_sqr" class="swiper-slide mb-top-navs-nav">孙庆瑞</a>
+                    <a href="../../investTeam_news_zlw" class="swiper-slide mb-top-navs-nav">卓利伟</a>
+                    <a href="../../investTeam_news_fl" class="swiper-slide mb-top-navs-nav mb-top-navs-navCurr">冯柳</a>
+                    <a href="../../investTeam_news_wsh" class="swiper-slide mb-top-navs-nav">王世宏</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="trends-content" class="content clearfix">
+
+            <!-- 面包屑 -->
+            <div class="breadcrumb border-b cl-bbb hidden-xs">
+                <a class="cl-555" href="../../">首页</a> <em class="glyphicon glyphicon-menu-right"></em> <a class="cl-555" href="../../investTeam_fl">投资团队</a> <em class="glyphicon glyphicon-menu-right"></em> <a class="cl-555" href="../../investTeam_news_fl">冯柳投资思想</a><em class="glyphicon glyphicon-menu-right"></em> <span class="cl-c29658">详情</span>
+            </div>
+
+            <!-- PC端内容区 左侧导航 -->
+            <div class="con-left-navs pull-left hidden-xs">
+                <a class="con-left-nav" href="../investTeam_news_qgl"><p>邱国鹭投资思想</p><em>董事长</em></a>
+                <a class="con-left-nav navCurr" href="../../investTeam_news_dxf"><p>邓晓峰投资思想</p><em>首席投资官</em></a>
+                <a class="con-left-nav" href="../../investTeam_news_sqr"><p>孙庆瑞投资思想</p><em>董事总经理</em></a>
+                <a class="con-left-nav" href="../../investTeam_news_zlw"><p>卓利伟投资思想</p><em>董事总经理</em></a>
+                <a class="con-left-nav" href="../../investTeam_news_fl"><p>冯柳投资思想</p><em>董事总经理</em></a>
+                <a class="con-left-nav nav-end" href="../../investTeam_news_wsh"><p>王世宏投资思想</p><em>董事总经理</em></a>
+            </div>
+
+            <!-- 页面内容信息 -->
+            <div class="siteConRight pull-right cl-333">
+                <p class="info-title font16">{{ info.title }}</p>
+                <div class="info-article clearfix">
+                    <p class="pull-left siteText cl-555">{{ info.author }}</p>
+                    <p class="pull-right siteText cl-555">{{ info.date_publish|date:"Y-m-d"}}</p>
+                </div>
+                <div class="info-text siteText">
+                    {% autoescape off %}
+                        {{ info.content }}
+                    {% endautoescape %}
+                </div>
+                <!-- 面包屑 -->
+                <div class="breadcrumb border-t cl-bbb mb35 mt20 visible-xs-block">
+                    <a class="cl-555" href="../../">首页</a> <em class="glyphicon glyphicon-menu-right"></em> <a class="cl-555" href="../../investTeam_fl">投资团队</a> <em class="glyphicon glyphicon-menu-right"></em> <a class="cl-555" href="../../investTeam_news_fl">冯柳投资思想</a> <em class="glyphicon glyphicon-menu-right"></em> <span class="cl-c29658">详情</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>

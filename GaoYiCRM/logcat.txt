@@ -1,0 +1,995 @@
+﻿Time:2016-08-03 16-23-47  User:张成一鸣
+Action:Edit the client with ID 9396
+DetailsBefore:customer_name:张成一鸣 customer_type:1 id_type:3 id_no:3334445551 sex: customer_mobile:123321 customer_email: customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:张成一鸣 customer_type:1 id_type:1 id_no:630102199206013314 sex:男 customer_mobile:18627094340 customer_email: customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:5 6 
+-------------------
+Time:2016-08-03 16-23-51  User:张成一鸣
+Action:Remove the client with ID 9396
+DetailsBefore:customer_name:张成一鸣 customer_type:1 id_type:1 id_no:630102199206013314 sex:男 customer_mobile:18627094340 customer_email: customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:5 6 
+-------------------
+Time:2016-08-08 15-14-42  User:SecScan
+Action:Create a client with ID 9432
+Details:customer_name:</script><script>alert (‘test’)</script> customer_type:1 id_type:1 id_no:</script><script>alert (‘test’)</script> sex:女 customer_mobile:13411223344 customer_email:</script><script>alert (‘test’)</script> customer_wx:</script><script>alert (‘test’)</script> contact_name:aaa contact_mobile:13411223344 province:江西省 city:萍乡市 address:</script><script>alert (‘test’)</script> source_type:3 interest: created_by:SecScan updated_by:SecScan managers:1 
+-------------------
+Time:2016-08-08 15-19-30  User:SecScan
+Action:Remove the client with ID 9432
+DetailsBefore:customer_name:</script><script>alert (‘test’)</script> customer_type:1 id_type:1 id_no:</script><script>alert (‘test’)</script> sex:女 customer_mobile:13411223344 customer_email:</script><script>alert (‘test’)</script> customer_wx:</script><script>alert (‘test’)</script> contact_name:aaa contact_mobile:13411223344 province:江西省 city:萍乡市 address:</script><script>alert (‘test’)</script> source_type:3 interest: created_by:SecScan updated_by:SecScan managers:1 
+-------------------
+Time:2016-08-09 14-56-36  User:SecScan
+Action:Edit the client with ID 9020
+DetailsBefore:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:13701091234 customer_email:irgroup@gyasset.com customer_wx:None contact_name:None contact_mobile:None province:None city:None address:None source_type:1 interest:None created_by:TA updated_by:TA managers:4 
+DetailsAfter:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+-------------------
+Time:2016-08-09 14-57-40  User:SecScan
+Action:Edit the client with ID 9020
+DetailsBefore:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+DetailsAfter:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+-------------------
+Time:2016-08-09 14-58-43  User:SecScan
+Action:Edit the client with ID 9020
+DetailsBefore:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+DetailsAfter:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+-------------------
+Time:2016-08-09 14-59-46  User:SecScan
+Action:Edit the client with ID 9020
+DetailsBefore:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+DetailsAfter:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+-------------------
+Time:2016-08-09 15-00-49  User:SecScan
+Action:Edit the client with ID 9020
+DetailsBefore:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+DetailsAfter:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+-------------------
+Time:2016-08-09 15-01-53  User:SecScan
+Action:Edit the client with ID 9020
+DetailsBefore:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+DetailsAfter:customer_name:吴高毅 customer_type:1 id_type:1 id_no:110105197201011234 sex:男 customer_mobile:1370109123 customer_email:irgrou@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest:刘 created_by:TA updated_by:TA managers:2 3 
+-------------------
+Time:2016-08-09 17-09-00  User:张成一鸣
+Action:Edit the client with ID 9027
+DetailsBefore:customer_name:李高毅 customer_type:1 id_type:1 id_no:320721196309121234 sex:女 customer_mobile:13851401234 customer_email:irgroup@gyasset.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:TA updated_by:TA managers:6 5 
+DetailsAfter:customer_name:李高毅 customer_type:1 id_type:1 id_no:320721196309121234 sex:女 customer_mobile:13851401234 customer_email:irgroup@gyasset.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:左安门内大街 source_type:1 interest: created_by:TA updated_by:TA managers:3 6 
+-------------------
+Time:2016-08-09 17-09-09  User:张成一鸣
+Action:Edit the client with ID 9027
+DetailsBefore:customer_name:李高毅 customer_type:1 id_type:1 id_no:320721196309121234 sex:女 customer_mobile:13851401234 customer_email:irgroup@gyasset.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:左安门内大街 source_type:1 interest: created_by:TA updated_by:TA managers:3 6 
+DetailsAfter:customer_name:李高毅 customer_type:1 id_type:1 id_no:320721196309121234 sex:女 customer_mobile:13851401234 customer_email:irgroup@gyasset.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:左安门内大街 source_type:1 interest: created_by:TA updated_by:TA managers:3 7 
+-------------------
+Time:2016-08-16 11-17-34  User:张成一鸣
+Action:Edit the client with ID 11253
+DetailsBefore:customer_name:陈荒淡 customer_type:1 id_type:1 id_no:421002198506312345 sex:女 customer_mobile:18988791234 customer_email: customer_wx: contact_name: contact_mobile: province:广东省 city:深圳市 address:嘉里建设广场3座 source_type:1 interest: created_by:TA updated_by:TA managers:
+DetailsAfter:customer_name:陈荒淡 customer_type:1 id_type:1 id_no:421002198506312345 sex:女 customer_mobile:18988791234 customer_email: customer_wx: contact_name: contact_mobile: province:广东省 city:深圳市 address:嘉里建设广场3座2303 source_type:1 interest: created_by:TA updated_by:TA managers:
+-------------------
+Time:2016-08-19 15-13-55  User:张成一鸣
+Action:Create a client with ID 14040
+Details:customer_name:大家就开始觉得卢卡斯觉得里卡多健康啦圣诞节卡拉斯京的卡拉斯京的卡拉斯京快乐就快乐健康了解了空间 customer_type:1 id_type: id_no: sex: customer_mobile:123321123 customer_email: customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-08-19 15-14-38  User:张成一鸣
+Action:Edit the client with ID 14040
+DetailsBefore:customer_name:大家就开始觉得卢卡斯觉得里卡多健康啦圣诞节卡拉斯京的卡拉斯京的卡拉斯京快乐就快乐健康了解了空间 customer_type:1 id_type: id_no: sex: customer_mobile:123321123 customer_email: customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:大家就开始觉得卢卡斯觉得里卡多健康啦圣诞节卡拉斯京的卡拉斯京的卡拉 customer_type:1 id_type: id_no: sex: customer_mobile:123321123 customer_email: customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-08-30 14-05-32  User:岳洪莉
+Action:Create a client with ID 14041
+Details:customer_name:测试个人1 customer_type:1 id_type:1 id_no:430494197709081234 sex:男 customer_mobile:13890901234 customer_email:wet@sina.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:啥范德萨发撒 source_type:3 interest:对平台感兴趣，价值投资感兴趣，希望了解产品信息和公司经理。 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 3 
+-------------------
+Time:2016-08-30 14-06-22  User:岳洪莉
+Action:Create a client with ID 14042
+Details:customer_name:测试机构1 customer_type:2 id_type:2 id_no:888888 sex: customer_mobile:18984341234 customer_email: customer_wx: contact_name: contact_mobile: province:上海市 city:静安区 address:范德萨发撒儿玩儿去 source_type:3 interest: created_by:岳洪莉 updated_by:岳洪莉 managers:2 
+-------------------
+Time:2016-09-18 21-54-47  User:张成一鸣
+Action:Edit the client with ID 14060
+DetailsBefore:customer_name:奥尼尔 customer_type:1 id_type: id_no: sex: customer_mobile:18627094340 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:奥尼尔 customer_type:1 id_type: id_no: sex: customer_mobile:18627094340 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-09-18 22-00-36  User:张成一鸣
+Action:Edit the client with ID 14060
+DetailsBefore:customer_name:奥尼尔 customer_type:1 id_type: id_no: sex: customer_mobile:18627094340 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:奥尼尔 customer_type:1 id_type: id_no: sex: customer_mobile:18627094340 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-09-18 22-02-27  User:张成一鸣
+Action:Edit the client with ID 14060
+DetailsBefore:customer_name:奥尼尔 customer_type:1 id_type: id_no: sex: customer_mobile:18627094340 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:奥尼尔 customer_type:1 id_type: id_no: sex: customer_mobile:18627094340 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-09-18 22-32-11  User:张成一鸣
+Action:Complete a contact with ID 216 about client 14060
+Details:contact_date:2016-09-19 contact_user_id:7 contact_detail:打印材料连同《高毅晓峰2号致信7号基金》合同寄出并收回！ contact_record:浩浩汤汤 task_status:1 contact_type:3 contact_user_id:7 created_by:7 updated_by:张成一鸣
+-------------------
+Time:2016-09-18 23-01-54  User:张成一鸣
+Action:Create a client with ID 14061
+Details:customer_name:耶伦 customer_type:1 id_type: id_no: sex: customer_mobile:18627094340 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-09-18 23-02-08  User:张成一鸣
+Action:Edit the client with ID 14061
+DetailsBefore:customer_name:耶伦 customer_type:1 id_type: id_no: sex: customer_mobile:18627094340 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:耶伦 customer_type:1 id_type: id_no: sex: customer_mobile:18627094340 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-09-19 09-13-25  User:岳洪莉
+Action:Create a client with ID 14062
+Details:customer_name:王先生 customer_type:1 id_type: id_no: sex:男 customer_mobile:18393831234 customer_email:a@qwe.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:萨芬 created_by:岳洪莉 updated_by:岳洪莉 managers:1 3 
+-------------------
+Time:2016-09-19 09-13-32  User:岳洪莉
+Action:Create a contact with ID 229 about client 14062
+Details:contact_date:2016-09-19 09:00 contact_user_id:1 contact_detail:dafsdf contact_record: task_status:2 contact_type:1 contact_user_id:1 created_by:岳洪莉 updated_by:岳洪莉
+-------------------
+Time:2016-09-19 10-10-18  User:岳洪莉
+Action:Edit the client with ID 14062
+DetailsBefore:customer_name:王先生 customer_type:1 id_type: id_no: sex:男 customer_mobile:18393831234 customer_email:a@qwe.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:萨芬 created_by:岳洪莉 updated_by:岳洪莉 managers:1 3 
+DetailsAfter:customer_name:王先生 customer_type:1 id_type:1 id_no:430 sex:男 customer_mobile:18393831234 customer_email:a@qwe.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:萨芬 created_by:岳洪莉 updated_by:岳洪莉 managers:1 3 
+-------------------
+Time:2016-09-19 10-22-37  User:岳洪莉
+Action:Edit the client with ID 14062
+DetailsBefore:customer_name:王先生 customer_type:1 id_type:1 id_no:430 sex:男 customer_mobile:18393831234 customer_email:a@qwe.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:萨芬 created_by:岳洪莉 updated_by:岳洪莉 managers:1 3 
+DetailsAfter:customer_name:王先生 customer_type:1 id_type:1 id_no:430 sex:男 customer_mobile:18393831234 customer_email:a@qwe.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:萨芬 created_by:岳洪莉 updated_by:岳洪莉 managers:1 3 
+-------------------
+Time:2016-09-19 10-49-42  User:岳洪莉
+Action:Edit the client with ID 14062
+DetailsBefore:customer_name:王先生 customer_type:1 id_type:1 id_no:430 sex:男 customer_mobile:18393831234 customer_email:a@qwe.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:萨芬 created_by:岳洪莉 updated_by:岳洪莉 managers:1 3 
+DetailsAfter:customer_name:王先生 customer_type:1 id_type:1 id_no:430 sex:男 customer_mobile:18393831234 customer_email:a@qwe.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:萨芬 created_by:岳洪莉 updated_by:岳洪莉 managers:1 3 
+-------------------
+Time:2016-09-19 11-05-25  User:岳洪莉
+Action:Create a client with ID 14063
+Details:customer_name:曾智能 customer_type:1 id_type: id_no: sex:女 customer_mobile:13324324234 customer_email:123@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉 updated_by:岳洪莉 managers:5 
+-------------------
+Time:2016-09-19 11-15-03  User:岳洪莉
+Action:Edit the client with ID 14063
+DetailsBefore:customer_name:曾智能 customer_type:1 id_type: id_no: sex:女 customer_mobile:13324324234 customer_email:123@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉 updated_by:岳洪莉 managers:5 
+DetailsAfter:customer_name:曾智能 customer_type:1 id_type: id_no: sex:女 customer_mobile:13324324234 customer_email:123@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉 updated_by:岳洪莉 managers:5 
+-------------------
+Time:2016-09-20 09-51-31  User:岳洪莉
+Action:Create a client with ID 14064
+Details:customer_name:万象 customer_type:1 id_type:1 id_no:321456199009098765 sex:女 customer_mobile:18512345678 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province:北京市 city:东城区 address:发阿发 source_type:3 interest:发送 的算法 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 5 
+-------------------
+Time:2016-09-20 09-52-32  User:岳洪莉
+Action:Edit the client with ID 14064
+DetailsBefore:customer_name:万象 customer_type:1 id_type:1 id_no:321456199009098765 sex:女 customer_mobile:18512345678 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province:北京市 city:东城区 address:发阿发 source_type:3 interest:发送 的算法 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 5 
+DetailsAfter:customer_name:万象 customer_type:1 id_type:1 id_no:321456199009098765 sex:女 customer_mobile:18512345678 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province:北京市 city:东城区 address:发阿发 source_type:3 interest:发送 的算法 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 5 
+-------------------
+Time:2016-09-20 09-56-06  User:岳洪莉
+Action:Edit the client with ID 14064
+DetailsBefore:customer_name:万象 customer_type:1 id_type:1 id_no:321456199009098765 sex:女 customer_mobile:18512345678 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province:北京市 city:东城区 address:发阿发 source_type:3 interest:发送 的算法 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 5 
+DetailsAfter:customer_name:万象 customer_type:1 id_type:1 id_no:321456199009098765 sex:女 customer_mobile:18512345678 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province:北京市 city:东城区 address:发阿发 source_type:3 interest:发送 的算法 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 5 
+-------------------
+Time:2016-09-20 15-40-56  User:岳洪莉
+Action:Edit the client with ID 14064
+DetailsBefore:customer_name:万象 customer_type:1 id_type:1 id_no:321456199009098765 sex:女 customer_mobile:18512345678 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province:北京市 city:东城区 address:发阿发 source_type:3 interest:发送 的算法 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 5 
+DetailsAfter:customer_name:万象 customer_type:1 id_type:1 id_no:321456199009098765 sex:女 customer_mobile:18512345678 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province:北京市 city:东城区 address:发阿发 source_type:3 interest:发送 的算法 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 5 
+-------------------
+Time:2016-09-20 15-41-15  User:岳洪莉
+Action:Create a contact with ID 232 about client 14064
+Details:contact_date:2016-09-20 09:00 contact_user_id:1 contact_detail:发水水水水 contact_record: task_status:2 contact_type:1 contact_user_id:1 created_by:岳洪莉 updated_by:岳洪莉
+-------------------
+Time:2016-09-20 15-43-51  User:岳洪莉
+Action:Edit the client with ID 14062
+DetailsBefore:customer_name:王先生 customer_type:1 id_type:1 id_no:430 sex:男 customer_mobile:18393831234 customer_email:a@qwe.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:萨芬 created_by:岳洪莉 updated_by:岳洪莉 managers:1 3 
+DetailsAfter:customer_name:王先生 customer_type:1 id_type:1 id_no:430 sex:男 customer_mobile:18393831234 customer_email:a@qwe.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:萨芬 created_by:岳洪莉 updated_by:岳洪莉 managers:1 3 
+-------------------
+Time:2016-09-21 16-48-38  User:岳洪莉
+Action:Create a contact with ID 233 about client 13723
+Details:contact_date:2016-09-21 15:00 contact_user_id:1 contact_detail:客户来电，张引测试 contact_record: task_status:1 contact_type:1 contact_user_id:1 created_by:岳洪莉 updated_by:岳洪莉
+-------------------
+Time:2016-09-21 17-01-55  User:岳洪莉
+Action:Create a contact with ID 234 about client 13716
+Details:contact_date:2016-09-21 17:00 contact_user_id:1 contact_detail:test 张引 contact_record: task_status:1 contact_type:1 contact_user_id:1 created_by:岳洪莉 updated_by:岳洪莉
+-------------------
+Time:2016-10-10 11-13-42  User:张成一鸣
+Action:Edit the client with ID 14081
+DetailsBefore:customer_name:张成一鸣 customer_type:1 id_type:0 id_no:630102199206013314 sex: customer_mobile:18627094340 customer_email:18627094340@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:张成一鸣 customer_type:1 id_type:0 id_no:630102199206013314 sex: customer_mobile:18627094340 customer_email:18627094340@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-10-10 15-44-42  User:岳洪莉
+Action:Create a client with ID 14085
+Details:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:13012341234 customer_email:a@126.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:fadsf created_by:岳洪莉 updated_by:岳洪莉 managers:1 
+-------------------
+Time:2016-10-10 15-46-04  User:岳洪莉
+Action:Edit the client with ID 14085
+DetailsBefore:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:13012341234 customer_email:a@126.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:fadsf created_by:岳洪莉 updated_by:岳洪莉 managers:1 
+DetailsAfter:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:13012341234 customer_email:a@126.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:fadsf created_by:岳洪莉 updated_by:岳洪莉 managers:1 
+-------------------
+Time:2016-10-10 16-18-00  User:岳洪莉
+Action:Create a client with ID 14086
+Details:customer_name:张数数 customer_type:1 id_type:0 id_no:421001198809091234 sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+-------------------
+Time:2016-10-10 16-18-42  User:岳洪莉
+Action:Edit the client with ID 14086
+DetailsBefore:customer_name:张数数 customer_type:1 id_type:0 id_no:421001198809091234 sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+DetailsAfter:customer_name:张数数 customer_type:1 id_type:0 id_no:421001198809091234 sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+-------------------
+Time:2016-10-10 18-25-54  User:张成一鸣
+Action:Edit the client with ID 14088
+DetailsBefore:customer_name:绿狗狗 customer_type:1 id_type:0 id_no:1233321 sex: customer_mobile:133 customer_email:133 customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:绿狗狗 customer_type:1 id_type: id_no: sex: customer_mobile:133 customer_email:133 customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-10-10 18-28-29  User:岳洪莉
+Action:Edit the client with ID 14088
+DetailsBefore:customer_name:绿狗狗 customer_type:1 id_type: id_no: sex: customer_mobile:133 customer_email:133 customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:绿狗狗 customer_type:1 id_type:0 id_no:43012 sex: customer_mobile:133 customer_email:133 customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-10-11 12-58-03  User:岳洪莉
+Action:Edit the client with ID 14086
+DetailsBefore:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+DetailsAfter:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+-------------------
+Time:2016-10-11 12-58-33  User:岳洪莉
+Action:Edit the client with ID 14086
+DetailsBefore:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+DetailsAfter:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+-------------------
+Time:2016-10-11 13-32-10  User:岳洪莉
+Action:Edit the client with ID 14086
+DetailsBefore:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+DetailsAfter:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+-------------------
+Time:2016-10-11 13-32-43  User:岳洪莉
+Action:Edit the client with ID 14086
+DetailsBefore:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+DetailsAfter:customer_name:张数数 customer_type:1 id_type: id_no: sex:男 customer_mobile:18912341234 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到是打发是打发发大水发 source_type:3 interest:发多少 created_by:岳洪莉 updated_by:岳洪莉 managers:1 2 
+-------------------
+Time:2016-10-13 10-11-22  User:岳洪莉
+Action:Create a client with ID 14092
+Details:customer_name:测试rob1 customer_type:1 id_type: id_no: sex:男 customer_mobile:12343243243242 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:预计购买100 created_by:岳洪莉 updated_by:岳洪莉 managers:2 
+-------------------
+Time:2016-10-13 10-12-15  User:岳洪莉
+Action:Create a client with ID 14093
+Details:customer_name:测试机构002 customer_type:0 id_type: id_no: sex: customer_mobile:1232432432432 customer_email:35626496@qq.com customer_wx: contact_name:张三 contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉 updated_by:岳洪莉 managers:3 
+-------------------
+Time:2016-10-13 11-00-56  User:岳洪莉
+Action:Edit the client with ID 14092
+DetailsBefore:customer_name:测试rob1 customer_type:1 id_type: id_no: sex:男 customer_mobile:12343243243242 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest:预计购买100 created_by:岳洪莉 updated_by:岳洪莉 managers:2 
+DetailsAfter:customer_name:测试rob1 customer_type:1 id_type:0 id_no:421000198807070909 sex:男 customer_mobile:12343243243242 customer_email:35626496@qq.com customer_wx: contact_name:三子 contact_mobile: province:天津市 city:和平区 address:第三方 source_type:3 interest:预计购买100 created_by:岳洪莉 updated_by:岳洪莉 managers:2 
+-------------------
+Time:2016-10-13 11-07-59  User:岳洪莉
+Action:Remove the client with ID 14092
+DetailsBefore:customer_name:测试rob1 customer_type:1 id_type:0 id_no:421000198807070909 sex:男 customer_mobile:12343243243242 customer_email:35626496@qq.com customer_wx: contact_name:三子 contact_mobile: province:天津市 city:和平区 address:第三方 source_type:3 interest:预计购买100 created_by:岳洪莉 updated_by:岳洪莉 managers:2 
+-------------------
+Time:2016-10-13 14-19-10  User:岳洪莉
+Action:Complete a contact with ID 290 about client 9420
+Details:contact_date:2016-10-31 contact_user_id:1 contact_detail:请于2016-10-14 13:53:11后完成《高毅邻山1号远望4号基金》的静默回访 contact_record:已完成 task_status:1 contact_type:2 contact_user_id:1 created_by:1 updated_by:岳洪莉
+-------------------
+Time:2016-10-13 18-49-23  User:岳洪莉
+Action:Edit the client with ID 13735
+DetailsBefore:customer_name:宋来夜 customer_type:1 id_type:0 id_no:320421196812212345 sex:女 customer_mobile:None customer_email:None customer_wx:None contact_name:None contact_mobile:None province:None city:None address:None source_type:2 interest:None created_by:TA updated_by:TA managers:3 
+DetailsAfter:customer_name:宋来夜 customer_type:1 id_type:0 id_no:320421196812212345 sex:女 customer_mobile:1343243234 customer_email:email@3.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:第三方 source_type:2 interest: created_by:TA updated_by:TA managers:1 3 
+-------------------
+Time:2016-10-17 17-13-25  User:测试用户1
+Action:Create a client with ID 14094
+Details:customer_name:张张三 customer_type:1 id_type:0 id_no:421001198709091234 sex:男 customer_mobile:18988121234 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到范德萨范德萨 source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 3 
+-------------------
+Time:2016-10-17 17-14-10  User:测试用户1
+Action:Edit the client with ID 14094
+DetailsBefore:customer_name:张张三 customer_type:1 id_type:0 id_no:421001198709091234 sex:男 customer_mobile:18988121234 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到范德萨范德萨 source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 3 
+DetailsAfter:customer_name:张张三 customer_type:1 id_type:0 id_no:421001198709091234 sex:男 customer_mobile:18988121234 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:发到范德萨范德萨 source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 3 
+-------------------
+Time:2016-10-19 10-36-46  User:测试用户1
+Action:Create a client with ID 14095
+Details:customer_name:张先生 customer_type:1 id_type:0 id_no:34324321432 sex:男 customer_mobile:1293242324 customer_email:2134@sina.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+-------------------
+Time:2016-10-19 10-37-01  User:测试用户1
+Action:Create a client with ID 14096
+Details:customer_name:吴狗狗 customer_type:1 id_type:0 id_no:asdf sex:男 customer_mobile:1234556666666 customer_email:asdfa customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:
+-------------------
+Time:2016-10-19 10-39-09  User:测试用户1
+Action:Edit the client with ID 14095
+DetailsBefore:customer_name:张先生 customer_type:1 id_type:0 id_no:34324321432 sex:男 customer_mobile:1293242324 customer_email:2134@sina.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+DetailsAfter:customer_name:张先生 customer_type:1 id_type:0 id_no:34324321432 sex:男 customer_mobile:1293242324 customer_email:2134@sina.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+-------------------
+Time:2016-10-19 18-25-17  User:测试用户1
+Action:Edit the client with ID 14096
+DetailsBefore:customer_name:吴狗狗 customer_type:1 id_type:0 id_no:asdf sex:男 customer_mobile:1234556666666 customer_email:asdfa customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:
+DetailsAfter:customer_name:吴狗狗 customer_type:1 id_type:0 id_no:asdf sex:男 customer_mobile:1234556666666 customer_email:asdfa customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:
+-------------------
+Time:2016-10-21 11-19-40  User:测试用户1
+Action:Create a client with ID 14097
+Details:customer_name:柯德华 customer_type:1 id_type:0 id_no:350481198301050519 sex:男 customer_mobile:13500050551 customer_email:dehua.ke@qq.com customer_wx:88693008 contact_name:柯德华 contact_mobile:13500050551 province:广东省 city:深圳市 address:福田区中心四路嘉里建设广场3座2303 source_type:3 interest:对邱总、邓总产品感兴趣 created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+-------------------
+Time:2016-10-21 11-31-49  User:测试用户1
+Action:Edit the client with ID 14097
+DetailsBefore:customer_name:柯德华 customer_type:1 id_type:0 id_no:350481198301050519 sex:男 customer_mobile:13500050551 customer_email:dehua.ke@qq.com customer_wx:88693008 contact_name:柯德华 contact_mobile:13500050551 province:广东省 city:深圳市 address:福田区中心四路嘉里建设广场3座2303 source_type:3 interest:对邱总、邓总产品感兴趣 created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+DetailsAfter:customer_name:柯德华 customer_type:1 id_type:0 id_no:350481198301050519 sex:男 customer_mobile:13500050551 customer_email:dehua.ke@qq.com customer_wx:88693008 contact_name:柯德华 contact_mobile:13500050551 province:广东省 city:深圳市 address:福田区中心四路嘉里建设广场3座2303 source_type:3 interest:对邱总、邓总产品感兴趣 created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+-------------------
+Time:2016-10-21 11-32-05  User:测试用户1
+Action:Create a contact with ID 309 about client 14097
+Details:contact_date:2016-10-21 09:00 contact_user_id:1 contact_detail:给客户进行风险测试 contact_record: task_status:2 contact_type:1 contact_user_id:1 created_by:测试用户1 updated_by:测试用户1
+-------------------
+Time:2016-10-21 11-35-11  User:测试用户1
+Action:Create a contact with ID 310 about client 14097
+Details:contact_date:2016-10-21 09:00 contact_user_id:1 contact_detail:测试 contact_record: task_status:1 contact_type:1 contact_user_id:1 created_by:测试用户1 updated_by:测试用户1
+-------------------
+Time:2016-10-21 11-41-28  User:测试用户1
+Action:Edit the client with ID 14097
+DetailsBefore:customer_name:柯德华 customer_type:1 id_type:0 id_no:350481198301050519 sex:男 customer_mobile:13500050551 customer_email:dehua.ke@qq.com customer_wx:88693008 contact_name:柯德华 contact_mobile:13500050551 province:广东省 city:深圳市 address:福田区中心四路嘉里建设广场3座2303 source_type:3 interest:对邱总、邓总产品感兴趣 created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+DetailsAfter:customer_name:柯柯柯 customer_type:1 id_type:0 id_no:350481198301050519 sex:男 customer_mobile:13500050551 customer_email:dehua.ke@qq.com customer_wx:88693008 contact_name:柯德华 contact_mobile:13500050551 province:广东省 city:深圳市 address:福田区中心四路嘉里建设广场3座2303 source_type:3 interest:对邱总、邓总产品感兴趣 created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+-------------------
+Time:2016-10-26 10-14-47  User:测试用户1
+Action:Create a client with ID 14098
+Details:customer_name:哈哈哈 customer_type:1 id_type: id_no: sex: customer_mobile:1234567 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 5 
+-------------------
+Time:2016-10-26 10-15-44  User:测试用户1
+Action:Edit the client with ID 14098
+DetailsBefore:customer_name:哈哈哈 customer_type:1 id_type: id_no: sex: customer_mobile:1234567 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 5 
+DetailsAfter:customer_name:哈哈哈 customer_type:1 id_type: id_no: sex: customer_mobile:1234567 customer_email:123@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 5 
+-------------------
+Time:2016-10-26 15-03-19  User:张成一鸣
+Action:Edit the client with ID 13775
+DetailsBefore:customer_name:高毅世宏1号赋余1号基金 customer_type:4 id_type:2 id_no:S82269 sex:None customer_mobile:None customer_email:None customer_wx:None contact_name:None contact_mobile:None province:None city:None address:None source_type:3 interest:None created_by:TA updated_by:TA managers:6 
+DetailsAfter:customer_name:高毅世宏1号赋余1号基金 customer_type:4 id_type:2 id_no:S82269 sex:None customer_mobile:1862709 customer_email:1862709 customer_wx: contact_name:王世宏 contact_mobile: province: city: address: source_type:3 interest: created_by:TA updated_by:TA managers:
+-------------------
+Time:2016-10-28 14-53-21  User:测试用户1
+Action:Create a client with ID 14099
+Details:customer_name:陈测试 customer_type:1 id_type:0 id_no:32143214324 sex:男 customer_mobile:12345 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+-------------------
+Time:2016-10-28 15-15-10  User:测试用户1
+Action:Create a client with ID 14100
+Details:customer_name:大江创新山寨 customer_type:0 id_type: id_no: sex: customer_mobile:132423243 customer_email:4343@qq.com customer_wx: contact_name:周四 contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:
+-------------------
+Time:2016-10-28 15-16-24  User:测试用户1
+Action:Edit the client with ID 14099
+DetailsBefore:customer_name:陈测试 customer_type:1 id_type:0 id_no:32143214324 sex:男 customer_mobile:12345 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+DetailsAfter:customer_name:陈测试 customer_type:1 id_type:0 id_no:32143214324 sex:男 customer_mobile:12345 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+-------------------
+Time:2016-10-28 15-16-43  User:测试用户1
+Action:Edit the client with ID 14099
+DetailsBefore:customer_name:陈测试 customer_type:1 id_type:0 id_no:32143214324 sex:男 customer_mobile:12345 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+DetailsAfter:customer_name:陈测试 customer_type:1 id_type:0 id_no:32143214324 sex:男 customer_mobile:12345 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:测试用户1 updated_by:测试用户1 managers:1 2 
+-------------------
+Time:2016-10-28 15-24-05  User:测试用户1
+Action:Complete a contact with ID 407 about client 13726
+Details:contact_date:2016-10-31 contact_user_id:1 contact_detail:请于2016-10-05 18:00:00后完成《高毅邻山1号远望2号基金》的静默回访 contact_record:已完成 task_status:1 contact_type:2 contact_user_id:1 created_by:1 updated_by:测试用户1
+-------------------
+Time:2016-10-28 15-42-21  User:测试用户1
+Action:Edit the client with ID 13714
+DetailsBefore:customer_name:王来腾 customer_type:1 id_type:0 id_no:370602197208212345 sex:女 customer_mobile:None customer_email:None customer_wx:None contact_name:None contact_mobile:None province:None city:None address:None source_type:2 interest:None created_by:TA updated_by:TA managers:2 
+DetailsAfter:customer_name:王来腾 customer_type:1 id_type:0 id_no:370602197208212345 sex:女 customer_mobile:435432543 customer_email:234@水电费 customer_wx: contact_name: contact_mobile: province: city: address: source_type:2 interest: created_by:TA updated_by:TA managers:
+-------------------
+Time:2016-10-28 16-20-36  User:测试用户1
+Action:Complete a contact with ID 409 about client 13718
+Details:contact_date:2016-10-31 contact_user_id:1 contact_detail:请于2016-10-29 18:00:00后完成《高毅国鹭1号尚远17号基金》的静默回访 contact_record:已完成 task_status:1 contact_type:2 contact_user_id:1 created_by:1 updated_by:测试用户1
+-------------------
+Time:2016-11-07 09-40-46  User:熊鑫test
+Action:Create a contact with ID 446 about client 14099
+Details:contact_date:2016-11-08 09:00 contact_user_id:15 contact_detail:发的撒爱上丰富的三 contact_record: task_status:2 contact_type:1 contact_user_id:15 created_by:熊鑫test updated_by:熊鑫test
+-------------------
+Time:2016-11-07 09-47-25  User:IT管理员test
+Action:Create a contact with ID 447 about client 14099
+Details:contact_date:2016-11-07 09:00 contact_user_id:1003 contact_detail:发的发 contact_record: task_status:2 contact_type:1 contact_user_id:1003 created_by:IT管理员test updated_by:IT管理员test
+-------------------
+Time:2016-11-07 09-48-42  User:岳洪莉test
+Action:Create a contact with ID 448 about client 14098
+Details:contact_date:2016-11-07 19:00 contact_user_id:1000 contact_detail:师范大学 contact_record: task_status:2 contact_type:1 contact_user_id:1000 created_by:岳洪莉test updated_by:岳洪莉test
+-------------------
+Time:2016-11-07 13-27-42  User:岳洪莉test
+Action:Edit the client with ID 14103
+DetailsBefore:customer_name:个人 customer_type:1 id_type:0 id_no:333 sex:男 customer_mobile:123 customer_email:321 customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:个人 customer_type:1 id_type:0 id_no:333 sex:男 customer_mobile:123 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-11-07 15-56-11  User:岳洪莉test
+Action:Edit the client with ID 14103
+DetailsBefore:customer_name:个人 customer_type:1 id_type:0 id_no:333 sex:男 customer_mobile:123 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:个人 customer_type:1 id_type:0 id_no:333 sex:男 customer_mobile:123 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-11-07 16-26-14  User:岳洪莉test
+Action:Edit the client with ID 14103
+DetailsBefore:customer_name:个人 customer_type:1 id_type:0 id_no:333 sex:男 customer_mobile:123 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+DetailsAfter:customer_name:个人测试 customer_type:1 id_type:0 id_no:333 sex:男 customer_mobile:123 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:
+-------------------
+Time:2016-11-18 17-24-51  User:岳洪莉test
+Action:Create a client with ID 14107
+Details:customer_name:狗先生 customer_type:1 id_type: id_no: sex: customer_mobile:188 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2016-11-18 17-25-29  User:岳洪莉test
+Action:Edit the client with ID 14107
+DetailsBefore:customer_name:狗先生 customer_type:1 id_type: id_no: sex: customer_mobile:188 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+DetailsAfter:customer_name:狗先生 customer_type:1 id_type:0 id_no:630102 sex: customer_mobile:188 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2016-11-18 17-25-58  User:岳洪莉test
+Action:Edit the client with ID 14107
+DetailsBefore:customer_name:狗先生 customer_type:1 id_type:0 id_no:630102 sex: customer_mobile:188 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+DetailsAfter:customer_name:狗先生 customer_type:1 id_type:0 id_no:630102 sex: customer_mobile:188 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2016-11-18 17-27-11  User:岳洪莉test
+Action:Edit the client with ID 14107
+DetailsBefore:customer_name:狗先生 customer_type:1 id_type:0 id_no:630102 sex: customer_mobile:188 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+DetailsAfter:customer_name:狗先生 customer_type:1 id_type:0 id_no:630102 sex: customer_mobile:188 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2016-11-18 17-31-02  User:岳洪莉test
+Action:Complete a contact with ID 498 about client 14107
+Details:contact_date:2016-11-30 contact_user_id:1000 contact_detail:请于2016-11-19 18:00:00后完成《高毅邻山1号远望5号基金》的静默回访 contact_record:完成 task_status:1 contact_type:2 contact_user_id:1000 created_by:14 updated_by:岳洪莉test
+-------------------
+Time:2016-11-18 17-32-24  User:祝佳test
+Action:Edit the client with ID 14107
+DetailsBefore:customer_name:狗先生 customer_type:1 id_type:0 id_no:630102 sex: customer_mobile:188 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+DetailsAfter:customer_name:狗先生 customer_type:1 id_type:0 id_no:630102 sex: customer_mobile:188 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2016-11-18 17-34-14  User:岳洪莉test
+Action:Complete a contact with ID 500 about client 14027
+Details:contact_date:2016-11-30 contact_user_id:1000 contact_detail:请于2016-11-19 18:00:00后完成《高毅邻山1号远望2号基金》的静默回访 contact_record:完成 task_status:1 contact_type:2 contact_user_id:1000 created_by:1 updated_by:岳洪莉test
+-------------------
+Time:2016-11-18 17-36-32  User:祝佳test
+Action:Edit the client with ID 14027
+DetailsBefore:customer_name:顾暑殷 customer_type:1 id_type:0 id_no:330103196501212345 sex:男 customer_mobile:13906501234 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province:浙江省 city:杭州市 address:杭州市上城区复兴南苑33-20604 source_type:1 interest: created_by:TA updated_by:TA managers:5 
+DetailsAfter:customer_name:顾暑殷 customer_type:1 id_type:0 id_no:330103196501212345 sex:男 customer_mobile:13906501234 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province:浙江省 city:杭州市 address:杭州市上城区复兴南苑33-20604 source_type:1 interest: created_by:TA updated_by:TA managers:5 
+-------------------
+Time:2016-11-18 17-36-53  User:祝佳test
+Action:Edit the client with ID 14027
+DetailsBefore:customer_name:顾暑殷 customer_type:1 id_type:0 id_no:330103196501212345 sex:男 customer_mobile:13906501234 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province:浙江省 city:杭州市 address:杭州市上城区复兴南苑33-20604 source_type:1 interest: created_by:TA updated_by:TA managers:5 
+DetailsAfter:customer_name:顾暑殷 customer_type:1 id_type:0 id_no:330103196501212345 sex:男 customer_mobile:13906501234 customer_email:18627094340@163.com customer_wx: contact_name: contact_mobile: province:浙江省 city:杭州市 address:杭州市上城区复兴南苑33-20604 source_type:1 interest: created_by:TA updated_by:TA managers:5 
+-------------------
+Time:2016-11-23 15-55-04  User:张成一鸣
+Action:Create a client with ID 14113
+Details:customer_name:1123测试 customer_type:1 id_type: id_no: sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+-------------------
+Time:2016-11-23 16-00-12  User:张成一鸣
+Action:Edit the client with ID 14113
+DetailsBefore:customer_name:1123测试 customer_type:1 id_type: id_no: sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+DetailsAfter:customer_name:1123测试 customer_type:1 id_type: id_no: sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+-------------------
+Time:2016-11-23 16-02-22  User:张成一鸣
+Action:Create a client with ID 14114
+Details:customer_name:再次测试 customer_type:1 id_type:0 id_no:4210043053432432 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:1 3 
+-------------------
+Time:2016-11-23 16-08-16  User:张成一鸣
+Action:Create a client with ID 14115
+Details:customer_name:机构测试 customer_type:0 id_type: id_no: sex: customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+-------------------
+Time:2016-11-23 16-20-25  User:张成一鸣
+Action:Edit the client with ID 14115
+DetailsBefore:customer_name:机构测试 customer_type:0 id_type: id_no: sex: customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+DetailsAfter:customer_name:机构测试 customer_type:0 id_type:0 id_no:123 sex: customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+-------------------
+Time:2016-11-23 16-28-36  User:张成一鸣
+Action:Edit the client with ID 14115
+DetailsBefore:customer_name:机构测试 customer_type:0 id_type:0 id_no:123 sex: customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+DetailsAfter:customer_name:机构测试 customer_type:0 id_type:0 id_no:123 sex: customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+-------------------
+Time:2016-11-23 17-26-37  User:岳洪莉test
+Action:Edit the client with ID 14113
+DetailsBefore:customer_name:1123测试 customer_type:1 id_type: id_no: sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+DetailsAfter:customer_name:1123测试 customer_type:1 id_type: id_no: sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+-------------------
+Time:2016-11-24 09-13-14  User:岳洪莉test
+Action:Edit the client with ID 14113
+DetailsBefore:customer_name:1123测试 customer_type:1 id_type: id_no: sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+DetailsAfter:customer_name:1123测试 customer_type:1 id_type: id_no: sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+-------------------
+Time:2016-11-24 09-25-19  User:岳洪莉test
+Action:Edit the client with ID 14114
+DetailsBefore:customer_name:再次测试 customer_type:1 id_type:0 id_no:4210043053432432 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:1 3 
+DetailsAfter:customer_name:再次测试 customer_type:1 id_type:0 id_no:4210043053432432 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:1 3 
+-------------------
+Time:2016-11-24 09-34-53  User:岳洪莉test
+Action:Edit the client with ID 14114
+DetailsBefore:customer_name:再次测试 customer_type:1 id_type:0 id_no:4210043053432432 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:1 3 
+DetailsAfter:customer_name:再次测试 customer_type:1 id_type:0 id_no:4210043053432432 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:1 3 
+-------------------
+Time:2016-11-24 09-37-44  User:岳洪莉test
+Action:Edit the client with ID 14114
+DetailsBefore:customer_name:再次测试 customer_type:1 id_type:0 id_no:4210043053432432 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:1 3 
+DetailsAfter:customer_name:再次测试 customer_type:1 id_type:0 id_no:4210043053432432 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:1 3 
+-------------------
+Time:2016-11-24 09-38-40  User:岳洪莉test
+Action:Create a client with ID 14116
+Details:customer_name:模拟测试 customer_type:1 id_type:0 id_no:12345678 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+-------------------
+Time:2016-11-24 09-40-36  User:岳洪莉test
+Action:Edit the client with ID 14116
+DetailsBefore:customer_name:模拟测试 customer_type:1 id_type:0 id_no:12345678 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+DetailsAfter:customer_name:模拟测试 customer_type:1 id_type:0 id_no:12345678 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+-------------------
+Time:2016-11-24 09-46-05  User:岳洪莉test
+Action:Edit the client with ID 14113
+DetailsBefore:customer_name:1123测试 customer_type:1 id_type: id_no: sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+DetailsAfter:customer_name:1123测试 customer_type:1 id_type:0 id_no:423143214 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+-------------------
+Time:2016-11-24 09-50-16  User:岳洪莉test
+Action:Create a client with ID 14117
+Details:customer_name:哇 customer_type:1 id_type: id_no: sex:男 customer_mobile:18988796476 customer_email:a@chenlw.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2016-11-24 09-50-58  User:岳洪莉test
+Action:Remove the client with ID 14117
+DetailsBefore:customer_name:哇 customer_type:1 id_type: id_no: sex:男 customer_mobile:18988796476 customer_email:a@chenlw.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2016-11-24 09-55-56  User:岳洪莉test
+Action:Create a client with ID 14118
+Details:customer_name:挖 customer_type:1 id_type:0 id_no:WREW sex:男 customer_mobile:18988796476 customer_email:A@CLW.COM customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2016-11-24 09-56-22  User:岳洪莉test
+Action:Remove the client with ID 14118
+DetailsBefore:customer_name:挖 customer_type:1 id_type:0 id_no:WREW sex:男 customer_mobile:18988796476 customer_email:A@CLW.COM customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2016-11-24 10-02-20  User:岳洪莉test
+Action:Remove the client with ID 14115
+DetailsBefore:customer_name:机构测试 customer_type:0 id_type:0 id_no:123 sex: customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name:张三 contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+-------------------
+Time:2016-11-24 10-02-29  User:岳洪莉test
+Action:Remove the client with ID 14116
+DetailsBefore:customer_name:模拟测试 customer_type:1 id_type:0 id_no:12345678 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+-------------------
+Time:2016-11-24 10-08-59  User:岳洪莉test
+Action:Remove the client with ID 14113
+DetailsBefore:customer_name:1123测试 customer_type:1 id_type:0 id_no:423143214 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:张成一鸣 updated_by:张成一鸣 managers:2 
+-------------------
+Time:2016-11-24 10-09-44  User:岳洪莉test
+Action:Create a client with ID 14119
+Details:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+-------------------
+Time:2016-11-24 10-10-56  User:岳洪莉test
+Action:Edit the client with ID 14119
+DetailsBefore:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+DetailsAfter:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+-------------------
+Time:2016-11-24 10-29-39  User:程海霞test
+Action:Edit the client with ID 14119
+DetailsBefore:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+DetailsAfter:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:西城区 address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+-------------------
+Time:2016-11-24 10-30-25  User:程海霞test
+Action:Edit the client with ID 14119
+DetailsBefore:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:西城区 address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+DetailsAfter:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:西城区 address:喜马拉雅 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+-------------------
+Time:2016-11-24 10-31-35  User:程海霞test
+Action:Edit the client with ID 14119
+DetailsBefore:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:西城区 address:喜马拉雅 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+DetailsAfter:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:西城区 address:wafgsngas source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+-------------------
+Time:2016-11-24 10-36-39  User:岳洪莉test
+Action:Edit the client with ID 14119
+DetailsBefore:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:西城区 address:wafgsngas source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+DetailsAfter:customer_name:陈先生1124 customer_type:1 id_type:0 id_no:421002430 sex:男 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:西城区 address:wafgsngas source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:4 
+-------------------
+Time:2016-11-24 13-28-34  User:岳洪莉test
+Action:Complete a contact with ID 505 about client 14119
+Details:contact_date:2016-12-12 contact_user_id:1000 contact_detail:请于2016-11-25 18:00:00后完成《高毅庆瑞3号瑞丰5号基金》的静默回访 contact_record:已完成，电话 task_status:1 contact_type:2 contact_user_id:1000 created_by:13 updated_by:岳洪莉test
+-------------------
+Time:2016-11-24 13-28-50  User:岳洪莉test
+Action:Complete a contact with ID 506 about client 14114
+Details:contact_date:2016-12-12 contact_user_id:1000 contact_detail:请于2016-11-24 18:00:00后完成《高毅庆瑞3号瑞丰6号基金》的静默回访 contact_record:已完成，电话 task_status:1 contact_type:2 contact_user_id:1000 created_by:13 updated_by:岳洪莉test
+-------------------
+Time:2016-11-24 13-54-46  User:岳洪莉test
+Action:Create a client with ID 14120
+Details:customer_name:王子公主 customer_type:1 id_type:0 id_no:1234 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:1 4 
+-------------------
+Time:2016-11-24 13-55-38  User:岳洪莉test
+Action:Edit the client with ID 14120
+DetailsBefore:customer_name:王子公主 customer_type:1 id_type:0 id_no:1234 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:1 4 
+DetailsAfter:customer_name:王子公主 customer_type:1 id_type:0 id_no:1234 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:1 4 
+-------------------
+Time:2016-11-24 14-00-27  User:岳洪莉test
+Action:Edit the client with ID 14120
+DetailsBefore:customer_name:王子公主 customer_type:1 id_type:0 id_no:1234 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:1 4 
+DetailsAfter:customer_name:王子公主 customer_type:1 id_type:0 id_no:1234 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:北京市 city:东城区 address:是打发 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:1 4 
+-------------------
+Time:2016-11-24 14-03-21  User:岳洪莉test
+Action:Complete a contact with ID 508 about client 14120
+Details:contact_date:2016-12-20 contact_user_id:1000 contact_detail:请于2016-11-24 18:00:00后完成《高毅利伟精选唯实4号基金》的静默回访 contact_record:已完成，电话 task_status:1 contact_type:2 contact_user_id:1000 created_by:13 updated_by:岳洪莉test
+-------------------
+Time:2016-11-24 14-12-41  User:岳洪莉test
+Action:Create a client with ID 14121
+Details:customer_name:青青 customer_type:1 id_type:0 id_no:123 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:湖北省 city:十堰市 address:发 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 
+-------------------
+Time:2016-11-24 14-28-17  User:岳洪莉test
+Action:Edit the client with ID 14121
+DetailsBefore:customer_name:青青 customer_type:1 id_type:0 id_no:123 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:湖北省 city:十堰市 address:发 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 
+DetailsAfter:customer_name:青青 customer_type:1 id_type:0 id_no:123 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:湖北省 city:十堰市 address:发 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 
+-------------------
+Time:2016-11-24 14-28-47  User:岳洪莉test
+Action:Edit the client with ID 14121
+DetailsBefore:customer_name:青青 customer_type:1 id_type:0 id_no:123 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:湖北省 city:十堰市 address:发 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 
+DetailsAfter:customer_name:青青 customer_type:1 id_type:0 id_no:123 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:湖北省 city:十堰市 address:发 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 
+-------------------
+Time:2016-11-24 14-29-56  User:岳洪莉test
+Action:Create a client with ID 14122
+Details:customer_name:中信证券 customer_type:1 id_type:1 id_no:12343214 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:天津市 city:和平区 address:萨芬 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 6 7 
+-------------------
+Time:2016-11-24 14-31-19  User:岳洪莉test
+Action:Edit the client with ID 14122
+DetailsBefore:customer_name:中信证券 customer_type:1 id_type:1 id_no:12343214 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:天津市 city:和平区 address:萨芬 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 6 7 
+DetailsAfter:customer_name:中信证券 customer_type:1 id_type:1 id_no:12343214 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:天津市 city:和平区 address:萨芬 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 6 7 
+-------------------
+Time:2016-11-24 14-33-06  User:岳洪莉test
+Action:Edit the client with ID 14122
+DetailsBefore:customer_name:中信证券 customer_type:1 id_type:1 id_no:12343214 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:天津市 city:和平区 address:萨芬 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 6 7 
+DetailsAfter:customer_name:中信证券 customer_type:1 id_type:1 id_no:12343214 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:天津市 city:和平区 address:萨芬 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 6 7 
+-------------------
+Time:2016-11-24 14-52-05  User:岳洪莉test
+Action:Complete a contact with ID 511 about client 14122
+Details:contact_date:2016-12-15 contact_user_id:1000 contact_detail:请于2016-11-24 18:00:00后完成《高毅-晓峰1号睿远11号基金》的静默回访 contact_record:已完成，电话 task_status:1 contact_type:2 contact_user_id:1000 created_by:13 updated_by:岳洪莉test
+-------------------
+Time:2016-11-24 14-54-00  User:岳洪莉test
+Action:Complete a contact with ID 512 about client 14121
+Details:contact_date: contact_user_id:1000 contact_detail:请于2016-11-24 18:00:00后完成《高毅精选FOF基金》的静默回访 contact_record:已完成，邮件 task_status:1 contact_type:2 contact_user_id:1000 created_by:13 updated_by:岳洪莉test
+-------------------
+Time:2016-11-25 12-21-05  User:岳洪莉test
+Action:Edit the client with ID 14123
+DetailsBefore:customer_name:稳稳 customer_type:0 id_type: id_no: sex: customer_mobile:33 customer_email:22 customer_wx: contact_name:全球 contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+DetailsAfter:customer_name:稳稳 customer_type:0 id_type: id_no: sex: customer_mobile:33 customer_email:22 customer_wx: contact_name:全球 contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2016-11-25 12-36-40  User:岳洪莉test
+Action:Edit the client with ID 14122
+DetailsBefore:customer_name:中信证券 customer_type:1 id_type:1 id_no:12343214 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:天津市 city:和平区 address:萨芬 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 6 7 
+DetailsAfter:customer_name:中信证券 customer_type:1 id_type:1 id_no:12343214 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province:天津市 city:和平区 address:萨芬 source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:2 6 7 
+-------------------
+Time:2017-09-05 13-48-40  User:岳洪莉test
+Action:Create a client with ID 14124
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2017-09-05 13-49-37  User:岳洪莉test
+Action:Create a client with ID 14125
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2017-09-05 13-49-45  User:岳洪莉test
+Action:Create a client with ID 14126
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:岳洪莉test updated_by:岳洪莉test managers:
+-------------------
+Time:2017-09-05 13-58-00  User:IT管理及合规岗
+Action:Create a client with ID 14127
+Details:customer_name:yinkai1 customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:22@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 13-58-08  User:IT管理及合规岗
+Action:Create a client with ID 14128
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-00-09  User:IT管理及合规岗
+Action:Create a client with ID 14129
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-03-25  User:IT管理及合规岗
+Action:Create a client with ID 14130
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-04-33  User:IT管理及合规岗
+Action:Create a client with ID 14131
+Details:customer_name:yinkai1 customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-04-52  User:IT管理及合规岗
+Action:Create a client with ID 14132
+Details:customer_name:yinkai1 customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:22@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-09-27  User:IT管理及合规岗
+Action:Create a client with ID 14133
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-09-45  User:IT管理及合规岗
+Action:Create a client with ID 14134
+Details:customer_name:yinkai1 customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:22@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-12-52  User:IT管理及合规岗
+Action:Create a client with ID 14135
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-12-54  User:IT管理及合规岗
+Action:Create a client with ID 14136
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-12-56  User:IT管理及合规岗
+Action:Create a client with ID 14137
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-14-21  User:IT管理及合规岗
+Action:Create a client with ID 14138
+Details:customer_name:yinkai1 customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:22@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-15-30  User:IT管理及合规岗
+Action:Create a client with ID 14139
+Details:customer_name:yinkai1 customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:22@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-31-14  User:IT管理及合规岗
+Action:Create a client with ID 14140
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:ww@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-33-24  User:IT管理及合规岗
+Action:Create a client with ID 14141
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 14-45-37  User:IT管理及合规岗
+Action:Create a client with ID 14142
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:2@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 16-52-24  User:IT管理及合规岗
+Action:Edit the client with ID 14142
+DetailsBefore:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:2@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+DetailsAfter:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-05 17-41-16  User:IT管理及合规岗
+Action:Edit the client with ID 14142
+DetailsBefore:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+DetailsAfter:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-06 16-30-47  User:IT管理及合规岗
+Action:Edit the client with ID 9392
+DetailsBefore:customer_name:倪天辰 customer_type:1 id_type:0 id_no:330425197201112345 sex:女 customer_mobile:13588471234 customer_email:irgroup@gyasset.com customer_wx:None contact_name:None contact_mobile:None province:None city:None address:杭州市上城区近江东路滨江新苑4-1-401 source_type:1 interest:None created_by:TA updated_by:TA managers:5 
+DetailsAfter:customer_name:倪天辰 customer_type:1 id_type:0 id_no:330425197201112345 sex:女 customer_mobile:18988796476 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:TA updated_by:TA managers:
+-------------------
+Time:2017-09-06 16-43-43  User:IT管理及合规岗
+Action:Edit the client with ID 9392
+DetailsBefore:customer_name:倪天辰 customer_type:1 id_type:0 id_no:330425197201112345 sex:女 customer_mobile:18988796476 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:TA updated_by:TA managers:
+DetailsAfter:customer_name:倪天辰 customer_type:1 id_type:0 id_no:330425197201112345 sex:女 customer_mobile:18988796476 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:TA updated_by:TA managers:
+-------------------
+Time:2017-09-06 18-11-53  User:IT管理及合规岗
+Action:Create a client with ID 14143
+Details:customer_name:111222 customer_type:1 id_type:0 id_no:420107199405031011 sex: customer_mobile:15997401152 customer_email:2735958316@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-06 18-15-48  User:IT管理及合规岗
+Action:Create a client with ID 14144
+Details:customer_name:1223123 customer_type:1 id_type:0 id_no:420107199405031012 sex: customer_mobile:15997401152 customer_email:21@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-12 14-59-18  User:IT管理及合规岗
+Action:Edit the client with ID 9392
+DetailsBefore:customer_name:倪天辰 customer_type:1 id_type:0 id_no:330425197201112345 sex:女 customer_mobile:18988796476 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:TA updated_by:TA managers:
+DetailsAfter:customer_name:倪天辰 customer_type:1 id_type:0 id_no:330425197201112345 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:TA updated_by:TA managers:
+-------------------
+Time:2017-09-12 15-15-14  User:IT管理及合规岗
+Action:Edit the client with ID 9392
+DetailsBefore:customer_name:倪天辰 customer_type:1 id_type:0 id_no:330425197201112345 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:TA updated_by:TA managers:
+DetailsAfter:customer_name:倪天辰 customer_type:1 id_type:0 id_no:330425197201112345 sex:女 customer_mobile:18988796476 customer_email:chenlw@gaotengfund.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:TA updated_by:TA managers:
+-------------------
+Time:2017-09-12 17-40-09  User:IT管理及合规岗
+Action:Edit the client with ID 13545
+DetailsBefore:customer_name:机构072 customer_type:0 id_type:8 id_no:310110000738619 sex:None customer_mobile:None customer_email:None customer_wx:None contact_name:None contact_mobile:None province:None city:None address:None source_type:2 interest:None created_by:TA updated_by:TA managers:2 
+DetailsAfter:customer_name:机构072 customer_type:0 id_type:8 id_no:310110000738619 sex:None customer_mobile:18988796476 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:2 interest: created_by:TA updated_by:TA managers:
+-------------------
+Time:2017-09-19 09-58-35  User:IT管理及合规岗
+Action:Edit the client with ID 13736
+DetailsBefore:customer_name:李来光 customer_type:1 id_type:0 id_no:320721196309112345 sex:女 customer_mobile:13851401234 customer_email:irgroup@gyasset.com customer_wx:None contact_name:None contact_mobile:None province:None city:None address:南京市中山南路49号商茂世纪广场24A1 source_type:1 interest:None created_by:TA updated_by:TA managers:5 
+DetailsAfter:customer_name:李来光 customer_type:1 id_type:0 id_no:320721196309112345 sex:女 customer_mobile:18988796476 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:TA updated_by:TA managers:
+-------------------
+Time:2017-09-22 15-11-36  User:直销募集岗
+Action:Complete a contact with ID 555 about client 14142
+Details:contact_date:2017-09-22 contact_user_id:1001 contact_detail:该用户已完成风险测试问卷，得分为54分，风险等级为C5。用户已完成风险揭示书确认，并已发送确认邮件，等待客户回复。 contact_record:好的 task_status:1 contact_type:10 contact_user_id:1001 created_by:IT管理及合规岗 updated_by:直销募集岗
+-------------------
+Time:2017-09-26 16-06-03  User:IT管理及合规岗
+Action:Edit the client with ID 14142
+DetailsBefore:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+DetailsAfter:customer_name:qweqweqwe customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-26 16-26-29  User:IT管理及合规岗
+Action:Edit the client with ID 13983
+DetailsBefore:customer_name:栾暑李 customer_type:1 id_type:0 id_no:210802196712112345 sex:女 customer_mobile:None customer_email:None customer_wx:None contact_name:None contact_mobile:None province:None city:None address:None source_type:1 interest:None created_by:HF updated_by:website managers:1 
+DetailsAfter:customer_name:test customer_type:1 id_type:0 id_no:210802196712112345 sex: customer_mobile:18988796476 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:HF updated_by:website managers:
+-------------------
+Time:2017-09-26 16-31-01  User:IT管理及合规岗
+Action:Edit the client with ID 14142
+DetailsBefore:customer_name:qweqweqwe customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:273595836@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+DetailsAfter:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:qweqw@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-26 16-50-27  User:IT管理及合规岗
+Action:Edit the client with ID 13731
+DetailsBefore:customer_name:赖来巨 customer_type:1 id_type:0 id_no:330105196408212345 sex:女 customer_mobile:13906501234 customer_email:irgroup@gyasset.com customer_wx:None contact_name:None contact_mobile:None province:None city:None address:杭州市西湖区秋水苑8-902 source_type:1 interest:None created_by:TA updated_by:TA managers:5 
+DetailsAfter:customer_name:赖来巨 customer_type:1 id_type:0 id_no:330105196408212345 sex:女 customer_mobile:18988796476 customer_email:35626496@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:1 interest: created_by:TA updated_by:TA managers:
+-------------------
+Time:2017-09-27 14-26-09  User:直销募集岗
+Action:Remove the client with ID 14142
+DetailsBefore:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:qweqw@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-27 14-35-28  User:IT管理及合规岗
+Action:Create a client with ID 14145
+Details:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:1007044889@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+Time:2017-09-27 14-44-54  User:直销募集岗
+Action:Complete a contact with ID 576 about client 14145
+Details:contact_date:2017-09-27 contact_user_id:1001 contact_detail:该用户已完成风险测评，得分为12，风险等级为C1，客户尚未完成风险披露。 contact_record: task_status:1 contact_type:10 contact_user_id:1001 created_by:IT管理及合规岗 updated_by:直销募集岗
+-------------------
+Time:2017-09-27 14-44-56  User:直销募集岗
+Action:Complete a contact with ID 577 about client 14145
+Details:contact_date:2017-09-27 contact_user_id:1001 contact_detail:该用户已完成风险测评，得分为12，风险等级为C1，客户尚未完成风险披露。 contact_record: task_status:1 contact_type:10 contact_user_id:1001 created_by:IT管理及合规岗 updated_by:直销募集岗
+-------------------
+Time:2017-09-27 14-44-58  User:直销募集岗
+Action:Complete a contact with ID 578 about client 14145
+Details:contact_date:2017-09-27 contact_user_id:1001 contact_detail:该用户已完成风险测评，得分为12，风险等级为C1，客户尚未完成风险披露。 contact_record: task_status:1 contact_type:10 contact_user_id:1001 created_by:IT管理及合规岗 updated_by:直销募集岗
+-------------------
+Time:2017-09-27 15-34-34  User:直销募集岗
+Action:Remove the client with ID 13981
+DetailsBefore:customer_name:机构076 customer_type:0 id_type:1 id_no:110107018102954 sex:None customer_mobile:15901270368 customer_email:None customer_wx:None contact_name:None contact_mobile:None province:None city:None address:None source_type:3 interest:None created_by:HF updated_by:HF managers:
+-------------------
+Time:2017-09-27 16-59-16  User:IT管理及合规岗
+Action:Edit the client with ID 14145
+DetailsBefore:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:1007044889@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+DetailsAfter:customer_name:yinkai customer_type:1 id_type:0 id_no:420107199405031016 sex: customer_mobile:15997401152 customer_email:12399@qq.com customer_wx: contact_name: contact_mobile: province: city: address: source_type:3 interest: created_by:IT管理及合规岗 updated_by:IT管理及合规岗 managers:
+-------------------
+
+
+-------------------
+
+
+-------------------
+
+
+-------------------
+
+
+-------------------
+
+
+-------------------
+
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+Time:2018-02-01 15-36-06  User:IT管理员test
+Action:Complete a contact with ID 4777 about client 15248
+Details:contact_date:2018-02-01 contact_user_id:1001 contact_detail:该用户已完成风险测试问卷，得分为52分，风险等级为C5。用户已完成风险揭示书确认，并已发送确认邮件，等待客户回复。 contact_record:已完成 task_status:1 contact_type:10 contact_user_id:1001 created_by:IT管理及合规岗test updated_by:IT管理员test
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+
+-------------------
+1 4 
+-------------------
+
+-------------------
+
+-------------------
+Time:2018-02-26 18-25-03  User:IT管理及合规岗test
+Action:Edit the client with ID 28366
+Time:2018-02-26 18-25-05  User:IT管理及合规岗test
+Action:Edit the client with ID 28366
+Time:2018-02-26 18-26-13  User:IT管理及合规岗test
+Action:Edit the client with ID 28366
+Time:2018-02-26 18-26-22  User:IT管理及合规岗test
+Action:Edit the client with ID 28366
+Time:2018-03-16 15-40-03  User:IT管理及合规岗test
+Action:Create a contact with ID 4882 about client 27702
+Details:contact_date:2018-03-16 09:00 contact_user_id:1003 contact_detail:99 contact_record: task_status:2 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+2 
+-------------------
+Time:2018-03-16 16-11-05  User:IT管理及合规岗test
+Action:Create a contact with ID 4883 about client 28370
+Details:contact_date:2018-03-16 11:00 contact_user_id:1003 contact_detail:亿哦哦  contact_record: task_status:2 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-03-16 17-06-48  User:IT管理及合规岗test
+Action:Create a contact with ID 4885 about client 28370
+Details:contact_date:2018-03-16 17:00 contact_user_id:1003 contact_detail:跑来跑去 contact_record: task_status:2 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-03-19 11-53-42  User:IT管理及合规岗test
+Action:Create a contact with ID 4886 about client 28371
+Details:contact_date:2018-03-19 09:00 contact_user_id:1003 contact_detail:555555 contact_record: task_status:1 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-03-19 11-54-02  User:IT管理及合规岗test
+Action:Create a contact with ID 4887 about client 28371
+Details:contact_date:2018-03-19 11:00 contact_user_id:1003 contact_detail:停一天 contact_record: task_status:1 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+
+-------------------
+3 
+-------------------
+Time:2018-03-19 12-05-17  User:IT管理及合规岗test
+Action:Create a contact with ID 4888 about client 28371
+Details:contact_date:2018-03-19 09:00 contact_user_id:1003 contact_detail:88 contact_record: task_status:2 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-03-19 12-06-57  User:IT管理及合规岗test
+Action:Complete a contact with ID 4882 about client 27702
+Details:contact_date:2018-03-16 09:00 contact_user_id:1003 contact_detail:99 contact_record:88 task_status:1 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-03-19 12-07-14  User:IT管理及合规岗test
+Action:Complete a contact with ID 4888 about client 28371
+Details:contact_date:2018-03-19 09:00 contact_user_id:1003 contact_detail:88 contact_record:90809 task_status:1 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-03-19 12-10-22  User:IT管理及合规岗test
+Action:Create a contact with ID 4889 about client 28371
+Details:contact_date:2018-03-19 09:00 contact_user_id:1003 contact_detail:900 contact_record: task_status:2 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-03-19 12-10-35  User:IT管理及合规岗test
+Action:Complete a contact with ID 4889 about client 28371
+Details:contact_date:2018-03-19 09:00 contact_user_id:1003 contact_detail:900 contact_record:9000 task_status:1 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-03-19 12-18-07  User:IT管理及合规岗test
+Action:Create a contact with ID 4890 about client 28371
+Details:contact_date:2018-03-19 09:00 contact_user_id:1003 contact_detail:8898 contact_record: task_status:2 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-03-19 12-18-19  User:IT管理及合规岗test
+Action:Complete a contact with ID 4890 about client 28371
+Details:contact_date:2018-03-19 09:00 contact_user_id:1003 contact_detail:8898 contact_record:889 task_status:1 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+3 Time:2018-04-02 10-17-59  User:IT管理及合规岗test
+Action:Create a contact with ID 4892 about client 28374
+Details:contact_date:2018-04-02 09:00 contact_user_id:1003 contact_detail:同一人让他 contact_record: task_status:1 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-04-02 10-18-42  User:IT管理及合规岗test
+Action:Create a contact with ID 4893 about client 28374
+Details:contact_date:2018-04-02 15:00 contact_user_id:1003 contact_detail:435435  contact_record: task_status:2 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-04-02 10-18-47  User:IT管理及合规岗test
+Action:Create a contact with ID 4894 about client 28374
+Details:contact_date:2018-04-02 15:00 contact_user_id:1003 contact_detail:435435  contact_record: task_status:2 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-04-02 11-18-44  User:IT管理及合规岗test
+Action:Complete a contact with ID 4893 about client 28374
+Details:contact_date:2018-04-02 15:00 contact_user_id:1003 contact_detail:435435  contact_record: task_status:1 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-04-02 11-39-18  User:IT管理及合规岗test
+Action:Complete a contact with ID 4894 about client 28374
+Details:contact_date:2018-04-02 15:00 contact_user_id:1003 contact_detail:435435  contact_record:电视端 task_status:1 contact_type:1 contact_user_id:1003 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-04-04 09-35-25  User:IT管理及合规岗test
+Action:Complete a contact with ID 4896 about client 28375
+Details:contact_date:2018-04-04 contact_user_id:1001 contact_detail:该用户已完成风险测试问卷，得分为44分，风险等级为C4。用户已完成风险揭示书确认，并已发送确认邮件，等待客户回复。 contact_record:确认内容 task_status:1 contact_type:10 contact_user_id:1001 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------
+Time:2018-04-13 18-22-39  User:IT管理及合规岗test
+Action:Create a contact with ID 4897 about client 28381
+Details:contact_date:2018-04-13 17:00 contact_user_id:29 contact_detail:阿斯蒂芬 contact_record: task_status:1 contact_type:1 contact_user_id:29 created_by:IT管理及合规岗test updated_by:IT管理及合规岗test
+-------------------

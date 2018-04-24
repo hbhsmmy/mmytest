@@ -1,0 +1,131 @@
+{% extends "base_en.html" %}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>Perseverance Asset - The Investment Team</title>
+
+        <!-- 引入 jquery -->
+        <script src="../static/js/jquery-1.11.0.min.js"></script>
+
+        <!-- ========================================== -->
+        <!-- 引入 Bootstrap -->
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../static/js/bootstrap.min.js"></script>
+        <!-- ========================================== -->
+
+        <!-- 引入 swiper -->
+        <link href="../static/css/swiper.min.css" rel="stylesheet"><!-- Swiper JS -->
+        <script src="../static/js/swiper.min.js"></script>
+
+        <!-- 页面布局css -->
+        <link href="../static/css/layout.css" rel="stylesheet">
+        <!-- 引用页头css -->
+        <link href="../static/css/header.css" rel="stylesheet">
+        <!-- 引用页脚css -->
+        <link href="../static/css/footer_en.css" rel="stylesheet">
+        <!-- 当前页面公用css -->
+        <link href="../static/css/investTeam_en.css" rel="stylesheet">
+        <!-- 当前页面css -->
+        <link href="../static/css/investTeam_wsh_en.css" rel="stylesheet">
+
+        <!-- 引入页面头部js -->
+        <script src="../static/js/header.js"></script>
+        <!-- 引入工具包js -->
+        <script src="../static/js/utils.js"></script>
+        <!-- 引入当前页面js -->
+        <script src="../static/js/investTeam.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block banner %}
+    <li class="font16"><a href="../" class="cl-fff">Home</a></li>
+    <li class="font16"><a href="../company" class="cl-fff">Company Profile</a></li>
+    <li class="font16 header-nav-curr"><a href="../investTeam_qgl" class="cl-fff">The Investment Team</a></li>
+    <li class="font16"><a href="../contact_information" class="cl-fff">Contact Us</a></li>
+{% endblock%}
+
+<!-- 当前网页 - 内容 -->
+{% block body %}
+    <div id="main">
+        <div class="banner">
+            <div class="content">
+              {#  <img id="banner-yt" src="../static/img/investTeam/yt.png" alt=""> #}
+                <img id="banner-zt" src="../static/img/investTeam/tytd_img01.png" alt="">
+            </div>
+            <div class="investTeam-pc-navsContent hidden-xs">
+                <div class="content">
+                    <ul class="investTeam-pc-navs clearfix">
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_qgl" class="border-r"><p>Glen Qiu</p><span>Chairman</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_dxf" class="border-r"><p>Xiaofeng Deng</p><span>Chief Investment Officer</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_sqr" class="border-r"><p>Qingrui Sun</p><span>Managing Director</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_zlw" class="border-r"><p>Liwei Zhuo</p><span>Chief Research Officer</span></a></li>
+                        <li class="pull-left investTeam-pc-nav"><a href="../investTeam_fl" class="border-r"><p>Liu Feng</p><span>Managing Director</span></a></li>
+                        <li class="pull-left investTeam-pc-nav investTeam-pc-nav-curr"><a href="../investTeam_wsh"><p>Simon Wang</p><span>Managing Director</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="account-navs-mb-content" class="visible-xs-block">
+            <div id="account-navs-mb" class="swiper-container">
+                <div id="account-navs-mb-info" class="swiper-wrapper">
+                    <a href="../investTeam_qgl" class="swiper-slide account-navs-mb-nav">Glen Qiu</a>
+                    <a href="../investTeam_dxf" class="swiper-slide account-navs-mb-nav">Xiaofeng Deng</a>
+                    <a href="../investTeam_sqr" class="swiper-slide account-navs-mb-nav">Qingrui Sun</a>
+                    <a href="../investTeam_zlw" class="swiper-slide account-navs-mb-nav">Liwei Zhuo</a>
+                    <a href="../investTeam_fl" class="swiper-slide account-navs-mb-nav">Liu Feng</a>
+                    <a href="../investTeam_wsh" class="swiper-slide account-navs-mb-nav  account-navs-mb-navCurr">Simon Wang</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="info1" class="content">
+            <div id="info1-pic">
+                <div class="investTeam-pc-nav-title hidden-xs">
+                <img src="../static/img/investTeam/wsh.jpg" alt="">
+                    </div>
+            </div>
+            <div id="info1-text">
+                <div class="investTeam-pc-nav-title hidden-xs">
+                    <p class="cl-86560f" style="font-size: 20px; padding-bottom: 10px;">Simon Wang</p>
+                    <p class="cl-86560f" style="font-size: 15px; padding-bottom: 20px;">Managing Director, Senior Portfolio Manager</p>
+                    <span class="cl-333 font15" style="text-align: justify;">
+                    <ul style="padding-left: 16px;">
+                    <li style="margin-bottom: 10px;">18 years of investment experience.</li>
+                    <li style="margin-bottom: 10px;">Previously, Mr. Wang was Director at Hillhouse Capital Group, one of the largest independent investment firms in Asia. During his stay in Hillhouse, he was a core member of the QFII team that has managed accounts including Yale QFII Account, one of the best performing QFII accounts over the past eight years.</li>
+                    <li style="margin-bottom: 10px;">Before joining Hillhouse, Mr. Wang worked at Taikang Asset Management Co. Ltd. as an investment manager and Dongzheng Investment Co. as an associate.</li>
+                    <li style="margin-bottom: 10px;">Mr. Wang is a bottom-up investor, focusing on great companies whose franchise is in the making with reasonable valuation in a changing world.</li>
+                    </ul>
+                    <br>
+                    </span>
+                </div>
+                <div id="account-navs-mb-content-title" class="visible-xs-block">
+                    <p style="text-align: center;">
+                        <img style="width: 203px; padding-bottom: 20px;" src="../static/img/investTeam/wsh.jpg" alt="">
+                    </p>
+                    <p class="cl-86560f" style="font-size: 20px; padding-bottom: 10px;">Simon Wang</p>
+                    <p class="cl-86560f" style="font-size: 15px; padding-bottom: 20px;">Managing Director, Senior Portfolio Manager</p>
+                    <span class="cl-333 font15" style="text-align: justify;">
+                    <ul style="padding-left: 16px;">
+                    <li style="margin-bottom: 10px;">18 years of investment experience.</li>
+                    <li style="margin-bottom: 10px;">Previously, Mr. Wang was Director at Hillhouse Capital Group, one of the largest independent investment firms in Asia. During his stay in Hillhouse, he was a core member of the QFII team that has managed accounts including Yale QFII Account, one of the best performing QFII accounts over the past eight years.</li>
+                    <li style="margin-bottom: 10px;">Before joining Hillhouse, Mr. Wang worked at Taikang Asset Management Co. Ltd. as an investment manager and Dongzheng Investment Co. as an associate.</li>
+                    <li style="margin-bottom: 10px;">Mr. Wang is a bottom-up investor, focusing on great companies whose franchise is in the making with reasonable valuation in a changing world.</li>
+                    </ul>
+                    <br>
+                    </span>
+                </div>
+                {# <a class="btn-style2">登录了解管理产品<img src="../static/img/global/jt3.png" alt=""></a>#}
+{#		<a class="btn-style2"></a>#}
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
+
+</body>
+</html>
